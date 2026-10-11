@@ -1,0 +1,30 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix : <http://example.org/transport-ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Шаблон 1: Правило валідації дорожнього сегмента
+:RoadSegmentShape a sh:NodeShape ;
+    sh:targetClass :RoadSegment ;
+    sh:property [
+        sh:path :length ;
+        sh:datatype xsd:double ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:message "Дорожній сегмент повинен мати рівно одну довжину типу xsd:double."@uk ;
+    ] ;
+    sh:property [
+        sh:path :laneCount ;
+        sh:datatype xsd:integer ;
+        sh:minInclusive 1 ;
+        sh:message "Кількість смуг повинна бути цілим додатним числом (>= 1)."@uk ;
+    ] .
+
+# Шаблон 2: Правило валідації міського автобуса
+:BusShape a sh:NodeShape ;
+    sh:targetClass :Bus ;
+    sh:property [
+        sh:path :routeNumber ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:message "Автобус обов'язково повинен містити текстовий номер маршруту."@uk ;
+    ] .

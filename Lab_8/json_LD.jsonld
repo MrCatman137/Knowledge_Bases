@@ -1,0 +1,1690 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://example.org/transport-ontology#Route"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://example.org/transport-ontology#hasRoute"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://example.org/transport-ontology#Bus"
+    }, {
+      "@id" : "http://example.org/transport-ontology#Car"
+    }, {
+      "@id" : "http://example.org/transport-ontology#Truck"
+    } ]
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "uk",
+    "@value" : "\n            Онтологія для представлення структури цифрової транспортної системи,\n            її об'єктів, процесів, подій, даних, інформації, правил та рішень.\n        "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Онтологія цифрової моделі транспортної системи"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#Accident001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#affects" : [ {
+    "@id" : "http://example.org/transport-ontology#TrafficFlow001"
+  } ],
+  "http://example.org/transport-ontology#description" : [ {
+    "@value" : "\n            ДТП на дорожньому сегменті DS-001\n        "
+  } ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "ACC-001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#TrafficAccident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "ДТП №1"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#AlternativeRouteDecision",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#changes" : [ {
+    "@id" : "http://example.org/transport-ontology#Route24"
+  } ],
+  "http://example.org/transport-ontology#description" : [ {
+    "@value" : "\n            Перенаправлення транспортного потоку на альтернативний маршрут.\n        "
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#RouteChange"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Рішення про зміну маршруту"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#AverageSpeed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Середня швидкість"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#SystemStateInformation"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#AverageSpeed001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#currentSpeed" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "18.0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#AverageSpeed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Середня швидкість — 18 км/год"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#AverageSpeed002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#currentSpeed" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "22.0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#AverageSpeed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Середня швидкість 22 км/год"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#AverageSpeed003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#currentSpeed" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "27.0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#AverageSpeed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Середня швидкість 27 км/год"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#AverageSpeed004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#currentSpeed" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "31.0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#AverageSpeed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Середня швидкість 31 км/год"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#AverageSpeed005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#currentSpeed" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "36.0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#AverageSpeed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Середня швидкість 36 км/год"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#AverageSpeed006",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#currentSpeed" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "41.0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#AverageSpeed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Середня швидкість 41 км/год"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#Bus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Автобус"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#Vehicle"
+  }, {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#Bus24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#forms" : [ {
+    "@id" : "http://example.org/transport-ontology#TrafficFlow001"
+  } ],
+  "http://example.org/transport-ontology#hasRoute" : [ {
+    "@id" : "http://example.org/transport-ontology#Route24"
+  } ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "BUS-24"
+  } ],
+  "http://example.org/transport-ontology#locatedOn" : [ {
+    "@id" : "http://example.org/transport-ontology#DS001"
+  } ],
+  "http://example.org/transport-ontology#routeNumber" : [ {
+    "@value" : "24"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#Bus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Автобус №24"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#Bus35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#forms" : [ {
+    "@id" : "http://example.org/transport-ontology#TrafficFlow001"
+  } ],
+  "http://example.org/transport-ontology#hasRoute" : [ {
+    "@id" : "http://example.org/transport-ontology#Route35"
+  } ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "BUS-35"
+  } ],
+  "http://example.org/transport-ontology#locatedOn" : [ {
+    "@id" : "http://example.org/transport-ontology#DS001"
+  } ],
+  "http://example.org/transport-ontology#routeNumber" : [ {
+    "@value" : "35"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#Bus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Автобус №35"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#Bus5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#forms" : [ {
+    "@id" : "http://example.org/transport-ontology#TrafficFlow001"
+  } ],
+  "http://example.org/transport-ontology#hasRoute" : [ {
+    "@id" : "http://example.org/transport-ontology#Route5"
+  } ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "BUS-5"
+  } ],
+  "http://example.org/transport-ontology#locatedOn" : [ {
+    "@id" : "http://example.org/transport-ontology#DS001"
+  } ],
+  "http://example.org/transport-ontology#routeNumber" : [ {
+    "@value" : "5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#Bus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Автобус №5"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#BusStop",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Транспортна зупинка"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#TransportInfrastructure"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#BusStop001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "BS-001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#BusStop"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Зупинка Художня школа"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#BusStop002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "BS-002"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#BusStop"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Зупинка Центральна"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#BusStop003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "BS-003"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#BusStop"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Зупинка Університетська"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#BusStop004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "BS-004"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#BusStop"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Зупинка Вокзальна"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#BusStop005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "BS-005"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#BusStop"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Зупинка Північна"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#BusStop006",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "BS-006"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#BusStop"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Зупинка Східна"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#BusStop007",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "BS-007"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#BusStop"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Зупинка Південна"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#BusStop008",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "BS-008"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#BusStop"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Зупинка Західна"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#BusStop009",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "BS-009"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#BusStop"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Зупинка Лікарняна"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#Car",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Легковий автомобіль"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#Vehicle"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#Car001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "CAR-001"
+  } ],
+  "http://example.org/transport-ontology#locatedOn" : [ {
+    "@id" : "http://example.org/transport-ontology#DS001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#Car"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Легковий автомобіль A1"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#Car002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "CAR-002"
+  } ],
+  "http://example.org/transport-ontology#locatedOn" : [ {
+    "@id" : "http://example.org/transport-ontology#DS001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#Car"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Легковий автомобіль A2"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#Car003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "CAR-003"
+  } ],
+  "http://example.org/transport-ontology#locatedOn" : [ {
+    "@id" : "http://example.org/transport-ontology#DS001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#Car"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Легковий автомобіль A3"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#Car004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "CAR-004"
+  } ],
+  "http://example.org/transport-ontology#locatedOn" : [ {
+    "@id" : "http://example.org/transport-ontology#DS001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#Car"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Легковий автомобіль A4"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#Car005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "CAR-005"
+  } ],
+  "http://example.org/transport-ontology#locatedOn" : [ {
+    "@id" : "http://example.org/transport-ontology#DS001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#Car"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Легковий автомобіль A5"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#Car006",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "CAR-006"
+  } ],
+  "http://example.org/transport-ontology#locatedOn" : [ {
+    "@id" : "http://example.org/transport-ontology#DS001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#Car"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Легковий автомобіль A6"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#Car007",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "CAR-007"
+  } ],
+  "http://example.org/transport-ontology#locatedOn" : [ {
+    "@id" : "http://example.org/transport-ontology#DS001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#Car"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Легковий автомобіль A7"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#Car008",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "CAR-008"
+  } ],
+  "http://example.org/transport-ontology#locatedOn" : [ {
+    "@id" : "http://example.org/transport-ontology#DS001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#Car"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Легковий автомобіль A8"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#CongestionLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Рівень завантаженості"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#SystemStateInformation"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#CongestionLevel001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#description" : [ {
+    "@value" : "\n            Високе завантаження дорожнього сегмента DS-001.\n        "
+  } ],
+  "http://example.org/transport-ontology#generalizes" : [ {
+    "@id" : "http://example.org/transport-ontology#RuleHighCongestion"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#CongestionLevel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Високий рівень завантаженості"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#DS001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#allowedSpeed" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "50.0"
+  } ],
+  "http://example.org/transport-ontology#currentSpeed" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "18.0"
+  } ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "DS-001"
+  } ],
+  "http://example.org/transport-ontology#laneCount" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ],
+  "http://example.org/transport-ontology#length" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "850.0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#RoadSegment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Дорожній сегмент DS-001"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#DataSource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Джерело даних"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#DigitalTransportModel"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#DataSource001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#description" : [ {
+    "@value" : "Первітне джерело даних транспортної системи."
+  } ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "SRC-001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#DataSource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Джерело даних 1"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#DataSource002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#description" : [ {
+    "@value" : "Центральне програмне джерело даних транспортної системи."
+  } ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "SRC-002"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#DataSource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Міська інформаційна система"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#DataSource003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#description" : [ {
+    "@value" : "Інформаційне джерело з оперативними транспортними показниками."
+  } ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "SRC-003"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#DataSource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Міська інформаційна система"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#DataSource004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#description" : [ {
+    "@value" : "Джерело даних про стан та використання дорожньої мережі."
+  } ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "SRC-004"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#DataSource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Система дорожнього контролю"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#DecisionRule",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Правило прийняття рішення"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#DigitalTransportModel"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#DigitalTransportModel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Цифрова модель транспортної системи"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#GPS001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#collectsData" : [ {
+    "@id" : "http://example.org/transport-ontology#SpeedData001"
+  } ],
+  "http://example.org/transport-ontology#latitude" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "46.3357"
+  } ],
+  "http://example.org/transport-ontology#longitude" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "25.1237"
+  } ],
+  "http://example.org/transport-ontology#measurementTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "\n            2026-09-19T10:00:00\n        "
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#GPSMeasurement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "GPS-вимірювання №1"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#GPS002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#collectsData" : [ {
+    "@id" : "http://example.org/transport-ontology#SpeedData002"
+  } ],
+  "http://example.org/transport-ontology#latitude" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "47.2253"
+  } ],
+  "http://example.org/transport-ontology#longitude" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "23.3497"
+  } ],
+  "http://example.org/transport-ontology#measurementTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "\n            2026-09-19T10:00:00\n        "
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#GPSMeasurement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "GPS-вимірювання №2"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#GPS003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#collectsData" : [ {
+    "@id" : "http://example.org/transport-ontology#SpeedData003"
+  } ],
+  "http://example.org/transport-ontology#latitude" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "49.8397"
+  } ],
+  "http://example.org/transport-ontology#longitude" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "24.0297"
+  } ],
+  "http://example.org/transport-ontology#measurementTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "\n            2026-09-19T10:00:00\n        "
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#GPSMeasurement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "GPS-вимірювання №3"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#GPS004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#collectsData" : [ {
+    "@id" : "http://example.org/transport-ontology#SpeedData004"
+  } ],
+  "http://example.org/transport-ontology#latitude" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "49.8397"
+  } ],
+  "http://example.org/transport-ontology#longitude" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "24.0297"
+  } ],
+  "http://example.org/transport-ontology#measurementTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "\n            2026-09-19T10:00:00\n        "
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#GPSMeasurement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "GPS-вимірювання №4"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#GPSMeasurement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "GPS-вимірювання"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#DataSource"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#Intersection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Елемент транспортної інфраструктури, у якому перетинаються або з&apos;єднуються дорожні напрямки."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Перехрестя"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#TransportInfrastructure"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#Intersection001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "INT-001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#Intersection"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Перехрестя №1"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#PassengerFlow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Пасажиропотік"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#TransportProcess"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#PassengerFlowData",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Дані про пасажиропотік"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#TransportSystemData"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#RoadClosure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Перекриття дороги"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#TransportEvent"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#RoadNetwork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Дорожня мережа"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#TransportInfrastructure"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#RoadNetwork001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#hasIntersection" : [ {
+    "@id" : "http://example.org/transport-ontology#Intersection001"
+  } ],
+  "http://example.org/transport-ontology#hasRoadSegment" : [ {
+    "@id" : "http://example.org/transport-ontology#DS001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#RoadNetwork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Дорожня мережа №1"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#RoadSegment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Окрема ділянка дорожньої мережі з визначеними характеристиками довжини, кількості смуг та швидкості руху."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Дорожній сегмент"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#TransportInfrastructure"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#RoadWorks",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Дорожні роботи"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#TransportEvent"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#Route",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Маршрут"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#TransportObject"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#Route24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "R-24"
+  } ],
+  "http://example.org/transport-ontology#routeNumber" : [ {
+    "@value" : "24"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#Route"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Маршрут №24"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#Route35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "R-35"
+  } ],
+  "http://example.org/transport-ontology#routeNumber" : [ {
+    "@value" : "35"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#Route"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Маршрут №35"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#Route5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "R-5"
+  } ],
+  "http://example.org/transport-ontology#routeNumber" : [ {
+    "@value" : "5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#Route"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Маршрут №5"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#RouteChange",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Зміна маршруту"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#TransportDecision"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#RuleHighCongestion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#description" : [ {
+    "@value" : "\n            Якщо рівень завантаженості дороги високий, необхідно змінити маршрут.\n        "
+  } ],
+  "http://example.org/transport-ontology#determines" : [ {
+    "@id" : "http://example.org/transport-ontology#AlternativeRouteDecision"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#DecisionRule"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Правило високого завантаження"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#RuleLowSpeed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#description" : [ {
+    "@value" : "Правило реагування на значне зниження швидкості транспортного потоку."
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#DecisionRule"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Правило низької швидкості"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#RuleRoadClosure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#description" : [ {
+    "@value" : "Правило визначення необхідності регулювання руху на перевантаженому перехресті."
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#DecisionRule"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Правило перевантаженого перехрестя"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#RuleTrafficAccident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#description" : [ {
+    "@value" : "Правило прийняття рішення у випадку обмеження руху на окремій ділянці."
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#DecisionRule"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Правило дорожнього обмеження"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#SpeedData",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Дані про швидкість"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#TransportSystemData"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#SpeedData001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#currentSpeed" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "18.0"
+  } ],
+  "http://example.org/transport-ontology#describesState" : [ {
+    "@id" : "http://example.org/transport-ontology#AverageSpeed001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#SpeedData"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Дані про швидкість №1"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#SpeedData002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#currentSpeed" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "20.0"
+  } ],
+  "http://example.org/transport-ontology#describesState" : [ {
+    "@id" : "http://example.org/transport-ontology#AverageSpeed001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#SpeedData"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Дані про швидкість №2"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#SpeedData003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#currentSpeed" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "17.0"
+  } ],
+  "http://example.org/transport-ontology#describesState" : [ {
+    "@id" : "http://example.org/transport-ontology#AverageSpeed001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#SpeedData"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Дані про швидкість №3"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#SpeedData004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#currentSpeed" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "17.0"
+  } ],
+  "http://example.org/transport-ontology#describesState" : [ {
+    "@id" : "http://example.org/transport-ontology#AverageSpeed001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#SpeedData"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Дані про швидкість №4"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#SpeedSensor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Датчик швидкості"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#DataSource"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#SystemStateInformation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Інформація про стан системи"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#DigitalTransportModel"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#TrafficAccident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "ДТП"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#TransportEvent"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#TrafficFlow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Транспортний потік"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#TransportProcess"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#TrafficFlow001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#characterizes" : [ {
+    "@id" : "http://example.org/transport-ontology#DS001"
+  } ],
+  "http://example.org/transport-ontology#currentSpeed" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "18.0"
+  } ],
+  "http://example.org/transport-ontology#hasVehicle" : [ {
+    "@id" : "http://example.org/transport-ontology#Bus24"
+  } ],
+  "http://example.org/transport-ontology#vehicleCount" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1250"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#TrafficFlow"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Транспортний потік №1"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#TrafficLight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Світлофор"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#TransportInfrastructure"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#TrafficRegulation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Регулювання руху"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#TransportDecision"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#TrafficRestriction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Обмеження руху"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#TransportDecision"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#TrafficSensor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Датчик трафіку"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#DataSource"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#TrafficSensor001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#collectsData" : [ {
+    "@id" : "http://example.org/transport-ontology#VehicleCountData001"
+  } ],
+  "http://example.org/transport-ontology#identifier" : [ {
+    "@value" : "TS-001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#TrafficSensor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Датчик трафіку №1"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#TransportDecision",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Транспортне рішення"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#DigitalTransportModel"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://example.org/transport-ontology#TransportInfrastructure"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#TransportEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Транспортна подія"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#DigitalTransportModel"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://example.org/transport-ontology#TransportInfrastructure"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#TransportInfrastructure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Транспортна інфраструктура"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#DigitalTransportModel"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://example.org/transport-ontology#TransportProcess"
+  }, {
+    "@id" : "http://example.org/transport-ontology#Vehicle"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#TransportModel001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#contains" : [ {
+    "@id" : "http://example.org/transport-ontology#RoadNetwork001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#DigitalTransportModel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Цифрова модель транспортної системи міста"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#TransportObject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Транспортний об'єкт"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#DigitalTransportModel"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#TransportProcess",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Транспортний процес"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#DigitalTransportModel"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#TransportSystemData",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Дані транспортної системи"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#DigitalTransportModel"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#Truck",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Вантажний автомобіль"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#Vehicle"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#Vehicle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Транспортний засіб"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#TransportObject"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#VehicleCountData",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Дані про кількість транспортних засобів"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://example.org/transport-ontology#TransportSystemData"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#VehicleCountData001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://example.org/transport-ontology#describesState" : [ {
+    "@id" : "http://example.org/transport-ontology#CongestionLevel001"
+  } ],
+  "http://example.org/transport-ontology#vehicleCount" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1250"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://example.org/transport-ontology#VehicleCountData"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "Дані про кількість транспортних засобів №1"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#affects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/transport-ontology#TransportEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "впливає на"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/transport-ontology#TrafficFlow"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#allowedSpeed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/transport-ontology#RoadSegment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "дозволена швидкість"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#changes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/transport-ontology#TransportDecision"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "змінює"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/transport-ontology#Route"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#characterizes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/transport-ontology#TrafficFlow"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "характеризує"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/transport-ontology#RoadSegment"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#collectsData",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/transport-ontology#DataSource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "збирає дані"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/transport-ontology#TransportSystemData"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#contains",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/transport-ontology#DigitalTransportModel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "містить"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/transport-ontology#TransportInfrastructure"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#currentSpeed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "поточна швидкість"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#describesState",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/transport-ontology#TransportSystemData"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "описує стан"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/transport-ontology#SystemStateInformation"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "опис"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#determines",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/transport-ontology#DecisionRule"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "визначає"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/transport-ontology#TransportDecision"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#forms",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/transport-ontology#Vehicle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "формує"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/transport-ontology#TrafficFlow"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#generalizes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/transport-ontology#SystemStateInformation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "узагальнює"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/transport-ontology#DecisionRule"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#hasBusStop",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/transport-ontology#RoadNetwork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "має транспортну зупинку"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/transport-ontology#BusStop"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#hasIntersection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/transport-ontology#RoadNetwork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "має перехрестя"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/transport-ontology#Intersection"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#hasRoadNetwork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/transport-ontology#DigitalTransportModel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "має дорожню мережу"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/transport-ontology#RoadNetwork"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#hasRoadSegment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/transport-ontology#RoadNetwork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "має дорожній сегмент"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/transport-ontology#RoadSegment"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#hasRoute",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/transport-ontology#Vehicle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "має маршрут"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/transport-ontology#Route"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#hasTrafficLight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/transport-ontology#Intersection"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "має світлофор"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/transport-ontology#TrafficLight"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#hasVehicle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/transport-ontology#TrafficFlow"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "має транспортний засіб"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/transport-ontology#Vehicle"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "ідентифікатор"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#laneCount",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/transport-ontology#RoadSegment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "кількість смуг"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#latitude",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "широта"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#length",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/transport-ontology#RoadSegment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "довжина"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#locatedOn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/transport-ontology#Vehicle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "розташований на"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://example.org/transport-ontology#RoadSegment"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#longitude",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "довгота"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#measurementTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "час вимірювання"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#passengerCount",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "кількість пасажирів"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#routeNumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/transport-ontology#Route"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "номер маршруту"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://example.org/transport-ontology#vehicleCount",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Кількість транспортних засобів, зафіксованих у транспортному потоці або відповідних даних."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://example.org/transport-ontology#VehicleCountData"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "uk",
+    "@value" : "кількість транспортних засобів"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+} ]
