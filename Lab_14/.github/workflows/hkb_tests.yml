@@ -1,0 +1,34 @@
+name: HKB Quality Assurance Pipeline
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  validate-hkb:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Клонування репозиторію
+        uses: actions/checkout@v4
+
+      - name: Налаштування середовища Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Встановлення залежностей
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest rdflib chromadb sentence-transformers
+
+      - name: Синтаксична валідація онтології update.owl
+        run: |
+          python -c "import rdflib; g = rdflib.Graph(); g.parse('update.owl', format='xml'); print(f'Parsed {len(g)} triples successfully.')"
+
+      - name: Запуск автоматизованого тест-сьюту HKB
+        run: |
+          pytest test_hkb_suite.py -v --tb=short
