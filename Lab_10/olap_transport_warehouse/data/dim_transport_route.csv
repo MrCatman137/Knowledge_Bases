@@ -1,0 +1,5 @@
+RouteKey,RouteID,RouteNumber,TransportType,OriginStop,TerminalStop
+1,R-05,5,Bus,BS-001,BS-006
+2,R-24,24,Bus,BS-002,BS-009
+3,R-35,35,Tram,BS-003,BS-008
+4,Private_Traffic,None,Private Car,BS-001,BS-009

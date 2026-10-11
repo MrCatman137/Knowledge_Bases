@@ -1,0 +1,5 @@
+EventKey,EventType,SeverityLevel,DecisionRule,RecommendedAction
+1,Normal Flow,None,None,Maintain
+2,Traffic Accident,High,RuleIncidentReroute,Suggest Alternative Route
+3,Road Works,Medium,RuleHighCongestion,Adjust Traffic Lights
+4,Lane Closure,Low,RuleHighCongestion,Adjust Traffic Lights

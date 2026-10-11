@@ -1,0 +1,16 @@
+SegmentKey,SegmentID,SegmentName,District,RoadType,LanesCount,AllowedSpeed,LengthMeters
+1,DS-001,Central Transport Segment 01,Central,Avenue,3,80,770
+2,DS-002,North Transport Segment 02,North,Street,3,80,999
+3,DS-003,South Transport Segment 03,South,Highway,3,50,924
+4,DS-004,West Transport Segment 04,West,Avenue,4,50,309
+5,DS-005,East Transport Segment 05,East,Street,1,80,1174
+6,DS-006,Central Transport Segment 06,Central,Highway,2,60,541
+7,DS-007,North Transport Segment 07,North,Avenue,2,60,771
+8,DS-008,South Transport Segment 08,South,Street,4,60,1085
+9,DS-009,West Transport Segment 09,West,Highway,2,50,1169
+10,DS-010,East Transport Segment 10,East,Avenue,1,60,1028
+11,DS-011,Central Transport Segment 11,Central,Street,1,60,957
+12,DS-012,North Transport Segment 12,North,Highway,3,50,1350
+13,DS-013,South Transport Segment 13,South,Avenue,2,50,763
+14,DS-014,West Transport Segment 14,West,Street,2,80,1488
+15,DS-015,East Transport Segment 15,East,Highway,4,80,968

@@ -1,0 +1,11 @@
+ETL VALIDATION PASSED
+Generated: 2026-09-29T19:25:10
+Dates: 273
+Road segments: 15
+Routes: 4
+Events: 4
+Fact rows: 5,000
+Fact grain: DateKey + SegmentKey + RouteKey
+Foreign-key checks: PASS
+Null checks: PASS
+Type/range checks: PASS
