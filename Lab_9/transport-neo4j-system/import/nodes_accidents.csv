@@ -1,0 +1,16 @@
+accident_id,name,occurred_at,severity,injured_count,estimated_cost_uah,segment_id
+A-001,Traffic Accident 1,2026-09-02T09:07:00,minor,2,1250,SEG-003
+A-002,Traffic Accident 2,2026-09-03T10:14:00,moderate,3,1500,SEG-006
+A-003,Traffic Accident 3,2026-09-04T11:21:00,major,4,1750,SEG-009
+A-004,Traffic Accident 4,2026-09-05T12:28:00,minor,1,2000,SEG-012
+A-005,Traffic Accident 5,2026-09-06T13:35:00,moderate,2,2250,SEG-015
+A-006,Traffic Accident 6,2026-09-07T14:42:00,major,3,2500,SEG-018
+A-007,Traffic Accident 7,2026-09-08T15:49:00,minor,4,2750,SEG-021
+A-008,Traffic Accident 8,2026-09-09T16:56:00,moderate,1,3000,SEG-024
+A-009,Traffic Accident 9,2026-09-10T17:03:00,major,2,3250,SEG-027
+A-010,Traffic Accident 10,2026-09-11T08:10:00,minor,3,3500,SEG-030
+A-011,Traffic Accident 11,2026-09-12T09:17:00,moderate,4,3750,SEG-033
+A-012,Traffic Accident 12,2026-09-13T10:24:00,major,1,4000,SEG-036
+A-013,Traffic Accident 13,2026-09-14T11:31:00,minor,2,4250,SEG-039
+A-014,Traffic Accident 14,2026-09-15T12:38:00,moderate,3,4500,SEG-042
+A-015,Traffic Accident 15,2026-09-16T13:45:00,major,4,4750,SEG-045

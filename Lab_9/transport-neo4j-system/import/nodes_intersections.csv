@@ -1,0 +1,21 @@
+intersection_id,name,city,latitude,longitude,control_type
+I-001,Intersection 1,Lviv,49.803,24.004,signalized
+I-002,Intersection 2,Lviv,49.806,24.008,signalized
+I-003,Intersection 3,Lviv,49.809,24.012,priority
+I-004,Intersection 4,Lviv,49.812,24.0,signalized
+I-005,Intersection 5,Lviv,49.8,24.005,signalized
+I-006,Intersection 6,Lviv,49.803,24.009,priority
+I-007,Intersection 7,Lviv,49.806,24.013,signalized
+I-008,Intersection 8,Lviv,49.809,24.001,signalized
+I-009,Intersection 9,Lviv,49.812,24.005,priority
+I-010,Intersection 10,Lviv,49.801,24.01,signalized
+I-011,Intersection 11,Lviv,49.804,24.014,signalized
+I-012,Intersection 12,Lviv,49.807,24.002,priority
+I-013,Intersection 13,Lviv,49.81,24.006,signalized
+I-014,Intersection 14,Lviv,49.813,24.01,signalized
+I-015,Intersection 15,Lviv,49.801,24.015,priority
+I-016,Intersection 16,Lviv,49.804,24.003,signalized
+I-017,Intersection 17,Lviv,49.807,24.007,signalized
+I-018,Intersection 18,Lviv,49.81,24.011,priority
+I-019,Intersection 19,Lviv,49.813,24.015,signalized
+I-020,Intersection 20,Lviv,49.802,24.004,signalized

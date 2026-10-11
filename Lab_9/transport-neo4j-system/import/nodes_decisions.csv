@@ -1,0 +1,11 @@
+decision_id,name,decision_type,decided_at,confidence,status
+D-001,Transport Decision 1,signal_timing,2026-09-02T11:00:00,0.75,approved
+D-002,Transport Decision 2,dispatch,2026-09-03T12:00:00,0.7999999999999999,approved
+D-003,Transport Decision 3,road_restriction,2026-09-04T13:00:00,0.85,approved
+D-004,Transport Decision 4,reroute,2026-09-05T14:00:00,0.8999999999999999,pending
+D-005,Transport Decision 5,signal_timing,2026-09-06T15:00:00,0.7,approved
+D-006,Transport Decision 6,dispatch,2026-09-07T16:00:00,0.75,approved
+D-007,Transport Decision 7,road_restriction,2026-09-08T17:00:00,0.7999999999999999,approved
+D-008,Transport Decision 8,reroute,2026-09-09T10:00:00,0.85,pending
+D-009,Transport Decision 9,signal_timing,2026-09-10T11:00:00,0.8999999999999999,approved
+D-010,Transport Decision 10,dispatch,2026-09-11T12:00:00,0.7,approved

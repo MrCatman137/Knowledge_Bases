@@ -1,0 +1,11 @@
+route_id,name,route_number,frequency_min,length_km,status
+R-01,Route 1,11,21,21,active
+R-02,Route 2,12,24,22,active
+R-03,Route 3,13,27,23,active
+R-04,Route 4,14,30,24,active
+R-05,Route 5,15,33,25,active
+R-06,Route 6,16,36,26,active
+R-07,Route 7,17,39,27,active
+R-08,Route 8,18,42,28,active
+R-09,Route 9,19,45,29,active
+R-10,Route 10,20,48,30,active

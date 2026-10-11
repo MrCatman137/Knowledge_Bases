@@ -1,0 +1,26 @@
+[
+  {
+    "index_name": "IndexFlatIP",
+    "path": "D:\\4_1\\Knowledge_Bases\\Lab_9\\document_search_faiss\\indexes\\index_flat_ip.faiss",
+    "build_time_ms": 0.5089999176561832,
+    "file_size_bytes": 860205,
+    "dimension": 384,
+    "ntotal": 560
+  },
+  {
+    "index_name": "IndexHNSWFlat",
+    "path": "D:\\4_1\\Knowledge_Bases\\Lab_9\\document_search_faiss\\indexes\\index_hnsw_flat.faiss",
+    "build_time_ms": 24.715400068089366,
+    "file_size_bytes": 1011874,
+    "dimension": 384,
+    "ntotal": 560
+  },
+  {
+    "index_name": "IndexIVFFlat",
+    "path": "D:\\4_1\\Knowledge_Bases\\Lab_9\\document_search_faiss\\indexes\\index_ivf_flat.faiss",
+    "build_time_ms": 7.167399977333844,
+    "file_size_bytes": 889483,
+    "dimension": 384,
+    "ntotal": 560
+  }
+]

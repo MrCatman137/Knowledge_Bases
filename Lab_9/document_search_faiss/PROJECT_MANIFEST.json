@@ -1,0 +1,43 @@
+{
+  "project": "Document Search in FAISS Vector Database",
+  "documents": 560,
+  "document_types": {
+    "road_segment": 140,
+    "bus_route": 140,
+    "traffic_incident": 140,
+    "sensor_telemetry": 140
+  },
+  "competency_queries": 12,
+  "min_relevant_per_query": 3,
+  "seed": 42,
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "indexes": [
+    "IndexFlatIP",
+    "IndexHNSWFlat",
+    "IndexIVFFlat"
+  ],
+  "hnsw": {
+    "M": 32,
+    "efConstruction": 64,
+    "efSearch": [
+      16,
+      32,
+      64,
+      128
+    ]
+  },
+  "ivf": {
+    "nlist": 16,
+    "nprobe": [
+      1,
+      2,
+      4,
+      8
+    ]
+  },
+  "k": [
+    5,
+    10
+  ],
+  "rrf_k": 60
+}

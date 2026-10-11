@@ -1,0 +1,8 @@
+faiss-cpu
+sentence-transformers
+rank-bm25
+pandas
+numpy
+tabulate
+pytest
+torch>=2.9.0
