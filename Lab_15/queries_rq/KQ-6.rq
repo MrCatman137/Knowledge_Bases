@@ -1,0 +1,6 @@
+PREFIX : <http://example.org/transport-ontology#>
+SELECT ?uri ?desc ?temp WHERE {
+    VALUES ?uri { :WeatherObservation001 }
+    ?uri :description ?desc ;
+         :airTemperatureC ?temp .
+}

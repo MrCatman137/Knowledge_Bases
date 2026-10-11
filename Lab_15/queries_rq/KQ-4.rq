@@ -1,0 +1,6 @@
+PREFIX : <http://example.org/transport-ontology#>
+SELECT ?uri ?freq WHERE {
+    VALUES ?route { :Route24 }
+    ?route :hasSchedule ?uri .
+    ?uri :serviceFrequency ?freq .
+}

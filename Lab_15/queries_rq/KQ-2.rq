@@ -1,0 +1,7 @@
+PREFIX : <http://example.org/transport-ontology#>
+SELECT ?uri ?id ?routeNum WHERE {
+    ?uri a :Bus ;
+         :locatedOn :DS001 ;
+         :identifier ?id ;
+         :routeNumber ?routeNum .
+}

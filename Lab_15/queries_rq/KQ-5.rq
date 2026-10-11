@@ -1,0 +1,6 @@
+PREFIX : <http://example.org/transport-ontology#>
+SELECT ?uri ?camId WHERE {
+    ?uri a :TrafficCamera ;
+         :identifier ?camId ;
+         :monitors :DS003 .
+}

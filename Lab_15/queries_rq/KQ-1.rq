@@ -1,0 +1,8 @@
+PREFIX : <http://example.org/transport-ontology#>
+SELECT ?uri ?label ?length ?lanes ?speed WHERE {
+    VALUES ?uri { :DS001 }
+    ?uri rdfs:label ?label ;
+         :length ?length ;
+         :laneCount ?lanes ;
+         :allowedSpeed ?speed .
+}

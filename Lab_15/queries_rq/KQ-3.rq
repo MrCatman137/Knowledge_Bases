@@ -1,0 +1,6 @@
+PREFIX : <http://example.org/transport-ontology#>
+SELECT ?uri ?capKWh ?passengers WHERE {
+    VALUES ?uri { :Bus24B }
+    ?uri :batteryCapacityKWh ?capKWh ;
+         :passengerCapacity ?passengers .
+}

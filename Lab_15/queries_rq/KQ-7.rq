@@ -1,0 +1,6 @@
+PREFIX : <http://example.org/transport-ontology#>
+SELECT ?uri ?id ?label WHERE {
+    :Accident002 :respondedBy ?uri .
+    ?uri :identifier ?id ;
+         rdfs:label ?label .
+}

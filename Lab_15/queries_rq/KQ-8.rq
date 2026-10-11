@@ -1,0 +1,7 @@
+PREFIX : <http://example.org/transport-ontology#>
+SELECT ?uri ?label ?desc WHERE {
+    ?uri a :DecisionRule ;
+         :determines :AlternativeRouteDecision ;
+         rdfs:label ?label ;
+         :description ?desc .
+}
