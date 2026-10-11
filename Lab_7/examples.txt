@@ -1,0 +1,1543 @@
+#################################################################
+#
+#    NEW INDIVIDUALS
+#
+#################################################################
+
+
+#################################################################
+#    DataSource — 3 instances
+#################################################################
+
+transport-ontology:DataSource002
+    rdf:type transport-ontology:DataSource, owl:NamedIndividual ;
+    rdfs:label "Центральна система моніторингу"@uk ;
+    transport-ontology:identifier "SRC-002" ;
+    transport-ontology:description "Центральне програмне джерело даних транспортної системи." .
+
+transport-ontology:DataSource003
+    rdf:type transport-ontology:DataSource, owl:NamedIndividual ;
+    rdfs:label "Міська інформаційна система"@uk ;
+    transport-ontology:identifier "SRC-003" ;
+    transport-ontology:description "Інформаційне джерело з оперативними транспортними показниками." .
+
+transport-ontology:DataSource004
+    rdf:type transport-ontology:DataSource, owl:NamedIndividual ;
+    rdfs:label "Система дорожнього контролю"@uk ;
+    transport-ontology:identifier "SRC-004" ;
+    transport-ontology:description "Джерело даних про стан та використання дорожньої мережі." .
+
+
+#################################################################
+#    DecisionRule — 3 instances
+#################################################################
+
+transport-ontology:DecisionRule002
+    rdf:type transport-ontology:DecisionRule, owl:NamedIndividual ;
+    rdfs:label "Правило низької швидкості"@uk ;
+    transport-ontology:identifier "RULE-002" ;
+    transport-ontology:description "Правило реагування на значне зниження швидкості транспортного потоку." .
+
+transport-ontology:DecisionRule003
+    rdf:type transport-ontology:DecisionRule, owl:NamedIndividual ;
+    rdfs:label "Правило перевантаженого перехрестя"@uk ;
+    transport-ontology:identifier "RULE-003" ;
+    transport-ontology:description "Правило визначення необхідності регулювання руху на перевантаженому перехресті." .
+
+transport-ontology:DecisionRule004
+    rdf:type transport-ontology:DecisionRule, owl:NamedIndividual ;
+    rdfs:label "Правило дорожнього обмеження"@uk ;
+    transport-ontology:identifier "RULE-004" ;
+    transport-ontology:description "Правило прийняття рішення у випадку обмеження руху на окремій ділянці." .
+
+
+#################################################################
+#    SystemStateInformation — 3 instances
+#################################################################
+
+transport-ontology:SystemStateInfo002
+    rdf:type transport-ontology:SystemStateInformation, owl:NamedIndividual ;
+    rdfs:label "Стабільний стан руху"@uk ;
+    transport-ontology:identifier "STATE-002" ;
+    transport-ontology:description "Стан транспортної системи зі стабільними показниками руху." .
+
+transport-ontology:SystemStateInfo003
+    rdf:type transport-ontology:SystemStateInformation, owl:NamedIndividual ;
+    rdfs:label "Нестабільний стан руху"@uk ;
+    transport-ontology:identifier "STATE-003" ;
+    transport-ontology:description "Стан транспортної системи зі значними коливаннями швидкості та інтенсивності." .
+
+transport-ontology:SystemStateInfo004
+    rdf:type transport-ontology:SystemStateInformation, owl:NamedIndividual ;
+    rdfs:label "Критичний стан транспортної мережі"@uk ;
+    transport-ontology:identifier "STATE-004" ;
+    transport-ontology:description "Стан транспортної системи з високим навантаженням та обмеженою пропускною здатністю." .
+
+
+#################################################################
+#    TransportDecision — 3 instances
+#################################################################
+
+transport-ontology:TransportDecision002
+    rdf:type transport-ontology:TransportDecision, owl:NamedIndividual ;
+    rdfs:label "Рішення про перерозподіл потоку"@uk ;
+    transport-ontology:identifier "DEC-002" ;
+    transport-ontology:description "Рішення щодо перенаправлення частини транспортного потоку." .
+
+transport-ontology:TransportDecision003
+    rdf:type transport-ontology:TransportDecision, owl:NamedIndividual ;
+    rdfs:label "Рішення про зміну режиму руху"@uk ;
+    transport-ontology:identifier "DEC-003" ;
+    transport-ontology:description "Рішення щодо зміни організації руху на окремій ділянці." .
+
+transport-ontology:TransportDecision004
+    rdf:type transport-ontology:TransportDecision, owl:NamedIndividual ;
+    rdfs:label "Рішення про тимчасове обмеження"@uk ;
+    transport-ontology:identifier "DEC-004" ;
+    transport-ontology:description "Рішення про введення тимчасового обмеження транспортного руху." .
+
+
+#################################################################
+#    TransportEvent — 3 instances
+#################################################################
+
+transport-ontology:TransportEvent002
+    rdf:type transport-ontology:TransportEvent, owl:NamedIndividual ;
+    rdfs:label "Затримка громадського транспорту"@uk ;
+    transport-ontology:identifier "EVENT-002" ;
+    transport-ontology:description "Подія, пов'язана із затримкою руху громадського транспорту." .
+
+transport-ontology:TransportEvent003
+    rdf:type transport-ontology:TransportEvent, owl:NamedIndividual ;
+    rdfs:label "Раптове зниження швидкості"@uk ;
+    transport-ontology:identifier "EVENT-003" ;
+    transport-ontology:description "Подія різкого зменшення середньої швидкості транспортного потоку." .
+
+transport-ontology:TransportEvent004
+    rdf:type transport-ontology:TransportEvent, owl:NamedIndividual ;
+    rdfs:label "Тимчасове перекриття смуги"@uk ;
+    transport-ontology:identifier "EVENT-004" ;
+    transport-ontology:description "Подія тимчасового вилучення однієї смуги з руху." .
+
+
+#################################################################
+#    TransportInfrastructure — 3 instances
+#################################################################
+
+transport-ontology:Infrastructure002
+    rdf:type transport-ontology:TransportInfrastructure, owl:NamedIndividual ;
+    rdfs:label "Інфраструктурний комплекс №2"@uk ;
+    transport-ontology:identifier "INF-002" ;
+    transport-ontology:description "Комплекс елементів міської транспортної інфраструктури." .
+
+transport-ontology:Infrastructure003
+    rdf:type transport-ontology:TransportInfrastructure, owl:NamedIndividual ;
+    rdfs:label "Інфраструктурний комплекс №3"@uk ;
+    transport-ontology:identifier "INF-003" ;
+    transport-ontology:description "Сукупність дорожніх та регулювальних елементів міста." .
+
+transport-ontology:Infrastructure004
+    rdf:type transport-ontology:TransportInfrastructure, owl:NamedIndividual ;
+    rdfs:label "Інфраструктурний комплекс №4"@uk ;
+    transport-ontology:identifier "INF-004" ;
+    transport-ontology:description "Елементи інфраструктури для забезпечення міського транспортного руху." .
+
+
+#################################################################
+#    TransportObject — 3 instances
+#################################################################
+
+transport-ontology:TransportObject002
+    rdf:type transport-ontology:TransportObject, owl:NamedIndividual ;
+    rdfs:label "Транспортний об'єкт №2"@uk ;
+    transport-ontology:identifier "OBJ-002" ;
+    transport-ontology:description "Окремий об'єкт цифрової транспортної системи." .
+
+transport-ontology:TransportObject003
+    rdf:type transport-ontology:TransportObject, owl:NamedIndividual ;
+    rdfs:label "Транспортний об'єкт №3"@uk ;
+    transport-ontology:identifier "OBJ-003" ;
+    transport-ontology:description "Об'єкт міської транспортної мережі, представлений у цифровій моделі." .
+
+transport-ontology:TransportObject004
+    rdf:type transport-ontology:TransportObject, owl:NamedIndividual ;
+    rdfs:label "Транспортний об'єкт №4"@uk ;
+    transport-ontology:identifier "OBJ-004" ;
+    transport-ontology:description "Ідентифікований об'єкт транспортної системи міста." .
+
+
+#################################################################
+#    TransportProcess — 3 instances
+#################################################################
+
+transport-ontology:TransportProcess002
+    rdf:type transport-ontology:TransportProcess, owl:NamedIndividual ;
+    rdfs:label "Процес ранкового руху"@uk ;
+    transport-ontology:identifier "PROC-002" ;
+    transport-ontology:description "Транспортний процес у ранковий період підвищеної активності." .
+
+transport-ontology:TransportProcess003
+    rdf:type transport-ontology:TransportProcess, owl:NamedIndividual ;
+    rdfs:label "Процес вечірнього руху"@uk ;
+    transport-ontology:identifier "PROC-003" ;
+    transport-ontology:description "Транспортний процес у вечірній період міського руху." .
+
+transport-ontology:TransportProcess004
+    rdf:type transport-ontology:TransportProcess, owl:NamedIndividual ;
+    rdfs:label "Процес міжрайонного переміщення"@uk ;
+    transport-ontology:identifier "PROC-004" ;
+    transport-ontology:description "Транспортний процес переміщення між районами міста." .
+
+
+#################################################################
+#    TransportSystemData — 3 instances
+#################################################################
+
+transport-ontology:TransportData002
+    rdf:type transport-ontology:TransportSystemData, owl:NamedIndividual ;
+    rdfs:label "Оперативні дані руху"@uk ;
+    transport-ontology:identifier "DATA-002" ;
+    transport-ontology:description "Поточний набір даних про функціонування транспортної мережі." .
+
+transport-ontology:TransportData003
+    rdf:type transport-ontology:TransportSystemData, owl:NamedIndividual ;
+    rdfs:label "Дані ранкового моніторингу"@uk ;
+    transport-ontology:identifier "DATA-003" ;
+    transport-ontology:description "Набір показників, отриманих під час ранкового моніторингу." .
+
+transport-ontology:TransportData004
+    rdf:type transport-ontology:TransportSystemData, owl:NamedIndividual ;
+    rdfs:label "Дані вечірнього моніторингу"@uk ;
+    transport-ontology:identifier "DATA-004" ;
+    transport-ontology:description "Набір показників, отриманих під час вечірнього моніторингу." .
+
+
+#################################################################
+#    AverageSpeed — 8 instances
+#################################################################
+
+transport-ontology:AverageSpeed002
+    rdf:type transport-ontology:AverageSpeed, owl:NamedIndividual ;
+    rdfs:label "Середня швидкість 22 км/год"@uk ;
+    transport-ontology:currentSpeed "22.0"^^xsd:double .
+
+transport-ontology:AverageSpeed003
+    rdf:type transport-ontology:AverageSpeed, owl:NamedIndividual ;
+    rdfs:label "Середня швидкість 27 км/год"@uk ;
+    transport-ontology:currentSpeed "27.0"^^xsd:double .
+
+transport-ontology:AverageSpeed004
+    rdf:type transport-ontology:AverageSpeed, owl:NamedIndividual ;
+    rdfs:label "Середня швидкість 31 км/год"@uk ;
+    transport-ontology:currentSpeed "31.0"^^xsd:double .
+
+transport-ontology:AverageSpeed005
+    rdf:type transport-ontology:AverageSpeed, owl:NamedIndividual ;
+    rdfs:label "Середня швидкість 36 км/год"@uk ;
+    transport-ontology:currentSpeed "36.0"^^xsd:double .
+
+transport-ontology:AverageSpeed006
+    rdf:type transport-ontology:AverageSpeed, owl:NamedIndividual ;
+    rdfs:label "Середня швидкість 41 км/год"@uk ;
+    transport-ontology:currentSpeed "41.0"^^xsd:double .
+
+transport-ontology:AverageSpeed007
+    rdf:type transport-ontology:AverageSpeed, owl:NamedIndividual ;
+    rdfs:label "Середня швидкість 45 км/год"@uk ;
+    transport-ontology:currentSpeed "45.0"^^xsd:double .
+
+transport-ontology:AverageSpeed008
+    rdf:type transport-ontology:AverageSpeed, owl:NamedIndividual ;
+    rdfs:label "Середня швидкість 48 км/год"@uk ;
+    transport-ontology:currentSpeed "48.0"^^xsd:double .
+
+transport-ontology:AverageSpeed009
+    rdf:type transport-ontology:AverageSpeed, owl:NamedIndividual ;
+    rdfs:label "Середня швидкість 53 км/год"@uk ;
+    transport-ontology:currentSpeed "53.0"^^xsd:double .
+
+
+#################################################################
+#    BusStop — 8 instances
+#################################################################
+
+transport-ontology:BusStop002
+    rdf:type transport-ontology:BusStop, owl:NamedIndividual ;
+    rdfs:label "Зупинка Центральна"@uk ;
+    transport-ontology:identifier "BS-002" .
+
+transport-ontology:BusStop003
+    rdf:type transport-ontology:BusStop, owl:NamedIndividual ;
+    rdfs:label "Зупинка Університетська"@uk ;
+    transport-ontology:identifier "BS-003" .
+
+transport-ontology:BusStop004
+    rdf:type transport-ontology:BusStop, owl:NamedIndividual ;
+    rdfs:label "Зупинка Вокзальна"@uk ;
+    transport-ontology:identifier "BS-004" .
+
+transport-ontology:BusStop005
+    rdf:type transport-ontology:BusStop, owl:NamedIndividual ;
+    rdfs:label "Зупинка Північна"@uk ;
+    transport-ontology:identifier "BS-005" .
+
+transport-ontology:BusStop006
+    rdf:type transport-ontology:BusStop, owl:NamedIndividual ;
+    rdfs:label "Зупинка Східна"@uk ;
+    transport-ontology:identifier "BS-006" .
+
+transport-ontology:BusStop007
+    rdf:type transport-ontology:BusStop, owl:NamedIndividual ;
+    rdfs:label "Зупинка Південна"@uk ;
+    transport-ontology:identifier "BS-007" .
+
+transport-ontology:BusStop008
+    rdf:type transport-ontology:BusStop, owl:NamedIndividual ;
+    rdfs:label "Зупинка Західна"@uk ;
+    transport-ontology:identifier "BS-008" .
+
+transport-ontology:BusStop009
+    rdf:type transport-ontology:BusStop, owl:NamedIndividual ;
+    rdfs:label "Зупинка Лікарняна"@uk ;
+    transport-ontology:identifier "BS-009" .
+
+
+#################################################################
+#    Car — 8 instances
+#################################################################
+
+transport-ontology:Car001
+    rdf:type transport-ontology:Car, owl:NamedIndividual ;
+    rdfs:label "Легковий автомобіль A1"@uk ;
+    transport-ontology:identifier "CAR-001" ;
+    transport-ontology:locatedOn transport-ontology:DS001 .
+
+transport-ontology:Car002
+    rdf:type transport-ontology:Car, owl:NamedIndividual ;
+    rdfs:label "Легковий автомобіль A2"@uk ;
+    transport-ontology:identifier "CAR-002" ;
+    transport-ontology:locatedOn transport-ontology:DS001 .
+
+transport-ontology:Car003
+    rdf:type transport-ontology:Car, owl:NamedIndividual ;
+    rdfs:label "Легковий автомобіль A3"@uk ;
+    transport-ontology:identifier "CAR-003" ;
+    transport-ontology:locatedOn transport-ontology:DS001 .
+
+transport-ontology:Car004
+    rdf:type transport-ontology:Car, owl:NamedIndividual ;
+    rdfs:label "Легковий автомобіль A4"@uk ;
+    transport-ontology:identifier "CAR-004" ;
+    transport-ontology:locatedOn transport-ontology:DS001 .
+
+transport-ontology:Car005
+    rdf:type transport-ontology:Car, owl:NamedIndividual ;
+    rdfs:label "Легковий автомобіль A5"@uk ;
+    transport-ontology:identifier "CAR-005" ;
+    transport-ontology:locatedOn transport-ontology:DS001 .
+
+transport-ontology:Car006
+    rdf:type transport-ontology:Car, owl:NamedIndividual ;
+    rdfs:label "Легковий автомобіль A6"@uk ;
+    transport-ontology:identifier "CAR-006" ;
+    transport-ontology:locatedOn transport-ontology:DS001 .
+
+transport-ontology:Car007
+    rdf:type transport-ontology:Car, owl:NamedIndividual ;
+    rdfs:label "Легковий автомобіль A7"@uk ;
+    transport-ontology:identifier "CAR-007" ;
+    transport-ontology:locatedOn transport-ontology:DS001 .
+
+transport-ontology:Car008
+    rdf:type transport-ontology:Car, owl:NamedIndividual ;
+    rdfs:label "Легковий автомобіль A8"@uk ;
+    transport-ontology:identifier "CAR-008" ;
+    transport-ontology:locatedOn transport-ontology:DS001 .
+
+
+#################################################################
+#    CongestionLevel — 8 instances
+#################################################################
+
+transport-ontology:CongestionLevel002
+    rdf:type transport-ontology:CongestionLevel, owl:NamedIndividual ;
+    rdfs:label "Низький рівень завантаженості"@uk ;
+    transport-ontology:description "Незначне використання пропускної здатності дорожньої ділянки." .
+
+transport-ontology:CongestionLevel003
+    rdf:type transport-ontology:CongestionLevel, owl:NamedIndividual ;
+    rdfs:label "Помірний рівень завантаженості"@uk ;
+    transport-ontology:description "Стабільний транспортний потік із помірним навантаженням." .
+
+transport-ontology:CongestionLevel004
+    rdf:type transport-ontology:CongestionLevel, owl:NamedIndividual ;
+    rdfs:label "Значний рівень завантаженості"@uk ;
+    transport-ontology:description "Зростання інтенсивності руху до підвищеного рівня." .
+
+transport-ontology:CongestionLevel005
+    rdf:type transport-ontology:CongestionLevel, owl:NamedIndividual ;
+    rdfs:label "Дуже високий рівень завантаженості"@uk ;
+    transport-ontology:description "Дорожній сегмент працює поблизу межі пропускної здатності." .
+
+transport-ontology:CongestionLevel006
+    rdf:type transport-ontology:CongestionLevel, owl:NamedIndividual ;
+    rdfs:label "Критичне завантаження"@uk ;
+    transport-ontology:description "Інтенсивність руху створює суттєві затримки транспортних засобів." .
+
+transport-ontology:CongestionLevel007
+    rdf:type transport-ontology:CongestionLevel, owl:NamedIndividual ;
+    rdfs:label "Передзаторовий стан"@uk ;
+    transport-ontology:description "Стан перед формуванням стійкого транспортного затору." .
+
+transport-ontology:CongestionLevel008
+    rdf:type transport-ontology:CongestionLevel, owl:NamedIndividual ;
+    rdfs:label "Заторовий стан"@uk ;
+    transport-ontology:description "Стан із суттєвим зниженням пропускної здатності дороги." .
+
+transport-ontology:CongestionLevel009
+    rdf:type transport-ontology:CongestionLevel, owl:NamedIndividual ;
+    rdfs:label "Відновлення після затору"@uk ;
+    transport-ontology:description "Поступове зменшення завантаження після транспортного затору." .
+
+
+#################################################################
+#    GPSMeasurement — 8 instances
+#################################################################
+
+transport-ontology:GPS005
+    rdf:type transport-ontology:GPSMeasurement, owl:NamedIndividual ;
+    rdfs:label "GPS-вимірювання №5"@uk ;
+    transport-ontology:latitude "49.8421"^^xsd:double ;
+    transport-ontology:longitude "24.0185"^^xsd:double ;
+    transport-ontology:measurementTime "2026-09-20T08:15:00"^^xsd:dateTime .
+
+transport-ontology:GPS006
+    rdf:type transport-ontology:GPSMeasurement, owl:NamedIndividual ;
+    rdfs:label "GPS-вимірювання №6"@uk ;
+    transport-ontology:latitude "49.8462"^^xsd:double ;
+    transport-ontology:longitude "24.0321"^^xsd:double ;
+    transport-ontology:measurementTime "2026-09-20T08:30:00"^^xsd:dateTime .
+
+transport-ontology:GPS007
+    rdf:type transport-ontology:GPSMeasurement, owl:NamedIndividual ;
+    rdfs:label "GPS-вимірювання №7"@uk ;
+    transport-ontology:latitude "49.8314"^^xsd:double ;
+    transport-ontology:longitude "24.0418"^^xsd:double ;
+    transport-ontology:measurementTime "2026-09-20T08:45:00"^^xsd:dateTime .
+
+transport-ontology:GPS008
+    rdf:type transport-ontology:GPSMeasurement, owl:NamedIndividual ;
+    rdfs:label "GPS-вимірювання №8"@uk ;
+    transport-ontology:latitude "49.8547"^^xsd:double ;
+    transport-ontology:longitude "24.0119"^^xsd:double ;
+    transport-ontology:measurementTime "2026-09-20T09:00:00"^^xsd:dateTime .
+
+transport-ontology:GPS009
+    rdf:type transport-ontology:GPSMeasurement, owl:NamedIndividual ;
+    rdfs:label "GPS-вимірювання №9"@uk ;
+    transport-ontology:latitude "49.8236"^^xsd:double ;
+    transport-ontology:longitude "24.0552"^^xsd:double ;
+    transport-ontology:measurementTime "2026-09-20T09:15:00"^^xsd:dateTime .
+
+transport-ontology:GPS010
+    rdf:type transport-ontology:GPSMeasurement, owl:NamedIndividual ;
+    rdfs:label "GPS-вимірювання №10"@uk ;
+    transport-ontology:latitude "49.8613"^^xsd:double ;
+    transport-ontology:longitude "24.0264"^^xsd:double ;
+    transport-ontology:measurementTime "2026-09-20T09:30:00"^^xsd:dateTime .
+
+transport-ontology:GPS011
+    rdf:type transport-ontology:GPSMeasurement, owl:NamedIndividual ;
+    rdfs:label "GPS-вимірювання №11"@uk ;
+    transport-ontology:latitude "49.8179"^^xsd:double ;
+    transport-ontology:longitude "24.0376"^^xsd:double ;
+    transport-ontology:measurementTime "2026-09-20T09:45:00"^^xsd:dateTime .
+
+transport-ontology:GPS012
+    rdf:type transport-ontology:GPSMeasurement, owl:NamedIndividual ;
+    rdfs:label "GPS-вимірювання №12"@uk ;
+    transport-ontology:latitude "49.8508"^^xsd:double ;
+    transport-ontology:longitude "24.0631"^^xsd:double ;
+    transport-ontology:measurementTime "2026-09-20T10:00:00"^^xsd:dateTime .
+
+
+#################################################################
+#    Intersection — 8 instances
+#################################################################
+
+transport-ontology:Intersection002
+    rdf:type transport-ontology:Intersection, owl:NamedIndividual ;
+    rdfs:label "Перехрестя №2"@uk ;
+    transport-ontology:identifier "INT-002" .
+
+transport-ontology:Intersection003
+    rdf:type transport-ontology:Intersection, owl:NamedIndividual ;
+    rdfs:label "Перехрестя №3"@uk ;
+    transport-ontology:identifier "INT-003" .
+
+transport-ontology:Intersection004
+    rdf:type transport-ontology:Intersection, owl:NamedIndividual ;
+    rdfs:label "Перехрестя №4"@uk ;
+    transport-ontology:identifier "INT-004" .
+
+transport-ontology:Intersection005
+    rdf:type transport-ontology:Intersection, owl:NamedIndividual ;
+    rdfs:label "Перехрестя №5"@uk ;
+    transport-ontology:identifier "INT-005" .
+
+transport-ontology:Intersection006
+    rdf:type transport-ontology:Intersection, owl:NamedIndividual ;
+    rdfs:label "Перехрестя №6"@uk ;
+    transport-ontology:identifier "INT-006" .
+
+transport-ontology:Intersection007
+    rdf:type transport-ontology:Intersection, owl:NamedIndividual ;
+    rdfs:label "Перехрестя №7"@uk ;
+    transport-ontology:identifier "INT-007" .
+
+transport-ontology:Intersection008
+    rdf:type transport-ontology:Intersection, owl:NamedIndividual ;
+    rdfs:label "Перехрестя №8"@uk ;
+    transport-ontology:identifier "INT-008" .
+
+transport-ontology:Intersection009
+    rdf:type transport-ontology:Intersection, owl:NamedIndividual ;
+    rdfs:label "Перехрестя №9"@uk ;
+    transport-ontology:identifier "INT-009" .
+
+
+#################################################################
+#    PassengerFlow — 8 instances
+#################################################################
+
+transport-ontology:PassengerFlow002
+    rdf:type transport-ontology:PassengerFlow, owl:NamedIndividual ;
+    rdfs:label "Пасажиропотік Центральний"@uk ;
+    transport-ontology:identifier "PF-002" .
+
+transport-ontology:PassengerFlow003
+    rdf:type transport-ontology:PassengerFlow, owl:NamedIndividual ;
+    rdfs:label "Пасажиропотік Університетський"@uk ;
+    transport-ontology:identifier "PF-003" .
+
+transport-ontology:PassengerFlow004
+    rdf:type transport-ontology:PassengerFlow, owl:NamedIndividual ;
+    rdfs:label "Пасажиропотік Вокзальний"@uk ;
+    transport-ontology:identifier "PF-004" .
+
+transport-ontology:PassengerFlow005
+    rdf:type transport-ontology:PassengerFlow, owl:NamedIndividual ;
+    rdfs:label "Пасажиропотік Північний"@uk ;
+    transport-ontology:identifier "PF-005" .
+
+transport-ontology:PassengerFlow006
+    rdf:type transport-ontology:PassengerFlow, owl:NamedIndividual ;
+    rdfs:label "Пасажиропотік Східний"@uk ;
+    transport-ontology:identifier "PF-006" .
+
+transport-ontology:PassengerFlow007
+    rdf:type transport-ontology:PassengerFlow, owl:NamedIndividual ;
+    rdfs:label "Пасажиропотік Південний"@uk ;
+    transport-ontology:identifier "PF-007" .
+
+transport-ontology:PassengerFlow008
+    rdf:type transport-ontology:PassengerFlow, owl:NamedIndividual ;
+    rdfs:label "Пасажиропотік Західний"@uk ;
+    transport-ontology:identifier "PF-008" .
+
+transport-ontology:PassengerFlow009
+    rdf:type transport-ontology:PassengerFlow, owl:NamedIndividual ;
+    rdfs:label "Пасажиропотік Приміський"@uk ;
+    transport-ontology:identifier "PF-009" .
+
+
+#################################################################
+#    PassengerFlowData — 8 instances
+#################################################################
+
+transport-ontology:PassengerFlowData002
+    rdf:type transport-ontology:PassengerFlowData, owl:NamedIndividual ;
+    rdfs:label "Дані пасажиропотоку №2"@uk ;
+    transport-ontology:identifier "PFD-002" ;
+    transport-ontology:passengerCount 184 .
+
+transport-ontology:PassengerFlowData003
+    rdf:type transport-ontology:PassengerFlowData, owl:NamedIndividual ;
+    rdfs:label "Дані пасажиропотоку №3"@uk ;
+    transport-ontology:identifier "PFD-003" ;
+    transport-ontology:passengerCount 237 .
+
+transport-ontology:PassengerFlowData004
+    rdf:type transport-ontology:PassengerFlowData, owl:NamedIndividual ;
+    rdfs:label "Дані пасажиропотоку №4"@uk ;
+    transport-ontology:identifier "PFD-004" ;
+    transport-ontology:passengerCount 319 .
+
+transport-ontology:PassengerFlowData005
+    rdf:type transport-ontology:PassengerFlowData, owl:NamedIndividual ;
+    rdfs:label "Дані пасажиропотоку №5"@uk ;
+    transport-ontology:identifier "PFD-005" ;
+    transport-ontology:passengerCount 421 .
+
+transport-ontology:PassengerFlowData006
+    rdf:type transport-ontology:PassengerFlowData, owl:NamedIndividual ;
+    rdfs:label "Дані пасажиропотоку №6"@uk ;
+    transport-ontology:identifier "PFD-006" ;
+    transport-ontology:passengerCount 156 .
+
+transport-ontology:PassengerFlowData007
+    rdf:type transport-ontology:PassengerFlowData, owl:NamedIndividual ;
+    rdfs:label "Дані пасажиропотоку №7"@uk ;
+    transport-ontology:identifier "PFD-007" ;
+    transport-ontology:passengerCount 278 .
+
+transport-ontology:PassengerFlowData008
+    rdf:type transport-ontology:PassengerFlowData, owl:NamedIndividual ;
+    rdfs:label "Дані пасажиропотоку №8"@uk ;
+    transport-ontology:identifier "PFD-008" ;
+    transport-ontology:passengerCount 365 .
+
+transport-ontology:PassengerFlowData009
+    rdf:type transport-ontology:PassengerFlowData, owl:NamedIndividual ;
+    rdfs:label "Дані пасажиропотоку №9"@uk ;
+    transport-ontology:identifier "PFD-009" ;
+    transport-ontology:passengerCount 492 .
+
+
+#################################################################
+#    RoadClosure — 8 instances
+#################################################################
+
+transport-ontology:RoadClosure002
+    rdf:type transport-ontology:RoadClosure, owl:NamedIndividual ;
+    rdfs:label "Перекриття дороги №2"@uk ;
+    transport-ontology:identifier "RC-002" ;
+    transport-ontology:description "Тимчасове перекриття через дорожню аварію." .
+
+transport-ontology:RoadClosure003
+    rdf:type transport-ontology:RoadClosure, owl:NamedIndividual ;
+    rdfs:label "Перекриття дороги №3"@uk ;
+    transport-ontology:identifier "RC-003" ;
+    transport-ontology:description "Перекриття крайньої правої смуги." .
+
+transport-ontology:RoadClosure004
+    rdf:type transport-ontology:RoadClosure, owl:NamedIndividual ;
+    rdfs:label "Перекриття дороги №4"@uk ;
+    transport-ontology:identifier "RC-004" ;
+    transport-ontology:description "Тимчасове обмеження проїзду через ремонт." .
+
+transport-ontology:RoadClosure005
+    rdf:type transport-ontology:RoadClosure, owl:NamedIndividual ;
+    rdfs:label "Перекриття дороги №5"@uk ;
+    transport-ontology:identifier "RC-005" ;
+    transport-ontology:description "Закриття дорожньої ділянки для проведення робіт." .
+
+transport-ontology:RoadClosure006
+    rdf:type transport-ontology:RoadClosure, owl:NamedIndividual ;
+    rdfs:label "Перекриття дороги №6"@uk ;
+    transport-ontology:identifier "RC-006" ;
+    transport-ontology:description "Тимчасова заборона руху через несправність інфраструктури." .
+
+transport-ontology:RoadClosure007
+    rdf:type transport-ontology:RoadClosure, owl:NamedIndividual ;
+    rdfs:label "Перекриття дороги №7"@uk ;
+    transport-ontology:identifier "RC-007" ;
+    transport-ontology:description "Обмеження руху на період проведення спеціальних робіт." .
+
+transport-ontology:RoadClosure008
+    rdf:type transport-ontology:RoadClosure, owl:NamedIndividual ;
+    rdfs:label "Перекриття дороги №8"@uk ;
+    transport-ontology:identifier "RC-008" ;
+    transport-ontology:description "Повне тимчасове перекриття транспортного напрямку." .
+
+transport-ontology:RoadClosure009
+    rdf:type transport-ontology:RoadClosure, owl:NamedIndividual ;
+    rdfs:label "Перекриття дороги №9"@uk ;
+    transport-ontology:identifier "RC-009" ;
+    transport-ontology:description "Обмеження руху на одній із міських магістралей." .
+
+
+#################################################################
+#    RoadNetwork — 8 instances
+#################################################################
+
+transport-ontology:RoadNetwork002
+    rdf:type transport-ontology:RoadNetwork, owl:NamedIndividual ;
+    rdfs:label "Дорожня мережа №2"@uk ;
+    transport-ontology:identifier "RN-002" .
+
+transport-ontology:RoadNetwork003
+    rdf:type transport-ontology:RoadNetwork, owl:NamedIndividual ;
+    rdfs:label "Дорожня мережа №3"@uk ;
+    transport-ontology:identifier "RN-003" .
+
+transport-ontology:RoadNetwork004
+    rdf:type transport-ontology:RoadNetwork, owl:NamedIndividual ;
+    rdfs:label "Дорожня мережа №4"@uk ;
+    transport-ontology:identifier "RN-004" .
+
+transport-ontology:RoadNetwork005
+    rdf:type transport-ontology:RoadNetwork, owl:NamedIndividual ;
+    rdfs:label "Дорожня мережа №5"@uk ;
+    transport-ontology:identifier "RN-005" .
+
+transport-ontology:RoadNetwork006
+    rdf:type transport-ontology:RoadNetwork, owl:NamedIndividual ;
+    rdfs:label "Дорожня мережа №6"@uk ;
+    transport-ontology:identifier "RN-006" .
+
+transport-ontology:RoadNetwork007
+    rdf:type transport-ontology:RoadNetwork, owl:NamedIndividual ;
+    rdfs:label "Дорожня мережа №7"@uk ;
+    transport-ontology:identifier "RN-007" .
+
+transport-ontology:RoadNetwork008
+    rdf:type transport-ontology:RoadNetwork, owl:NamedIndividual ;
+    rdfs:label "Дорожня мережа №8"@uk ;
+    transport-ontology:identifier "RN-008" .
+
+transport-ontology:RoadNetwork009
+    rdf:type transport-ontology:RoadNetwork, owl:NamedIndividual ;
+    rdfs:label "Дорожня мережа №9"@uk ;
+    transport-ontology:identifier "RN-009" .
+
+
+#################################################################
+#    RoadSegment — 8 instances
+#################################################################
+
+transport-ontology:DS002
+    rdf:type transport-ontology:RoadSegment, owl:NamedIndividual ;
+    rdfs:label "Дорожній сегмент DS-002"@uk ;
+    transport-ontology:identifier "DS-002" ;
+    transport-ontology:length "620.0"^^xsd:double ;
+    transport-ontology:laneCount 2 ;
+    transport-ontology:allowedSpeed "40.0"^^xsd:double ;
+    transport-ontology:currentSpeed "29.0"^^xsd:double .
+
+transport-ontology:DS003
+    rdf:type transport-ontology:RoadSegment, owl:NamedIndividual ;
+    rdfs:label "Дорожній сегмент DS-003"@uk ;
+    transport-ontology:identifier "DS-003" ;
+    transport-ontology:length "1140.0"^^xsd:double ;
+    transport-ontology:laneCount 3 ;
+    transport-ontology:allowedSpeed "60.0"^^xsd:double ;
+    transport-ontology:currentSpeed "43.0"^^xsd:double .
+
+transport-ontology:DS004
+    rdf:type transport-ontology:RoadSegment, owl:NamedIndividual ;
+    rdfs:label "Дорожній сегмент DS-004"@uk ;
+    transport-ontology:identifier "DS-004" ;
+    transport-ontology:length "430.0"^^xsd:double ;
+    transport-ontology:laneCount 1 ;
+    transport-ontology:allowedSpeed "30.0"^^xsd:double ;
+    transport-ontology:currentSpeed "21.0"^^xsd:double .
+
+transport-ontology:DS005
+    rdf:type transport-ontology:RoadSegment, owl:NamedIndividual ;
+    rdfs:label "Дорожній сегмент DS-005"@uk ;
+    transport-ontology:identifier "DS-005" ;
+    transport-ontology:length "970.0"^^xsd:double ;
+    transport-ontology:laneCount 4 ;
+    transport-ontology:allowedSpeed "70.0"^^xsd:double ;
+    transport-ontology:currentSpeed "55.0"^^xsd:double .
+
+transport-ontology:DS006
+    rdf:type transport-ontology:RoadSegment, owl:NamedIndividual ;
+    rdfs:label "Дорожній сегмент DS-006"@uk ;
+    transport-ontology:identifier "DS-006" ;
+    transport-ontology:length "315.0"^^xsd:double ;
+    transport-ontology:laneCount 2 ;
+    transport-ontology:allowedSpeed "40.0"^^xsd:double ;
+    transport-ontology:currentSpeed "34.0"^^xsd:double .
+
+transport-ontology:DS007
+    rdf:type transport-ontology:RoadSegment, owl:NamedIndividual ;
+    rdfs:label "Дорожній сегмент DS-007"@uk ;
+    transport-ontology:identifier "DS-007" ;
+    transport-ontology:length "1280.0"^^xsd:double ;
+    transport-ontology:laneCount 3 ;
+    transport-ontology:allowedSpeed "50.0"^^xsd:double ;
+    transport-ontology:currentSpeed "26.0"^^xsd:double .
+
+transport-ontology:DS008
+    rdf:type transport-ontology:RoadSegment, owl:NamedIndividual ;
+    rdfs:label "Дорожній сегмент DS-008"@uk ;
+    transport-ontology:identifier "DS-008" ;
+    transport-ontology:length "760.0"^^xsd:double ;
+    transport-ontology:laneCount 2 ;
+    transport-ontology:allowedSpeed "50.0"^^xsd:double ;
+    transport-ontology:currentSpeed "39.0"^^xsd:double .
+
+transport-ontology:DS009
+    rdf:type transport-ontology:RoadSegment, owl:NamedIndividual ;
+    rdfs:label "Дорожній сегмент DS-009"@uk ;
+    transport-ontology:identifier "DS-009" ;
+    transport-ontology:length "1540.0"^^xsd:double ;
+    transport-ontology:laneCount 4 ;
+    transport-ontology:allowedSpeed "80.0"^^xsd:double ;
+    transport-ontology:currentSpeed "61.0"^^xsd:double .
+
+
+#################################################################
+#    RoadWorks — 8 instances
+#################################################################
+
+transport-ontology:RoadWorks002
+    rdf:type transport-ontology:RoadWorks, owl:NamedIndividual ;
+    rdfs:label "Дорожні роботи №2"@uk ;
+    transport-ontology:identifier "RW-002" ;
+    transport-ontology:description "Ремонт дорожнього покриття на окремій ділянці." .
+
+transport-ontology:RoadWorks003
+    rdf:type transport-ontology:RoadWorks, owl:NamedIndividual ;
+    rdfs:label "Дорожні роботи №3"@uk ;
+    transport-ontology:identifier "RW-003" ;
+    transport-ontology:description "Відновлення дорожньої розмітки." .
+
+transport-ontology:RoadWorks004
+    rdf:type transport-ontology:RoadWorks, owl:NamedIndividual ;
+    rdfs:label "Дорожні роботи №4"@uk ;
+    transport-ontology:identifier "RW-004" ;
+    transport-ontology:description "Заміна пошкодженого покриття." .
+
+transport-ontology:RoadWorks005
+    rdf:type transport-ontology:RoadWorks, owl:NamedIndividual ;
+    rdfs:label "Дорожні роботи №5"@uk ;
+    transport-ontology:identifier "RW-005" ;
+    transport-ontology:description "Ремонт тротуарної частини біля дороги." .
+
+transport-ontology:RoadWorks006
+    rdf:type transport-ontology:RoadWorks, owl:NamedIndividual ;
+    rdfs:label "Дорожні роботи №6"@uk ;
+    transport-ontology:identifier "RW-006" ;
+    transport-ontology:description "Облаштування нового дорожнього покриття." .
+
+transport-ontology:RoadWorks007
+    rdf:type transport-ontology:RoadWorks, owl:NamedIndividual ;
+    rdfs:label "Дорожні роботи №7"@uk ;
+    transport-ontology:identifier "RW-007" ;
+    transport-ontology:description "Технічне обслуговування дорожньої інфраструктури." .
+
+transport-ontology:RoadWorks008
+    rdf:type transport-ontology:RoadWorks, owl:NamedIndividual ;
+    rdfs:label "Дорожні роботи №8"@uk ;
+    transport-ontology:identifier "RW-008" ;
+    transport-ontology:description "Реконструкція частини транспортного вузла." .
+
+transport-ontology:RoadWorks009
+    rdf:type transport-ontology:RoadWorks, owl:NamedIndividual ;
+    rdfs:label "Дорожні роботи №9"@uk ;
+    transport-ontology:identifier "RW-009" ;
+    transport-ontology:description "Монтаж нового елемента дорожньої інфраструктури." .
+
+
+#################################################################
+#    Route — 8 instances
+#################################################################
+
+transport-ontology:Route6
+    rdf:type transport-ontology:Route, owl:NamedIndividual ;
+    rdfs:label "Маршрут №6"@uk ;
+    transport-ontology:identifier "R-6" ;
+    transport-ontology:routeNumber "6" .
+
+transport-ontology:Route11
+    rdf:type transport-ontology:Route, owl:NamedIndividual ;
+    rdfs:label "Маршрут №11"@uk ;
+    transport-ontology:identifier "R-11" ;
+    transport-ontology:routeNumber "11" .
+
+transport-ontology:Route18
+    rdf:type transport-ontology:Route, owl:NamedIndividual ;
+    rdfs:label "Маршрут №18"@uk ;
+    transport-ontology:identifier "R-18" ;
+    transport-ontology:routeNumber "18" .
+
+transport-ontology:Route27
+    rdf:type transport-ontology:Route, owl:NamedIndividual ;
+    rdfs:label "Маршрут №27"@uk ;
+    transport-ontology:identifier "R-27" ;
+    transport-ontology:routeNumber "27" .
+
+transport-ontology:Route31
+    rdf:type transport-ontology:Route, owl:NamedIndividual ;
+    rdfs:label "Маршрут №31"@uk ;
+    transport-ontology:identifier "R-31" ;
+    transport-ontology:routeNumber "31" .
+
+transport-ontology:Route42
+    rdf:type transport-ontology:Route, owl:NamedIndividual ;
+    rdfs:label "Маршрут №42"@uk ;
+    transport-ontology:identifier "R-42" ;
+    transport-ontology:routeNumber "42" .
+
+transport-ontology:Route48
+    rdf:type transport-ontology:Route, owl:NamedIndividual ;
+    rdfs:label "Маршрут №48"@uk ;
+    transport-ontology:identifier "R-48" ;
+    transport-ontology:routeNumber "48" .
+
+transport-ontology:Route53
+    rdf:type transport-ontology:Route, owl:NamedIndividual ;
+    rdfs:label "Маршрут №53"@uk ;
+    transport-ontology:identifier "R-53" ;
+    transport-ontology:routeNumber "53" .
+
+
+#################################################################
+#    RouteChange — 8 instances
+#################################################################
+
+transport-ontology:RouteChange002
+    rdf:type transport-ontology:RouteChange, owl:NamedIndividual ;
+    rdfs:label "Зміна маршруту №2"@uk ;
+    transport-ontology:identifier "RCG-002" ;
+    transport-ontology:description "Перенаправлення транспортного засобу через альтернативну вулицю." .
+
+transport-ontology:RouteChange003
+    rdf:type transport-ontology:RouteChange, owl:NamedIndividual ;
+    rdfs:label "Зміна маршруту №3"@uk ;
+    transport-ontology:identifier "RCG-003" ;
+    transport-ontology:description "Тимчасова зміна напрямку руху автобусного маршруту." .
+
+transport-ontology:RouteChange004
+    rdf:type transport-ontology:RouteChange, owl:NamedIndividual ;
+    rdfs:label "Зміна маршруту №4"@uk ;
+    transport-ontology:identifier "RCG-004" ;
+    transport-ontology:description "Коригування маршруту через дорожні роботи." .
+
+transport-ontology:RouteChange005
+    rdf:type transport-ontology:RouteChange, owl:NamedIndividual ;
+    rdfs:label "Зміна маршруту №5"@uk ;
+    transport-ontology:identifier "RCG-005" ;
+    transport-ontology:description "Перехід на резервний транспортний напрямок." .
+
+transport-ontology:RouteChange006
+    rdf:type transport-ontology:RouteChange, owl:NamedIndividual ;
+    rdfs:label "Зміна маршруту №6"@uk ;
+    transport-ontology:identifier "RCG-006" ;
+    transport-ontology:description "Зміна траєкторії руху через обмеження на дорозі." .
+
+transport-ontology:RouteChange007
+    rdf:type transport-ontology:RouteChange, owl:NamedIndividual ;
+    rdfs:label "Зміна маршруту №7"@uk ;
+    transport-ontology:identifier "RCG-007" ;
+    transport-ontology:description "Оптимізація маршруту для обходу перевантаженої ділянки." .
+
+transport-ontology:RouteChange008
+    rdf:type transport-ontology:RouteChange, owl:NamedIndividual ;
+    rdfs:label "Зміна маршруту №8"@uk ;
+    transport-ontology:identifier "RCG-008" ;
+    transport-ontology:description "Тимчасове перенаправлення пасажирського маршруту." .
+
+transport-ontology:RouteChange009
+    rdf:type transport-ontology:RouteChange, owl:NamedIndividual ;
+    rdfs:label "Зміна маршруту №9"@uk ;
+    transport-ontology:identifier "RCG-009" ;
+    transport-ontology:description "Коригування маршруту для зменшення затримки руху." .
+
+
+#################################################################
+#    SpeedData — 8 instances
+#################################################################
+
+transport-ontology:SpeedData005
+    rdf:type transport-ontology:SpeedData, owl:NamedIndividual ;
+    rdfs:label "Дані про швидкість №5"@uk ;
+    transport-ontology:identifier "SPD-005" ;
+    transport-ontology:currentSpeed "16.5"^^xsd:double .
+
+transport-ontology:SpeedData006
+    rdf:type transport-ontology:SpeedData, owl:NamedIndividual ;
+    rdfs:label "Дані про швидкість №6"@uk ;
+    transport-ontology:identifier "SPD-006" ;
+    transport-ontology:currentSpeed "23.4"^^xsd:double .
+
+transport-ontology:SpeedData007
+    rdf:type transport-ontology:SpeedData, owl:NamedIndividual ;
+    rdfs:label "Дані про швидкість №7"@uk ;
+    transport-ontology:identifier "SPD-007" ;
+    transport-ontology:currentSpeed "28.7"^^xsd:double .
+
+transport-ontology:SpeedData008
+    rdf:type transport-ontology:SpeedData, owl:NamedIndividual ;
+    rdfs:label "Дані про швидкість №8"@uk ;
+    transport-ontology:identifier "SPD-008" ;
+    transport-ontology:currentSpeed "32.1"^^xsd:double .
+
+transport-ontology:SpeedData009
+    rdf:type transport-ontology:SpeedData, owl:NamedIndividual ;
+    rdfs:label "Дані про швидкість №9"@uk ;
+    transport-ontology:identifier "SPD-009" ;
+    transport-ontology:currentSpeed "37.8"^^xsd:double .
+
+transport-ontology:SpeedData010
+    rdf:type transport-ontology:SpeedData, owl:NamedIndividual ;
+    rdfs:label "Дані про швидкість №10"@uk ;
+    transport-ontology:identifier "SPD-010" ;
+    transport-ontology:currentSpeed "42.6"^^xsd:double .
+
+transport-ontology:SpeedData011
+    rdf:type transport-ontology:SpeedData, owl:NamedIndividual ;
+    rdfs:label "Дані про швидкість №11"@uk ;
+    transport-ontology:identifier "SPD-011" ;
+    transport-ontology:currentSpeed "47.3"^^xsd:double .
+
+transport-ontology:SpeedData012
+    rdf:type transport-ontology:SpeedData, owl:NamedIndividual ;
+    rdfs:label "Дані про швидкість №12"@uk ;
+    transport-ontology:identifier "SPD-012" ;
+    transport-ontology:currentSpeed "51.9"^^xsd:double .
+
+
+#################################################################
+#    SpeedSensor — 8 instances
+#################################################################
+
+transport-ontology:SpeedSensor002
+    rdf:type transport-ontology:SpeedSensor, owl:NamedIndividual ;
+    rdfs:label "Датчик швидкості №2"@uk ;
+    transport-ontology:identifier "SS-002" .
+
+transport-ontology:SpeedSensor003
+    rdf:type transport-ontology:SpeedSensor, owl:NamedIndividual ;
+    rdfs:label "Датчик швидкості №3"@uk ;
+    transport-ontology:identifier "SS-003" .
+
+transport-ontology:SpeedSensor004
+    rdf:type transport-ontology:SpeedSensor, owl:NamedIndividual ;
+    rdfs:label "Датчик швидкості №4"@uk ;
+    transport-ontology:identifier "SS-004" .
+
+transport-ontology:SpeedSensor005
+    rdf:type transport-ontology:SpeedSensor, owl:NamedIndividual ;
+    rdfs:label "Датчик швидкості №5"@uk ;
+    transport-ontology:identifier "SS-005" .
+
+transport-ontology:SpeedSensor006
+    rdf:type transport-ontology:SpeedSensor, owl:NamedIndividual ;
+    rdfs:label "Датчик швидкості №6"@uk ;
+    transport-ontology:identifier "SS-006" .
+
+transport-ontology:SpeedSensor007
+    rdf:type transport-ontology:SpeedSensor, owl:NamedIndividual ;
+    rdfs:label "Датчик швидкості №7"@uk ;
+    transport-ontology:identifier "SS-007" .
+
+transport-ontology:SpeedSensor008
+    rdf:type transport-ontology:SpeedSensor, owl:NamedIndividual ;
+    rdfs:label "Датчик швидкості №8"@uk ;
+    transport-ontology:identifier "SS-008" .
+
+transport-ontology:SpeedSensor009
+    rdf:type transport-ontology:SpeedSensor, owl:NamedIndividual ;
+    rdfs:label "Датчик швидкості №9"@uk ;
+    transport-ontology:identifier "SS-009" .
+
+
+#################################################################
+#    SystemStateInformation subclasses:
+#    TrafficAccident — 8 instances
+#################################################################
+
+transport-ontology:Accident002
+    rdf:type transport-ontology:TrafficAccident, owl:NamedIndividual ;
+    rdfs:label "ДТП №2"@uk ;
+    transport-ontology:identifier "ACC-002" ;
+    transport-ontology:description "Зіткнення двох легкових автомобілів на міській дорозі." .
+
+transport-ontology:Accident003
+    rdf:type transport-ontology:TrafficAccident, owl:NamedIndividual ;
+    rdfs:label "ДТП №3"@uk ;
+    transport-ontology:identifier "ACC-003" ;
+    transport-ontology:description "Аварійна подія біля регульованого перехрестя." .
+
+transport-ontology:Accident004
+    rdf:type transport-ontology:TrafficAccident, owl:NamedIndividual ;
+    rdfs:label "ДТП №4"@uk ;
+    transport-ontology:identifier "ACC-004" ;
+    transport-ontology:description "Дорожньо-транспортна пригода за участю громадського транспорту." .
+
+transport-ontology:Accident005
+    rdf:type transport-ontology:TrafficAccident, owl:NamedIndividual ;
+    rdfs:label "ДТП №5"@uk ;
+    transport-ontology:identifier "ACC-005" ;
+    transport-ontology:description "Зіткнення транспортних засобів на перехресті." .
+
+transport-ontology:Accident006
+    rdf:type transport-ontology:TrafficAccident, owl:NamedIndividual ;
+    rdfs:label "ДТП №6"@uk ;
+    transport-ontology:identifier "ACC-006" ;
+    transport-ontology:description "Аварійна ситуація з частковим блокуванням дорожньої смуги." .
+
+transport-ontology:Accident007
+    rdf:type transport-ontology:TrafficAccident, owl:NamedIndividual ;
+    rdfs:label "ДТП №7"@uk ;
+    transport-ontology:identifier "ACC-007" ;
+    transport-ontology:description "Дорожня аварія під час інтенсивного транспортного руху." .
+
+transport-ontology:Accident008
+    rdf:type transport-ontology:TrafficAccident, owl:NamedIndividual ;
+    rdfs:label "ДТП №8"@uk ;
+    transport-ontology:identifier "ACC-008" ;
+    transport-ontology:description "Аварійна подія на міській магістралі." .
+
+transport-ontology:Accident009
+    rdf:type transport-ontology:TrafficAccident, owl:NamedIndividual ;
+    rdfs:label "ДТП №9"@uk ;
+    transport-ontology:identifier "ACC-009" ;
+    transport-ontology:description "Дорожньо-транспортна пригода з тимчасовим обмеженням руху." .
+
+
+#################################################################
+#    TrafficFlow — 8 instances
+#################################################################
+
+transport-ontology:TrafficFlow002
+    rdf:type transport-ontology:TrafficFlow, owl:NamedIndividual ;
+    rdfs:label "Транспортний потік №2"@uk ;
+    transport-ontology:characterizes transport-ontology:DS002 .
+
+transport-ontology:TrafficFlow003
+    rdf:type transport-ontology:TrafficFlow, owl:NamedIndividual ;
+    rdfs:label "Транспортний потік №3"@uk ;
+    transport-ontology:characterizes transport-ontology:DS003 .
+
+transport-ontology:TrafficFlow004
+    rdf:type transport-ontology:TrafficFlow, owl:NamedIndividual ;
+    rdfs:label "Транспортний потік №4"@uk ;
+    transport-ontology:characterizes transport-ontology:DS004 .
+
+transport-ontology:TrafficFlow005
+    rdf:type transport-ontology:TrafficFlow, owl:NamedIndividual ;
+    rdfs:label "Транспортний потік №5"@uk ;
+    transport-ontology:characterizes transport-ontology:DS005 .
+
+transport-ontology:TrafficFlow006
+    rdf:type transport-ontology:TrafficFlow, owl:NamedIndividual ;
+    rdfs:label "Транспортний потік №6"@uk ;
+    transport-ontology:characterizes transport-ontology:DS006 .
+
+transport-ontology:TrafficFlow007
+    rdf:type transport-ontology:TrafficFlow, owl:NamedIndividual ;
+    rdfs:label "Транспортний потік №7"@uk ;
+    transport-ontology:characterizes transport-ontology:DS007 .
+
+transport-ontology:TrafficFlow008
+    rdf:type transport-ontology:TrafficFlow, owl:NamedIndividual ;
+    rdfs:label "Транспортний потік №8"@uk ;
+    transport-ontology:characterizes transport-ontology:DS008 .
+
+transport-ontology:TrafficFlow009
+    rdf:type transport-ontology:TrafficFlow, owl:NamedIndividual ;
+    rdfs:label "Транспортний потік №9"@uk ;
+    transport-ontology:characterizes transport-ontology:DS009 .
+
+
+#################################################################
+#    TrafficLight — 8 instances
+#################################################################
+
+transport-ontology:TrafficLight002
+    rdf:type transport-ontology:TrafficLight, owl:NamedIndividual ;
+    rdfs:label "Світлофор №2"@uk ;
+    transport-ontology:identifier "TL-002" .
+
+transport-ontology:TrafficLight003
+    rdf:type transport-ontology:TrafficLight, owl:NamedIndividual ;
+    rdfs:label "Світлофор №3"@uk ;
+    transport-ontology:identifier "TL-003" .
+
+transport-ontology:TrafficLight004
+    rdf:type transport-ontology:TrafficLight, owl:NamedIndividual ;
+    rdfs:label "Світлофор №4"@uk ;
+    transport-ontology:identifier "TL-004" .
+
+transport-ontology:TrafficLight005
+    rdf:type transport-ontology:TrafficLight, owl:NamedIndividual ;
+    rdfs:label "Світлофор №5"@uk ;
+    transport-ontology:identifier "TL-005" .
+
+transport-ontology:TrafficLight006
+    rdf:type transport-ontology:TrafficLight, owl:NamedIndividual ;
+    rdfs:label "Світлофор №6"@uk ;
+    transport-ontology:identifier "TL-006" .
+
+transport-ontology:TrafficLight007
+    rdf:type transport-ontology:TrafficLight, owl:NamedIndividual ;
+    rdfs:label "Світлофор №7"@uk ;
+    transport-ontology:identifier "TL-007" .
+
+transport-ontology:TrafficLight008
+    rdf:type transport-ontology:TrafficLight, owl:NamedIndividual ;
+    rdfs:label "Світлофор №8"@uk ;
+    transport-ontology:identifier "TL-008" .
+
+transport-ontology:TrafficLight009
+    rdf:type transport-ontology:TrafficLight, owl:NamedIndividual ;
+    rdfs:label "Світлофор №9"@uk ;
+    transport-ontology:identifier "TL-009" .
+
+
+#################################################################
+#    TrafficRegulation — 8 instances
+#################################################################
+
+transport-ontology:TrafficRegulation002
+    rdf:type transport-ontology:TrafficRegulation, owl:NamedIndividual ;
+    rdfs:label "Регулювання руху №2"@uk ;
+    transport-ontology:identifier "REG-002" ;
+    transport-ontology:description "Зміна режиму регулювання транспортного потоку." .
+
+transport-ontology:TrafficRegulation003
+    rdf:type transport-ontology:TrafficRegulation, owl:NamedIndividual ;
+    rdfs:label "Регулювання руху №3"@uk ;
+    transport-ontology:identifier "REG-003" ;
+    transport-ontology:description "Адаптивне регулювання світлофорного об'єкта." .
+
+transport-ontology:TrafficRegulation004
+    rdf:type transport-ontology:TrafficRegulation, owl:NamedIndividual ;
+    rdfs:label "Регулювання руху №4"@uk ;
+    transport-ontology:identifier "REG-004" ;
+    transport-ontology:description "Керування пріоритетом транспортного напрямку." .
+
+transport-ontology:TrafficRegulation005
+    rdf:type transport-ontology:TrafficRegulation, owl:NamedIndividual ;
+    rdfs:label "Регулювання руху №5"@uk ;
+    transport-ontology:identifier "REG-005" ;
+    transport-ontology:description "Зміна тривалості сигналів світлофора." .
+
+transport-ontology:TrafficRegulation006
+    rdf:type transport-ontology:TrafficRegulation, owl:NamedIndividual ;
+    rdfs:label "Регулювання руху №6"@uk ;
+    transport-ontology:identifier "REG-006" ;
+    transport-ontology:description "Тимчасова організація руху на перехресті." .
+
+transport-ontology:TrafficRegulation007
+    rdf:type transport-ontology:TrafficRegulation, owl:NamedIndividual ;
+    rdfs:label "Регулювання руху №7"@uk ;
+    transport-ontology:identifier "REG-007" ;
+    transport-ontology:description "Застосування нового режиму пропуску транспортних засобів." .
+
+transport-ontology:TrafficRegulation008
+    rdf:type transport-ontology:TrafficRegulation, owl:NamedIndividual ;
+    rdfs:label "Регулювання руху №8"@uk ;
+    transport-ontology:identifier "REG-008" ;
+    transport-ontology:description "Координація роботи сусідніх світлофорних об'єктів." .
+
+transport-ontology:TrafficRegulation009
+    rdf:type transport-ontology:TrafficRegulation, owl:NamedIndividual ;
+    rdfs:label "Регулювання руху №9"@uk ;
+    transport-ontology:identifier "REG-009" ;
+    transport-ontology:description "Оптимізація транспортного регулювання на магістралі." .
+
+
+#################################################################
+#    TrafficRestriction — 8 instances
+#################################################################
+
+transport-ontology:TrafficRestriction002
+    rdf:type transport-ontology:TrafficRestriction, owl:NamedIndividual ;
+    rdfs:label "Обмеження руху №2"@uk ;
+    transport-ontology:identifier "TR-002" ;
+    transport-ontology:description "Обмеження руху вантажного транспорту." .
+
+transport-ontology:TrafficRestriction003
+    rdf:type transport-ontology:TrafficRestriction, owl:NamedIndividual ;
+    rdfs:label "Обмеження руху №3"@uk ;
+    transport-ontology:identifier "TR-003" ;
+    transport-ontology:description "Обмеження проїзду в окремій смузі." .
+
+transport-ontology:TrafficRestriction004
+    rdf:type transport-ontology:TrafficRestriction, owl:NamedIndividual ;
+    rdfs:label "Обмеження руху №4"@uk ;
+    transport-ontology:identifier "TR-004" ;
+    transport-ontology:description "Тимчасова заборона проїзду через дорожні роботи." .
+
+transport-ontology:TrafficRestriction005
+    rdf:type transport-ontology:TrafficRestriction, owl:NamedIndividual ;
+    rdfs:label "Обмеження руху №5"@uk ;
+    transport-ontology:identifier "TR-005" ;
+    transport-ontology:description "Обмеження швидкості на ремонтній ділянці." .
+
+transport-ontology:TrafficRestriction006
+    rdf:type transport-ontology:TrafficRestriction, owl:NamedIndividual ;
+    rdfs:label "Обмеження руху №6"@uk ;
+    transport-ontology:identifier "TR-006" ;
+    transport-ontology:description "Заборона руху в одному напрямку." .
+
+transport-ontology:TrafficRestriction007
+    rdf:type transport-ontology:TrafficRestriction, owl:NamedIndividual ;
+    rdfs:label "Обмеження руху №7"@uk ;
+    transport-ontology:identifier "TR-007" ;
+    transport-ontology:description "Тимчасове обмеження доступу до транспортного вузла." .
+
+transport-ontology:TrafficRestriction008
+    rdf:type transport-ontology:TrafficRestriction, owl:NamedIndividual ;
+    rdfs:label "Обмеження руху №8"@uk ;
+    transport-ontology:identifier "TR-008" ;
+    transport-ontology:description "Обмеження руху через підвищене навантаження." .
+
+transport-ontology:TrafficRestriction009
+    rdf:type transport-ontology:TrafficRestriction, owl:NamedIndividual ;
+    rdfs:label "Обмеження руху №9"@uk ;
+    transport-ontology:identifier "TR-009" ;
+    transport-ontology:description "Регламентоване обмеження проїзду на міській вулиці." .
+
+
+#################################################################
+#    TrafficSensor — 8 instances
+#################################################################
+
+transport-ontology:TrafficSensor002
+    rdf:type transport-ontology:TrafficSensor, owl:NamedIndividual ;
+    rdfs:label "Датчик трафіку №2"@uk ;
+    transport-ontology:identifier "TS-002" .
+
+transport-ontology:TrafficSensor003
+    rdf:type transport-ontology:TrafficSensor, owl:NamedIndividual ;
+    rdfs:label "Датчик трафіку №3"@uk ;
+    transport-ontology:identifier "TS-003" .
+
+transport-ontology:TrafficSensor004
+    rdf:type transport-ontology:TrafficSensor, owl:NamedIndividual ;
+    rdfs:label "Датчик трафіку №4"@uk ;
+    transport-ontology:identifier "TS-004" .
+
+transport-ontology:TrafficSensor005
+    rdf:type transport-ontology:TrafficSensor, owl:NamedIndividual ;
+    rdfs:label "Датчик трафіку №5"@uk ;
+    transport-ontology:identifier "TS-005" .
+
+transport-ontology:TrafficSensor006
+    rdf:type transport-ontology:TrafficSensor, owl:NamedIndividual ;
+    rdfs:label "Датчик трафіку №6"@uk ;
+    transport-ontology:identifier "TS-006" .
+
+transport-ontology:TrafficSensor007
+    rdf:type transport-ontology:TrafficSensor, owl:NamedIndividual ;
+    rdfs:label "Датчик трафіку №7"@uk ;
+    transport-ontology:identifier "TS-007" .
+
+transport-ontology:TrafficSensor008
+    rdf:type transport-ontology:TrafficSensor, owl:NamedIndividual ;
+    rdfs:label "Датчик трафіку №8"@uk ;
+    transport-ontology:identifier "TS-008" .
+
+transport-ontology:TrafficSensor009
+    rdf:type transport-ontology:TrafficSensor, owl:NamedIndividual ;
+    rdfs:label "Датчик трафіку №9"@uk ;
+    transport-ontology:identifier "TS-009" .
+
+
+#################################################################
+#    Vehicle — 8 instances
+#################################################################
+
+transport-ontology:Vehicle002
+    rdf:type transport-ontology:Vehicle, owl:NamedIndividual ;
+    rdfs:label "Транспортний засіб V-002"@uk ;
+    transport-ontology:identifier "VEH-002" .
+
+transport-ontology:Vehicle003
+    rdf:type transport-ontology:Vehicle, owl:NamedIndividual ;
+    rdfs:label "Транспортний засіб V-003"@uk ;
+    transport-ontology:identifier "VEH-003" .
+
+transport-ontology:Vehicle004
+    rdf:type transport-ontology:Vehicle, owl:NamedIndividual ;
+    rdfs:label "Транспортний засіб V-004"@uk ;
+    transport-ontology:identifier "VEH-004" .
+
+transport-ontology:Vehicle005
+    rdf:type transport-ontology:Vehicle, owl:NamedIndividual ;
+    rdfs:label "Транспортний засіб V-005"@uk ;
+    transport-ontology:identifier "VEH-005" .
+
+transport-ontology:Vehicle006
+    rdf:type transport-ontology:Vehicle, owl:NamedIndividual ;
+    rdfs:label "Транспортний засіб V-006"@uk ;
+    transport-ontology:identifier "VEH-006" .
+
+transport-ontology:Vehicle007
+    rdf:type transport-ontology:Vehicle, owl:NamedIndividual ;
+    rdfs:label "Транспортний засіб V-007"@uk ;
+    transport-ontology:identifier "VEH-007" .
+
+transport-ontology:Vehicle008
+    rdf:type transport-ontology:Vehicle, owl:NamedIndividual ;
+    rdfs:label "Транспортний засіб V-008"@uk ;
+    transport-ontology:identifier "VEH-008" .
+
+transport-ontology:Vehicle009
+    rdf:type transport-ontology:Vehicle, owl:NamedIndividual ;
+    rdfs:label "Транспортний засіб V-009"@uk ;
+    transport-ontology:identifier "VEH-009" .
+
+
+#################################################################
+#    Bus — 8 instances
+#################################################################
+
+transport-ontology:Bus36
+    rdf:type transport-ontology:Bus, owl:NamedIndividual ;
+    rdfs:label "Автобус №36"@uk ;
+    transport-ontology:identifier "BUS-36" ;
+    transport-ontology:routeNumber "36" ;
+    transport-ontology:hasRoute transport-ontology:Route6 .
+
+transport-ontology:Bus37
+    rdf:type transport-ontology:Bus, owl:NamedIndividual ;
+    rdfs:label "Автобус №37"@uk ;
+    transport-ontology:identifier "BUS-37" ;
+    transport-ontology:routeNumber "37" ;
+    transport-ontology:hasRoute transport-ontology:Route11 .
+
+transport-ontology:Bus38
+    rdf:type transport-ontology:Bus, owl:NamedIndividual ;
+    rdfs:label "Автобус №38"@uk ;
+    transport-ontology:identifier "BUS-38" ;
+    transport-ontology:routeNumber "38" ;
+    transport-ontology:hasRoute transport-ontology:Route18 .
+
+transport-ontology:Bus39
+    rdf:type transport-ontology:Bus, owl:NamedIndividual ;
+    rdfs:label "Автобус №39"@uk ;
+    transport-ontology:identifier "BUS-39" ;
+    transport-ontology:routeNumber "39" ;
+    transport-ontology:hasRoute transport-ontology:Route27 .
+
+transport-ontology:Bus40
+    rdf:type transport-ontology:Bus, owl:NamedIndividual ;
+    rdfs:label "Автобус №40"@uk ;
+    transport-ontology:identifier "BUS-40" ;
+    transport-ontology:routeNumber "40" ;
+    transport-ontology:hasRoute transport-ontology:Route31 .
+
+transport-ontology:Bus41
+    rdf:type transport-ontology:Bus, owl:NamedIndividual ;
+    rdfs:label "Автобус №41"@uk ;
+    transport-ontology:identifier "BUS-41" ;
+    transport-ontology:routeNumber "41" ;
+    transport-ontology:hasRoute transport-ontology:Route42 .
+
+transport-ontology:Bus43
+    rdf:type transport-ontology:Bus, owl:NamedIndividual ;
+    rdfs:label "Автобус №43"@uk ;
+    transport-ontology:identifier "BUS-43" ;
+    transport-ontology:routeNumber "43" ;
+    transport-ontology:hasRoute transport-ontology:Route48 .
+
+transport-ontology:Bus44
+    rdf:type transport-ontology:Bus, owl:NamedIndividual ;
+    rdfs:label "Автобус №44"@uk ;
+    transport-ontology:identifier "BUS-44" ;
+    transport-ontology:routeNumber "44" ;
+    transport-ontology:hasRoute transport-ontology:Route53 .
+
+
+#################################################################
+#    Truck — 8 instances
+#################################################################
+
+transport-ontology:Truck002
+    rdf:type transport-ontology:Truck, owl:NamedIndividual ;
+    rdfs:label "Вантажний автомобіль T-002"@uk ;
+    transport-ontology:identifier "TRUCK-002" ;
+    transport-ontology:locatedOn transport-ontology:DS002 .
+
+transport-ontology:Truck003
+    rdf:type transport-ontology:Truck, owl:NamedIndividual ;
+    rdfs:label "Вантажний автомобіль T-003"@uk ;
+    transport-ontology:identifier "TRUCK-003" ;
+    transport-ontology:locatedOn transport-ontology:DS003 .
+
+transport-ontology:Truck004
+    rdf:type transport-ontology:Truck, owl:NamedIndividual ;
+    rdfs:label "Вантажний автомобіль T-004"@uk ;
+    transport-ontology:identifier "TRUCK-004" ;
+    transport-ontology:locatedOn transport-ontology:DS004 .
+
+transport-ontology:Truck005
+    rdf:type transport-ontology:Truck, owl:NamedIndividual ;
+    rdfs:label "Вантажний автомобіль T-005"@uk ;
+    transport-ontology:identifier "TRUCK-005" ;
+    transport-ontology:locatedOn transport-ontology:DS005 .
+
+transport-ontology:Truck006
+    rdf:type transport-ontology:Truck, owl:NamedIndividual ;
+    rdfs:label "Вантажний автомобіль T-006"@uk ;
+    transport-ontology:identifier "TRUCK-006" ;
+    transport-ontology:locatedOn transport-ontology:DS006 .
+
+transport-ontology:Truck007
+    rdf:type transport-ontology:Truck, owl:NamedIndividual ;
+    rdfs:label "Вантажний автомобіль T-007"@uk ;
+    transport-ontology:identifier "TRUCK-007" ;
+    transport-ontology:locatedOn transport-ontology:DS007 .
+
+transport-ontology:Truck008
+    rdf:type transport-ontology:Truck, owl:NamedIndividual ;
+    rdfs:label "Вантажний автомобіль T-008"@uk ;
+    transport-ontology:identifier "TRUCK-008" ;
+    transport-ontology:locatedOn transport-ontology:DS008 .
+
+transport-ontology:Truck009
+    rdf:type transport-ontology:Truck, owl:NamedIndividual ;
+    rdfs:label "Вантажний автомобіль T-009"@uk ;
+    transport-ontology:identifier "TRUCK-009" ;
+    transport-ontology:locatedOn transport-ontology:DS009 .
+
+
+#################################################################
+#    VehicleCountData — 8 instances
+#################################################################
+
+transport-ontology:VehicleCountData002
+    rdf:type transport-ontology:VehicleCountData, owl:NamedIndividual ;
+    rdfs:label "Дані про кількість транспортних засобів №2"@uk ;
+    transport-ontology:identifier "VCD-002" ;
+    transport-ontology:vehicleCount 684 .
+
+transport-ontology:VehicleCountData003
+    rdf:type transport-ontology:VehicleCountData, owl:NamedIndividual ;
+    rdfs:label "Дані про кількість транспортних засобів №3"@uk ;
+    transport-ontology:identifier "VCD-003" ;
+    transport-ontology:vehicleCount 927 .
+
+transport-ontology:VehicleCountData004
+    rdf:type transport-ontology:VehicleCountData, owl:NamedIndividual ;
+    rdfs:label "Дані про кількість транспортних засобів №4"@uk ;
+    transport-ontology:identifier "VCD-004" ;
+    transport-ontology:vehicleCount 1432 .
+
+transport-ontology:VehicleCountData005
+    rdf:type transport-ontology:VehicleCountData, owl:NamedIndividual ;
+    rdfs:label "Дані про кількість транспортних засобів №5"@uk ;
+    transport-ontology:identifier "VCD-005" ;
+    transport-ontology:vehicleCount 756 .
+
+transport-ontology:VehicleCountData006
+    rdf:type transport-ontology:VehicleCountData, owl:NamedIndividual ;
+    rdfs:label "Дані про кількість транспортних засобів №6"@uk ;
+    transport-ontology:identifier "VCD-006" ;
+    transport-ontology:vehicleCount 1189 .
+
+transport-ontology:VehicleCountData007
+    rdf:type transport-ontology:VehicleCountData, owl:NamedIndividual ;
+    rdfs:label "Дані про кількість транспортних засобів №7"@uk ;
+    transport-ontology:identifier "VCD-007" ;
+    transport-ontology:vehicleCount 532 .
+
+transport-ontology:VehicleCountData008
+    rdf:type transport-ontology:VehicleCountData, owl:NamedIndividual ;
+    rdfs:label "Дані про кількість транспортних засобів №8"@uk ;
+    transport-ontology:identifier "VCD-008" ;
+    transport-ontology:vehicleCount 1647 .
+
+transport-ontology:VehicleCountData009
+    rdf:type transport-ontology:VehicleCountData, owl:NamedIndividual ;
+    rdfs:label "Дані про кількість транспортних засобів №9"@uk ;
+    transport-ontology:identifier "VCD-009" ;
+    transport-ontology:vehicleCount 893 .
