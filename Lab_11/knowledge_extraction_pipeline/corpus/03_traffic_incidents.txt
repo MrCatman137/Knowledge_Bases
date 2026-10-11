@@ -1,0 +1,1 @@
+Traffic incidents include vehicle accidents, lane closures, and maintenance road works. A road incident causes significant travel delay and decreases observed speed. Emergency services manage traffic accident clearance on blocked segments. The traffic control system activates safety rules during severe road incidents. An incident alert notifies drivers about lane closures.

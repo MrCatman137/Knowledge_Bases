@@ -1,0 +1,486 @@
+{
+  "classes": [
+    "RoadSegment",
+    "TrafficSensor",
+    "TrafficSignal",
+    "AdaptiveSignal",
+    "TrafficController",
+    "TransitRoute",
+    "PublicTransitVehicle",
+    "TrafficIncident",
+    "TrafficObservation",
+    "PerformanceMetric",
+    "TransportAuthority",
+    "GovernancePolicy",
+    "SignalizedIntersection"
+  ],
+  "taxonomy": {
+    "Infrastructure": [
+      "RoadSegment",
+      "TrafficSignal",
+      "AdaptiveSignal",
+      "TrafficController",
+      "SignalizedIntersection"
+    ],
+    "Observation": [
+      "TrafficSensor",
+      "TrafficObservation",
+      "PerformanceMetric"
+    ],
+    "MobilityService": [
+      "TransitRoute",
+      "PublicTransitVehicle"
+    ],
+    "Event": [
+      "TrafficIncident"
+    ],
+    "Governance": [
+      "TransportAuthority",
+      "GovernancePolicy"
+    ]
+  },
+  "object_properties": [
+    {
+      "name": "monitors",
+      "domain": "TrafficSensor",
+      "range": "TrafficObservation",
+      "label_en": "monitors",
+      "label_uk": "моніторить",
+      "comment": "A sensor is associated with observations it monitors."
+    },
+    {
+      "name": "measures",
+      "domain": "TrafficSensor",
+      "range": "RoadSegment",
+      "label_en": "measures",
+      "label_uk": "вимірює",
+      "comment": "A sensor measures conditions on a road segment."
+    },
+    {
+      "name": "regulates",
+      "domain": "TrafficController",
+      "range": "RoadSegment",
+      "label_en": "regulates",
+      "label_uk": "регулює",
+      "comment": "A controller regulates traffic on a road segment."
+    },
+    {
+      "name": "controls",
+      "domain": "TrafficController",
+      "range": "AdaptiveSignal",
+      "label_en": "controls",
+      "label_uk": "керує",
+      "comment": "A controller operates an adaptive signal."
+    },
+    {
+      "name": "controlsIntersection",
+      "domain": "AdaptiveSignal",
+      "range": "SignalizedIntersection",
+      "label_en": "controls intersection",
+      "label_uk": "керує перехрестям",
+      "comment": "An adaptive signal controls exactly one signalized intersection."
+    },
+    {
+      "name": "manages",
+      "domain": "TransportAuthority",
+      "range": "TrafficController",
+      "label_en": "manages",
+      "label_uk": "керує",
+      "comment": "An authority manages a traffic controller."
+    },
+    {
+      "name": "causes",
+      "domain": "TrafficIncident",
+      "range": "PerformanceMetric",
+      "label_en": "causes",
+      "label_uk": "спричиняє",
+      "comment": "An incident can cause a measurable performance effect."
+    },
+    {
+      "name": "connectsTo",
+      "domain": "RoadSegment",
+      "range": "RoadSegment",
+      "label_en": "з'єднується з",
+      "label_uk": "з'єднує",
+      "comment": "A road segment connects to another road segment."
+    },
+    {
+      "name": "affects",
+      "domain": "TrafficIncident",
+      "range": "RoadSegment",
+      "label_en": "впливає на",
+      "label_uk": "affects",
+      "comment": "An incident affects a road segment."
+    },
+    {
+      "name": "serves",
+      "domain": "TransitRoute",
+      "range": "RoadSegment",
+      "label_en": "обслуговує",
+      "label_uk": "serves",
+      "comment": "A transit route serves a road segment."
+    },
+    {
+      "name": "operatesOn",
+      "domain": "PublicTransitVehicle",
+      "range": "TransitRoute",
+      "label_en": "працює на",
+      "label_uk": "operates on",
+      "comment": "A public transit vehicle operates on a route."
+    },
+    {
+      "name": "usesPolicy",
+      "domain": "TransportAuthority",
+      "range": "GovernancePolicy",
+      "label_en": "застосовує політику",
+      "label_uk": "uses policy",
+      "comment": "An authority applies a governance policy."
+    },
+    {
+      "name": "evaluates",
+      "domain": "PerformanceMetric",
+      "range": "RoadSegment",
+      "label_en": "оцінює",
+      "label_uk": "evaluates",
+      "comment": "A performance metric evaluates a road segment."
+    }
+  ],
+  "datatype_properties": [
+    {
+      "name": "hasAllowedSpeed",
+      "domain": "RoadSegment",
+      "datatype": "http://www.w3.org/2001/XMLSchema#float",
+      "label_en": "has allowed speed",
+      "label_uk": "має дозволену швидкість",
+      "comment": "Allowed speed in km/h."
+    },
+    {
+      "name": "hasObservedSpeed",
+      "domain": "TrafficObservation",
+      "datatype": "http://www.w3.org/2001/XMLSchema#float",
+      "label_en": "has observed speed",
+      "label_uk": "має спостережену швидкість",
+      "comment": "Observed speed in km/h."
+    },
+    {
+      "name": "hasLanesCount",
+      "domain": "RoadSegment",
+      "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+      "label_en": "has lane count",
+      "label_uk": "має кількість смуг",
+      "comment": "Number of lanes."
+    },
+    {
+      "name": "isPeakHour",
+      "domain": "TrafficObservation",
+      "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+      "label_en": "is peak hour",
+      "label_uk": "є годиною пік",
+      "comment": "Whether the observation belongs to a peak period."
+    },
+    {
+      "name": "hasVehicleCount",
+      "domain": "TrafficObservation",
+      "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+      "label_en": "has vehicle count",
+      "label_uk": "має кількість транспортних засобів",
+      "comment": "Observed vehicle count."
+    },
+    {
+      "name": "hasTimestamp",
+      "domain": "TrafficObservation",
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "label_en": "has timestamp",
+      "label_uk": "має часову мітку",
+      "comment": "Observation timestamp."
+    },
+    {
+      "name": "hasDelayMinutes",
+      "domain": "PerformanceMetric",
+      "datatype": "http://www.w3.org/2001/XMLSchema#float",
+      "label_en": "has delay in minutes",
+      "label_uk": "має затримку в хвилинах",
+      "comment": "Delay represented in minutes."
+    },
+    {
+      "name": "hasRouteNumber",
+      "domain": "TransitRoute",
+      "datatype": "http://www.w3.org/2001/XMLSchema#string",
+      "label_en": "has route number",
+      "label_uk": "має номер маршруту",
+      "comment": "Public transit route identifier."
+    },
+    {
+      "name": "hasIdentifier",
+      "domain": "TrafficSensor",
+      "datatype": "http://www.w3.org/2001/XMLSchema#string",
+      "label_en": "has identifier",
+      "label_uk": "має ідентифікатор",
+      "comment": "Persistent identifier of a sensor."
+    },
+    {
+      "name": "hasDescription",
+      "domain": "GovernancePolicy",
+      "datatype": "http://www.w3.org/2001/XMLSchema#string",
+      "label_en": "has description",
+      "label_uk": "має опис",
+      "comment": "Human-readable policy description."
+    }
+  ],
+  "disjoint_pairs": [
+    [
+      "RoadSegment",
+      "TrafficSensor"
+    ],
+    [
+      "TrafficIncident",
+      "PerformanceMetric"
+    ],
+    [
+      "TrafficController",
+      "GovernancePolicy"
+    ],
+    [
+      "TrafficObservation",
+      "TransitRoute"
+    ]
+  ],
+  "restrictions": [
+    {
+      "class": "AdaptiveSignal",
+      "property": "controlsIntersection",
+      "kind": "maxQualifiedCardinality",
+      "cardinality": 1,
+      "range": "SignalizedIntersection"
+    },
+    {
+      "class": "TrafficController",
+      "property": "controls",
+      "kind": "minQualifiedCardinality",
+      "cardinality": 1,
+      "range": "AdaptiveSignal"
+    },
+    {
+      "class": "TrafficSensor",
+      "property": "measures",
+      "kind": "minQualifiedCardinality",
+      "cardinality": 1,
+      "range": "RoadSegment"
+    }
+  ],
+  "individuals": [
+    {
+      "id": "RoadSegment_Shevchenka",
+      "class": "RoadSegment",
+      "data": {
+        "hasAllowedSpeed": [
+          50.0,
+          "http://www.w3.org/2001/XMLSchema#float"
+        ],
+        "hasLanesCount": [
+          2,
+          "http://www.w3.org/2001/XMLSchema#integer"
+        ]
+      },
+      "links": [
+        [
+          "connectsTo",
+          "RoadSegment_Franko"
+        ],
+        [
+          "connectsTo",
+          "RoadSegment_Lychakivska"
+        ]
+      ]
+    },
+    {
+      "id": "RoadSegment_Franko",
+      "class": "RoadSegment",
+      "data": {
+        "hasAllowedSpeed": [
+          50.0,
+          "http://www.w3.org/2001/XMLSchema#float"
+        ],
+        "hasLanesCount": [
+          2,
+          "http://www.w3.org/2001/XMLSchema#integer"
+        ]
+      },
+      "links": []
+    },
+    {
+      "id": "RoadSegment_Lychakivska",
+      "class": "RoadSegment",
+      "data": {
+        "hasAllowedSpeed": [
+          50.0,
+          "http://www.w3.org/2001/XMLSchema#float"
+        ],
+        "hasLanesCount": [
+          2,
+          "http://www.w3.org/2001/XMLSchema#integer"
+        ]
+      },
+      "links": []
+    },
+    {
+      "id": "Sensor_Shevchenka_01",
+      "class": "TrafficSensor",
+      "data": {
+        "hasIdentifier": [
+          "TS-SH-01",
+          "http://www.w3.org/2001/XMLSchema#string"
+        ]
+      },
+      "links": [
+        [
+          "measures",
+          "RoadSegment_Shevchenka"
+        ],
+        [
+          "monitors",
+          "Observation_SH_0900"
+        ]
+      ]
+    },
+    {
+      "id": "Observation_SH_0900",
+      "class": "TrafficObservation",
+      "data": {
+        "hasObservedSpeed": [
+          24.5,
+          "http://www.w3.org/2001/XMLSchema#float"
+        ],
+        "hasVehicleCount": [
+          183,
+          "http://www.w3.org/2001/XMLSchema#integer"
+        ],
+        "isPeakHour": [
+          true,
+          "http://www.w3.org/2001/XMLSchema#boolean"
+        ],
+        "hasTimestamp": [
+          "2026-09-30T09:00:00",
+          "http://www.w3.org/2001/XMLSchema#dateTime"
+        ]
+      },
+      "links": []
+    },
+    {
+      "id": "AdaptiveSignal_Shevchenka",
+      "class": "AdaptiveSignal",
+      "data": {},
+      "links": [
+        [
+          "controlsIntersection",
+          "Intersection_Shevchenka_Center"
+        ]
+      ]
+    },
+    {
+      "id": "Intersection_Shevchenka_Center",
+      "class": "SignalizedIntersection",
+      "data": {},
+      "links": []
+    },
+    {
+      "id": "Controller_Central_01",
+      "class": "TrafficController",
+      "data": {},
+      "links": [
+        [
+          "controls",
+          "AdaptiveSignal_Shevchenka"
+        ],
+        [
+          "regulates",
+          "RoadSegment_Shevchenka"
+        ]
+      ]
+    },
+    {
+      "id": "Route_8",
+      "class": "TransitRoute",
+      "data": {
+        "hasRouteNumber": [
+          "8",
+          "http://www.w3.org/2001/XMLSchema#string"
+        ]
+      },
+      "links": [
+        [
+          "serves",
+          "RoadSegment_Shevchenka"
+        ]
+      ]
+    },
+    {
+      "id": "Bus_204",
+      "class": "PublicTransitVehicle",
+      "data": {},
+      "links": [
+        [
+          "operatesOn",
+          "Route_8"
+        ]
+      ]
+    },
+    {
+      "id": "Incident_Shevchenka_Closure",
+      "class": "TrafficIncident",
+      "data": {},
+      "links": [
+        [
+          "affects",
+          "RoadSegment_Shevchenka"
+        ],
+        [
+          "causes",
+          "Metric_Shevchenka_Delay"
+        ]
+      ]
+    },
+    {
+      "id": "Metric_Shevchenka_Delay",
+      "class": "PerformanceMetric",
+      "data": {
+        "hasDelayMinutes": [
+          12.7,
+          "http://www.w3.org/2001/XMLSchema#float"
+        ]
+      },
+      "links": [
+        [
+          "evaluates",
+          "RoadSegment_Shevchenka"
+        ]
+      ]
+    },
+    {
+      "id": "Authority_LvivTransport",
+      "class": "TransportAuthority",
+      "data": {},
+      "links": [
+        [
+          "manages",
+          "Controller_Central_01"
+        ],
+        [
+          "usesPolicy",
+          "Policy_IncidentResponse"
+        ]
+      ]
+    },
+    {
+      "id": "Policy_IncidentResponse",
+      "class": "GovernancePolicy",
+      "data": {
+        "hasDescription": [
+          "Activate incident response, coordinate signals, and publish a transit detour.",
+          "http://www.w3.org/2001/XMLSchema#string"
+        ]
+      },
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+[01] Wrote /mnt/data/knowledge_extraction_pipeline/data/preprocessed.json
+[02] Extracted 350 candidates; accepted=321
+[02] Wrote /mnt/data/knowledge_extraction_pipeline/data/terms.csv
+[03] Extracted 39 entity mentions
+[03] Wrote /mnt/data/knowledge_extraction_pipeline/data/entities.csv
+[04] Extracted 30 relations
+[04] Wrote /mnt/data/knowledge_extraction_pipeline/data/relations.csv
+[05] Wrote /mnt/data/knowledge_extraction_pipeline/data/alignment.csv with 26 SKOS concepts
+[06] Generated 140 unique triples
+[06] Wrote /mnt/data/knowledge_extraction_pipeline/output/triples.csv
+[07] Wrote /mnt/data/knowledge_extraction_pipeline/output/knowledge_graph.ttl
+[07] RDF triples: 164
+
+======================================================================
+Running 01_preprocessing.py
+======================================================================
+
+======================================================================
+Running 02_term_extraction.py
+======================================================================
+
+======================================================================
+Running 03_ner_extraction.py
+======================================================================
+
+======================================================================
+Running 04_relation_extraction.py
+======================================================================
+
+======================================================================
+Running 05_alignment_skos.py
+======================================================================
+
+======================================================================
+Running 06_build_triples.py
+======================================================================
+
+======================================================================
+Running 07_rdf_exporter.py
+======================================================================
+
+======================================================================
+PIPELINE COMPLETED
+======================================================================
+Term candidates : 350
+Unique triples  : 140
+Triple CSV      : /mnt/data/knowledge_extraction_pipeline/output/triples.csv
+Turtle graph    : /mnt/data/knowledge_extraction_pipeline/output/knowledge_graph.ttl

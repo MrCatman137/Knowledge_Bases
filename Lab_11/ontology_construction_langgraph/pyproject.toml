@@ -1,0 +1,5 @@
+[project]
+name = "ontology-construction-langgraph"
+version = "1.0.0"
+description = "Academic ontology construction pipeline using LangGraph, RDFLib and pySHACL"
+requires-python = ">=3.11"

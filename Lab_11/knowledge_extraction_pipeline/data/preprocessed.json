@@ -1,0 +1,938 @@
+{
+  "nlp_model": "fallback",
+  "documents": [
+    {
+      "id": "01_traffic_flow",
+      "source": "01_traffic_flow.txt",
+      "sentences": [
+        {
+          "text": "Intelligent transportation systems monitor urban traffic flow in real time.",
+          "tokens": [
+            "Intelligent",
+            "transportation",
+            "systems",
+            "monitor",
+            "urban",
+            "traffic",
+            "flow",
+            "in",
+            "real",
+            "time"
+          ],
+          "lemmas": [
+            "intelligent",
+            "transportation",
+            "systems",
+            "monitor",
+            "urban",
+            "traffic",
+            "flow",
+            "real",
+            "time"
+          ]
+        },
+        {
+          "text": "Road segments collect traffic observations using embedded sensors.",
+          "tokens": [
+            "Road",
+            "segments",
+            "collect",
+            "traffic",
+            "observations",
+            "using",
+            "embedded",
+            "sensors"
+          ],
+          "lemmas": [
+            "road",
+            "segments",
+            "collect",
+            "traffic",
+            "observations",
+            "using",
+            "embedded",
+            "sensors"
+          ]
+        },
+        {
+          "text": "Traffic sensors measure average speed and vehicle volume on major highways.",
+          "tokens": [
+            "Traffic",
+            "sensors",
+            "measure",
+            "average",
+            "speed",
+            "and",
+            "vehicle",
+            "volume",
+            "on",
+            "major",
+            "highways"
+          ],
+          "lemmas": [
+            "traffic",
+            "sensors",
+            "measure",
+            "average",
+            "speed",
+            "vehicle",
+            "volume",
+            "major",
+            "highways"
+          ]
+        },
+        {
+          "text": "High vehicle volume causes traffic congestion on critical road segments.",
+          "tokens": [
+            "High",
+            "vehicle",
+            "volume",
+            "causes",
+            "traffic",
+            "congestion",
+            "on",
+            "critical",
+            "road",
+            "segments"
+          ],
+          "lemmas": [
+            "high",
+            "vehicle",
+            "volume",
+            "causes",
+            "traffic",
+            "congestion",
+            "critical",
+            "road",
+            "segments"
+          ]
+        },
+        {
+          "text": "A traffic management center analyzes traffic patterns to optimize urban mobility.",
+          "tokens": [
+            "A",
+            "traffic",
+            "management",
+            "center",
+            "analyzes",
+            "traffic",
+            "patterns",
+            "to",
+            "optimize",
+            "urban",
+            "mobility"
+          ],
+          "lemmas": [
+            "traffic",
+            "management",
+            "center",
+            "analyzes",
+            "traffic",
+            "patterns",
+            "optimize",
+            "urban",
+            "mobility"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02_public_transit",
+      "source": "02_public_transit.txt",
+      "sentences": [
+        {
+          "text": "The public transit network includes buses, trams, and designated transit routes.",
+          "tokens": [
+            "The",
+            "public",
+            "transit",
+            "network",
+            "includes",
+            "buses",
+            "trams",
+            "and",
+            "designated",
+            "transit",
+            "routes"
+          ],
+          "lemmas": [
+            "public",
+            "transit",
+            "network",
+            "includes",
+            "buses",
+            "trams",
+            "designated",
+            "transit",
+            "routes"
+          ]
+        },
+        {
+          "text": "A transit operator manages bus routes and monitors passenger volume.",
+          "tokens": [
+            "A",
+            "transit",
+            "operator",
+            "manages",
+            "bus",
+            "routes",
+            "and",
+            "monitors",
+            "passenger",
+            "volume"
+          ],
+          "lemmas": [
+            "transit",
+            "operator",
+            "manages",
+            "bus",
+            "routes",
+            "monitors",
+            "passenger",
+            "volume"
+          ]
+        },
+        {
+          "text": "Public transit routes connect urban districts and transport terminals.",
+          "tokens": [
+            "Public",
+            "transit",
+            "routes",
+            "connect",
+            "urban",
+            "districts",
+            "and",
+            "transport",
+            "terminals"
+          ],
+          "lemmas": [
+            "public",
+            "transit",
+            "routes",
+            "connect",
+            "urban",
+            "districts",
+            "transport",
+            "terminals"
+          ]
+        },
+        {
+          "text": "The transit management system optimizes route schedules to reduce average delay.",
+          "tokens": [
+            "The",
+            "transit",
+            "management",
+            "system",
+            "optimizes",
+            "route",
+            "schedules",
+            "to",
+            "reduce",
+            "average",
+            "delay"
+          ],
+          "lemmas": [
+            "transit",
+            "management",
+            "system",
+            "optimizes",
+            "route",
+            "schedules",
+            "reduce",
+            "average",
+            "delay"
+          ]
+        },
+        {
+          "text": "Bus lines share road infrastructure with private vehicles.",
+          "tokens": [
+            "Bus",
+            "lines",
+            "share",
+            "road",
+            "infrastructure",
+            "with",
+            "private",
+            "vehicles"
+          ],
+          "lemmas": [
+            "bus",
+            "lines",
+            "share",
+            "road",
+            "infrastructure",
+            "with",
+            "private",
+            "vehicles"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03_traffic_incidents",
+      "source": "03_traffic_incidents.txt",
+      "sentences": [
+        {
+          "text": "Traffic incidents include vehicle accidents, lane closures, and maintenance road works.",
+          "tokens": [
+            "Traffic",
+            "incidents",
+            "include",
+            "vehicle",
+            "accidents",
+            "lane",
+            "closures",
+            "and",
+            "maintenance",
+            "road",
+            "works"
+          ],
+          "lemmas": [
+            "traffic",
+            "incidents",
+            "include",
+            "vehicle",
+            "accidents",
+            "lane",
+            "closures",
+            "maintenance",
+            "road",
+            "works"
+          ]
+        },
+        {
+          "text": "A road incident causes significant travel delay and decreases observed speed.",
+          "tokens": [
+            "A",
+            "road",
+            "incident",
+            "causes",
+            "significant",
+            "travel",
+            "delay",
+            "and",
+            "decreases",
+            "observed",
+            "speed"
+          ],
+          "lemmas": [
+            "road",
+            "incident",
+            "causes",
+            "significant",
+            "travel",
+            "delay",
+            "decreases",
+            "observed",
+            "speed"
+          ]
+        },
+        {
+          "text": "Emergency services manage traffic accident clearance on blocked segments.",
+          "tokens": [
+            "Emergency",
+            "services",
+            "manage",
+            "traffic",
+            "accident",
+            "clearance",
+            "on",
+            "blocked",
+            "segments"
+          ],
+          "lemmas": [
+            "emergency",
+            "services",
+            "manage",
+            "traffic",
+            "accident",
+            "clearance",
+            "blocked",
+            "segments"
+          ]
+        },
+        {
+          "text": "The traffic control system activates safety rules during severe road incidents.",
+          "tokens": [
+            "The",
+            "traffic",
+            "control",
+            "system",
+            "activates",
+            "safety",
+            "rules",
+            "during",
+            "severe",
+            "road",
+            "incidents"
+          ],
+          "lemmas": [
+            "traffic",
+            "control",
+            "system",
+            "activates",
+            "safety",
+            "rules",
+            "during",
+            "severe",
+            "road",
+            "incidents"
+          ]
+        },
+        {
+          "text": "An incident alert notifies drivers about lane closures.",
+          "tokens": [
+            "An",
+            "incident",
+            "alert",
+            "notifies",
+            "drivers",
+            "about",
+            "lane",
+            "closures"
+          ],
+          "lemmas": [
+            "incident",
+            "alert",
+            "notifies",
+            "drivers",
+            "about",
+            "lane",
+            "closures"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04_smart_signals",
+      "source": "04_smart_signals.txt",
+      "sentences": [
+        {
+          "text": "Adaptive traffic signals regulate vehicle flow at urban intersections.",
+          "tokens": [
+            "Adaptive",
+            "traffic",
+            "signals",
+            "regulate",
+            "vehicle",
+            "flow",
+            "at",
+            "urban",
+            "intersections"
+          ],
+          "lemmas": [
+            "adaptive",
+            "traffic",
+            "signals",
+            "regulate",
+            "vehicle",
+            "flow",
+            "urban",
+            "intersections"
+          ]
+        },
+        {
+          "text": "Traffic controllers adjust signal timing phases based on vehicle density.",
+          "tokens": [
+            "Traffic",
+            "controllers",
+            "adjust",
+            "signal",
+            "timing",
+            "phases",
+            "based",
+            "on",
+            "vehicle",
+            "density"
+          ],
+          "lemmas": [
+            "traffic",
+            "controllers",
+            "adjust",
+            "signal",
+            "timing",
+            "phases",
+            "based",
+            "vehicle",
+            "density"
+          ]
+        },
+        {
+          "text": "A smart traffic signal uses sensor data to prioritize public transit vehicles.",
+          "tokens": [
+            "A",
+            "smart",
+            "traffic",
+            "signal",
+            "uses",
+            "sensor",
+            "data",
+            "to",
+            "prioritize",
+            "public",
+            "transit",
+            "vehicles"
+          ],
+          "lemmas": [
+            "smart",
+            "traffic",
+            "signal",
+            "uses",
+            "sensor",
+            "data",
+            "prioritize",
+            "public",
+            "transit",
+            "vehicles"
+          ]
+        },
+        {
+          "text": "Automated control systems reduce intersection delay and prevent traffic congestion.",
+          "tokens": [
+            "Automated",
+            "control",
+            "systems",
+            "reduce",
+            "intersection",
+            "delay",
+            "and",
+            "prevent",
+            "traffic",
+            "congestion"
+          ],
+          "lemmas": [
+            "automated",
+            "control",
+            "systems",
+            "reduce",
+            "intersection",
+            "delay",
+            "prevent",
+            "traffic",
+            "congestion"
+          ]
+        },
+        {
+          "text": "Efficient signal regulation improves urban traffic safety.",
+          "tokens": [
+            "Efficient",
+            "signal",
+            "regulation",
+            "improves",
+            "urban",
+            "traffic",
+            "safety"
+          ],
+          "lemmas": [
+            "efficient",
+            "signal",
+            "regulation",
+            "improves",
+            "urban",
+            "traffic",
+            "safety"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05_transport_infrastructure",
+      "source": "05_transport_infrastructure.txt",
+      "sentences": [
+        {
+          "text": "Urban transport infrastructure consists of road segments, intersections, and transit stops.",
+          "tokens": [
+            "Urban",
+            "transport",
+            "infrastructure",
+            "consists",
+            "of",
+            "road",
+            "segments",
+            "intersections",
+            "and",
+            "transit",
+            "stops"
+          ],
+          "lemmas": [
+            "urban",
+            "transport",
+            "infrastructure",
+            "consists",
+            "road",
+            "segments",
+            "intersections",
+            "transit",
+            "stops"
+          ]
+        },
+        {
+          "text": "A road segment defines geographic location, speed limit, and lane capacity.",
+          "tokens": [
+            "A",
+            "road",
+            "segment",
+            "defines",
+            "geographic",
+            "location",
+            "speed",
+            "limit",
+            "and",
+            "lane",
+            "capacity"
+          ],
+          "lemmas": [
+            "road",
+            "segment",
+            "defines",
+            "geographic",
+            "location",
+            "speed",
+            "limit",
+            "lane",
+            "capacity"
+          ]
+        },
+        {
+          "text": "Municipal road authorities maintain road infrastructure and upgrade traffic corridors.",
+          "tokens": [
+            "Municipal",
+            "road",
+            "authorities",
+            "maintain",
+            "road",
+            "infrastructure",
+            "and",
+            "upgrade",
+            "traffic",
+            "corridors"
+          ],
+          "lemmas": [
+            "municipal",
+            "road",
+            "authorities",
+            "maintain",
+            "road",
+            "infrastructure",
+            "upgrade",
+            "traffic",
+            "corridors"
+          ]
+        },
+        {
+          "text": "Infrastructure capacity determines peak vehicle throughput across districts.",
+          "tokens": [
+            "Infrastructure",
+            "capacity",
+            "determines",
+            "peak",
+            "vehicle",
+            "throughput",
+            "across",
+            "districts"
+          ],
+          "lemmas": [
+            "infrastructure",
+            "capacity",
+            "determines",
+            "peak",
+            "vehicle",
+            "throughput",
+            "across",
+            "districts"
+          ]
+        },
+        {
+          "text": "Road classification categorizes highways, arterials, and local streets.",
+          "tokens": [
+            "Road",
+            "classification",
+            "categorizes",
+            "highways",
+            "arterials",
+            "and",
+            "local",
+            "streets"
+          ],
+          "lemmas": [
+            "road",
+            "classification",
+            "categorizes",
+            "highways",
+            "arterials",
+            "local",
+            "streets"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06_speed_metrics",
+      "source": "06_speed_metrics.txt",
+      "sentences": [
+        {
+          "text": "Traffic monitoring systems calculate performance metrics to assess road network efficiency.",
+          "tokens": [
+            "Traffic",
+            "monitoring",
+            "systems",
+            "calculate",
+            "performance",
+            "metrics",
+            "to",
+            "assess",
+            "road",
+            "network",
+            "efficiency"
+          ],
+          "lemmas": [
+            "traffic",
+            "monitoring",
+            "systems",
+            "calculate",
+            "performance",
+            "metrics",
+            "assess",
+            "road",
+            "network",
+            "efficiency"
+          ]
+        },
+        {
+          "text": "A performance metric measures average speed, travel delay, and vehicle throughput.",
+          "tokens": [
+            "A",
+            "performance",
+            "metric",
+            "measures",
+            "average",
+            "speed",
+            "travel",
+            "delay",
+            "and",
+            "vehicle",
+            "throughput"
+          ],
+          "lemmas": [
+            "performance",
+            "metric",
+            "measures",
+            "average",
+            "speed",
+            "travel",
+            "delay",
+            "vehicle",
+            "throughput"
+          ]
+        },
+        {
+          "text": "Data analysts evaluate congestion indices across peak hours.",
+          "tokens": [
+            "Data",
+            "analysts",
+            "evaluate",
+            "congestion",
+            "indices",
+            "across",
+            "peak",
+            "hours"
+          ],
+          "lemmas": [
+            "data",
+            "analysts",
+            "evaluate",
+            "congestion",
+            "indices",
+            "across",
+            "peak",
+            "hours"
+          ]
+        },
+        {
+          "text": "The speed deviation metric identifies road segments with severe traffic degradation.",
+          "tokens": [
+            "The",
+            "speed",
+            "deviation",
+            "metric",
+            "identifies",
+            "road",
+            "segments",
+            "with",
+            "severe",
+            "traffic",
+            "degradation"
+          ],
+          "lemmas": [
+            "speed",
+            "deviation",
+            "metric",
+            "identifies",
+            "road",
+            "segments",
+            "with",
+            "severe",
+            "traffic",
+            "degradation"
+          ]
+        },
+        {
+          "text": "Accurate metrics support automated decision making for urban planners.",
+          "tokens": [
+            "Accurate",
+            "metrics",
+            "support",
+            "automated",
+            "decision",
+            "making",
+            "for",
+            "urban",
+            "planners"
+          ],
+          "lemmas": [
+            "accurate",
+            "metrics",
+            "support",
+            "automated",
+            "decision",
+            "making",
+            "urban",
+            "planners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07_traffic_governance",
+      "source": "07_traffic_governance.txt",
+      "sentences": [
+        {
+          "text": "Transport governance establishes operational policies and safety regulations for urban mobility.",
+          "tokens": [
+            "Transport",
+            "governance",
+            "establishes",
+            "operational",
+            "policies",
+            "and",
+            "safety",
+            "regulations",
+            "for",
+            "urban",
+            "mobility"
+          ],
+          "lemmas": [
+            "transport",
+            "governance",
+            "establishes",
+            "operational",
+            "policies",
+            "safety",
+            "regulations",
+            "urban",
+            "mobility"
+          ]
+        },
+        {
+          "text": "A municipal transport authority defines traffic rules and manages road infrastructure.",
+          "tokens": [
+            "A",
+            "municipal",
+            "transport",
+            "authority",
+            "defines",
+            "traffic",
+            "rules",
+            "and",
+            "manages",
+            "road",
+            "infrastructure"
+          ],
+          "lemmas": [
+            "municipal",
+            "transport",
+            "authority",
+            "defines",
+            "traffic",
+            "rules",
+            "manages",
+            "road",
+            "infrastructure"
+          ]
+        },
+        {
+          "text": "Urban planners analyze transport datasets to plan transit route extensions.",
+          "tokens": [
+            "Urban",
+            "planners",
+            "analyze",
+            "transport",
+            "datasets",
+            "to",
+            "plan",
+            "transit",
+            "route",
+            "extensions"
+          ],
+          "lemmas": [
+            "urban",
+            "planners",
+            "analyze",
+            "transport",
+            "datasets",
+            "plan",
+            "transit",
+            "route",
+            "extensions"
+          ]
+        },
+        {
+          "text": "Safety regulations enforce speed limits and vehicle emission standards.",
+          "tokens": [
+            "Safety",
+            "regulations",
+            "enforce",
+            "speed",
+            "limits",
+            "and",
+            "vehicle",
+            "emission",
+            "standards"
+          ],
+          "lemmas": [
+            "safety",
+            "regulations",
+            "enforce",
+            "speed",
+            "limits",
+            "vehicle",
+            "emission",
+            "standards"
+          ]
+        },
+        {
+          "text": "Coordinated governance ensures sustainable and reliable transportation systems.",
+          "tokens": [
+            "Coordinated",
+            "governance",
+            "ensures",
+            "sustainable",
+            "and",
+            "reliable",
+            "transportation",
+            "systems"
+          ],
+          "lemmas": [
+            "coordinated",
+            "governance",
+            "ensures",
+            "sustainable",
+            "reliable",
+            "transportation",
+            "systems"
+          ]
+        }
+      ]
+    }
+  ]
+}

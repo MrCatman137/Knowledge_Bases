@@ -1,0 +1,8 @@
+Ontology Validation Report
+==========================
+Conforms: True
+Ontology: D:\4_1\Knowledge_Bases\Lab_11\ontology_construction_langgraph\output\ontology.ttl
+Shapes: D:\4_1\Knowledge_Bases\Lab_11\ontology_construction_langgraph\output\shapes.shacl.ttl
+
+Validation Report
+Conforms: True

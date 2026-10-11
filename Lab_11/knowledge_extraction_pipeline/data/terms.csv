@@ -1,0 +1,440 @@
+﻿term,weight,accepted,reason
+road segments,1.0,True,domain vocabulary / multiword technical candidate
+public transit,0.75,True,domain vocabulary / multiword technical candidate
+average speed,0.5,True,domain vocabulary / multiword technical candidate
+lane closures,0.5,True,domain vocabulary / multiword technical candidate
+traffic congestion,0.5,True,domain vocabulary / multiword technical candidate
+travel delay,0.5,True,domain vocabulary / multiword technical candidate
+urban mobility,0.5,True,domain vocabulary / multiword technical candidate
+vehicle volume,0.5,True,domain vocabulary / multiword technical candidate
+about,0.25,False,generic or weak lexical candidate
+about lane,0.25,True,domain vocabulary / multiword technical candidate
+accident,0.25,True,domain vocabulary / multiword technical candidate
+accident clearance,0.25,True,domain vocabulary / multiword technical candidate
+accidents,0.25,True,domain vocabulary / multiword technical candidate
+accidents lane,0.25,True,domain vocabulary / multiword technical candidate
+accurate,0.25,True,domain vocabulary / multiword technical candidate
+accurate metrics,0.25,True,domain vocabulary / multiword technical candidate
+across,0.25,False,generic or weak lexical candidate
+across districts,0.25,True,domain vocabulary / multiword technical candidate
+across peak,0.25,True,domain vocabulary / multiword technical candidate
+activates,0.25,True,domain vocabulary / multiword technical candidate
+activates safety,0.25,True,domain vocabulary / multiword technical candidate
+adaptive,0.25,True,domain vocabulary / multiword technical candidate
+adaptive traffic,0.25,True,domain vocabulary / multiword technical candidate
+adaptive traffic signals,0.25,True,domain vocabulary / multiword technical candidate
+adjust,0.25,False,generic or weak lexical candidate
+adjust signal,0.25,True,domain vocabulary / multiword technical candidate
+alert,0.25,False,generic or weak lexical candidate
+alert notifies,0.25,True,domain vocabulary / multiword technical candidate
+analysts,0.25,True,domain vocabulary / multiword technical candidate
+analysts evaluate,0.25,True,domain vocabulary / multiword technical candidate
+analyze,0.25,True,domain vocabulary / multiword technical candidate
+analyze transport,0.25,True,domain vocabulary / multiword technical candidate
+analyzes,0.25,True,domain vocabulary / multiword technical candidate
+analyzes traffic,0.25,True,domain vocabulary / multiword technical candidate
+arterials,0.25,True,domain vocabulary / multiword technical candidate
+arterials local,0.25,True,domain vocabulary / multiword technical candidate
+assess,0.25,False,generic or weak lexical candidate
+assess road,0.25,True,domain vocabulary / multiword technical candidate
+authorities,0.25,True,domain vocabulary / multiword technical candidate
+authorities maintain,0.25,True,domain vocabulary / multiword technical candidate
+authority,0.25,True,domain vocabulary / multiword technical candidate
+authority defines,0.25,True,domain vocabulary / multiword technical candidate
+automated,0.25,True,domain vocabulary / multiword technical candidate
+automated control,0.25,True,domain vocabulary / multiword technical candidate
+automated decision,0.25,True,domain vocabulary / multiword technical candidate
+average,0.25,True,domain vocabulary / multiword technical candidate
+average delay,0.25,True,domain vocabulary / multiword technical candidate
+based,0.25,False,generic or weak lexical candidate
+based vehicle,0.25,True,domain vocabulary / multiword technical candidate
+blocked,0.25,True,domain vocabulary / multiword technical candidate
+blocked segments,0.25,True,domain vocabulary / multiword technical candidate
+bus routes,0.25,True,domain vocabulary / multiword technical candidate
+buses,0.25,False,generic or weak lexical candidate
+buses trams,0.25,True,domain vocabulary / multiword technical candidate
+calculate,0.25,True,domain vocabulary / multiword technical candidate
+calculate performance,0.25,True,domain vocabulary / multiword technical candidate
+capacity,0.25,True,domain vocabulary / multiword technical candidate
+capacity determines,0.25,True,domain vocabulary / multiword technical candidate
+capacity municipal,0.25,True,domain vocabulary / multiword technical candidate
+categorizes,0.25,True,domain vocabulary / multiword technical candidate
+categorizes highways,0.25,True,domain vocabulary / multiword technical candidate
+causes,0.25,False,generic or weak lexical candidate
+causes significant,0.25,True,domain vocabulary / multiword technical candidate
+causes traffic,0.25,True,domain vocabulary / multiword technical candidate
+center,0.25,False,generic or weak lexical candidate
+center analyzes,0.25,True,domain vocabulary / multiword technical candidate
+classification,0.25,True,domain vocabulary / multiword technical candidate
+classification categorizes,0.25,True,domain vocabulary / multiword technical candidate
+clearance,0.25,True,domain vocabulary / multiword technical candidate
+clearance blocked,0.25,True,domain vocabulary / multiword technical candidate
+closures,0.25,True,domain vocabulary / multiword technical candidate
+closures adaptive,0.25,True,domain vocabulary / multiword technical candidate
+closures maintenance,0.25,True,domain vocabulary / multiword technical candidate
+collect,0.25,True,domain vocabulary / multiword technical candidate
+collect traffic,0.25,True,domain vocabulary / multiword technical candidate
+congestion,0.25,True,domain vocabulary / multiword technical candidate
+congestion critical,0.25,True,domain vocabulary / multiword technical candidate
+congestion efficient,0.25,True,domain vocabulary / multiword technical candidate
+congestion indices,0.25,True,domain vocabulary / multiword technical candidate
+connect,0.25,True,domain vocabulary / multiword technical candidate
+connect urban,0.25,True,domain vocabulary / multiword technical candidate
+consists,0.25,True,domain vocabulary / multiword technical candidate
+consists road,0.25,True,domain vocabulary / multiword technical candidate
+control,0.25,True,domain vocabulary / multiword technical candidate
+control system,0.25,True,domain vocabulary / multiword technical candidate
+control systems,0.25,True,domain vocabulary / multiword technical candidate
+controllers,0.25,True,domain vocabulary / multiword technical candidate
+controllers adjust,0.25,True,domain vocabulary / multiword technical candidate
+coordinated,0.25,True,domain vocabulary / multiword technical candidate
+coordinated governance,0.25,True,domain vocabulary / multiword technical candidate
+corridors,0.25,True,domain vocabulary / multiword technical candidate
+corridors infrastructure,0.25,True,domain vocabulary / multiword technical candidate
+critical,0.25,True,domain vocabulary / multiword technical candidate
+critical road,0.25,True,domain vocabulary / multiword technical candidate
+data analysts,0.25,True,domain vocabulary / multiword technical candidate
+data prioritize,0.25,True,domain vocabulary / multiword technical candidate
+datasets,0.25,True,domain vocabulary / multiword technical candidate
+datasets plan,0.25,True,domain vocabulary / multiword technical candidate
+decision,0.25,True,domain vocabulary / multiword technical candidate
+decision making,0.25,True,domain vocabulary / multiword technical candidate
+decreases,0.25,True,domain vocabulary / multiword technical candidate
+decreases observed,0.25,True,domain vocabulary / multiword technical candidate
+defines,0.25,True,domain vocabulary / multiword technical candidate
+defines geographic,0.25,True,domain vocabulary / multiword technical candidate
+defines traffic,0.25,True,domain vocabulary / multiword technical candidate
+degradation,0.25,True,domain vocabulary / multiword technical candidate
+degradation accurate,0.25,True,domain vocabulary / multiword technical candidate
+delay,0.25,False,generic or weak lexical candidate
+delay decreases,0.25,True,domain vocabulary / multiword technical candidate
+delay lines,0.25,True,domain vocabulary / multiword technical candidate
+delay prevent,0.25,True,domain vocabulary / multiword technical candidate
+delay vehicle,0.25,True,domain vocabulary / multiword technical candidate
+density,0.25,True,domain vocabulary / multiword technical candidate
+density smart,0.25,True,domain vocabulary / multiword technical candidate
+designated,0.25,True,domain vocabulary / multiword technical candidate
+designated transit,0.25,True,domain vocabulary / multiword technical candidate
+determines,0.25,True,domain vocabulary / multiword technical candidate
+determines peak,0.25,True,domain vocabulary / multiword technical candidate
+deviation,0.25,True,domain vocabulary / multiword technical candidate
+deviation metric,0.25,True,domain vocabulary / multiword technical candidate
+districts,0.25,True,domain vocabulary / multiword technical candidate
+districts road,0.25,True,domain vocabulary / multiword technical candidate
+districts transport,0.25,True,domain vocabulary / multiword technical candidate
+drivers,0.25,True,domain vocabulary / multiword technical candidate
+drivers about,0.25,True,domain vocabulary / multiword technical candidate
+during,0.25,False,generic or weak lexical candidate
+during severe,0.25,True,domain vocabulary / multiword technical candidate
+efficiency,0.25,True,domain vocabulary / multiword technical candidate
+efficiency performance,0.25,True,domain vocabulary / multiword technical candidate
+efficient,0.25,True,domain vocabulary / multiword technical candidate
+efficient signal,0.25,True,domain vocabulary / multiword technical candidate
+embedded,0.25,True,domain vocabulary / multiword technical candidate
+embedded sensors,0.25,True,domain vocabulary / multiword technical candidate
+emergency,0.25,True,domain vocabulary / multiword technical candidate
+emergency services,0.25,True,domain vocabulary / multiword technical candidate
+emission,0.25,True,domain vocabulary / multiword technical candidate
+emission standards,0.25,True,domain vocabulary / multiword technical candidate
+enforce,0.25,True,domain vocabulary / multiword technical candidate
+enforce speed,0.25,True,domain vocabulary / multiword technical candidate
+ensures,0.25,True,domain vocabulary / multiword technical candidate
+ensures sustainable,0.25,True,domain vocabulary / multiword technical candidate
+establishes,0.25,True,domain vocabulary / multiword technical candidate
+establishes operational,0.25,True,domain vocabulary / multiword technical candidate
+evaluate,0.25,True,domain vocabulary / multiword technical candidate
+evaluate congestion,0.25,True,domain vocabulary / multiword technical candidate
+extensions,0.25,True,domain vocabulary / multiword technical candidate
+extensions safety,0.25,True,domain vocabulary / multiword technical candidate
+flow real,0.25,True,domain vocabulary / multiword technical candidate
+flow urban,0.25,True,domain vocabulary / multiword technical candidate
+geographic,0.25,True,domain vocabulary / multiword technical candidate
+geographic location,0.25,True,domain vocabulary / multiword technical candidate
+governance,0.25,True,domain vocabulary / multiword technical candidate
+governance ensures,0.25,True,domain vocabulary / multiword technical candidate
+governance establishes,0.25,True,domain vocabulary / multiword technical candidate
+high vehicle,0.25,True,domain vocabulary / multiword technical candidate
+highways,0.25,True,domain vocabulary / multiword technical candidate
+highways arterials,0.25,True,domain vocabulary / multiword technical candidate
+highways high,0.25,True,domain vocabulary / multiword technical candidate
+hours,0.25,False,generic or weak lexical candidate
+hours speed,0.25,True,domain vocabulary / multiword technical candidate
+identifies,0.25,True,domain vocabulary / multiword technical candidate
+identifies road,0.25,True,domain vocabulary / multiword technical candidate
+improves,0.25,True,domain vocabulary / multiword technical candidate
+improves urban,0.25,True,domain vocabulary / multiword technical candidate
+incident,0.25,True,domain vocabulary / multiword technical candidate
+incident alert,0.25,True,domain vocabulary / multiword technical candidate
+incident causes,0.25,True,domain vocabulary / multiword technical candidate
+incidents,0.25,True,domain vocabulary / multiword technical candidate
+incidents incident,0.25,True,domain vocabulary / multiword technical candidate
+incidents include,0.25,True,domain vocabulary / multiword technical candidate
+include,0.25,True,domain vocabulary / multiword technical candidate
+include vehicle,0.25,True,domain vocabulary / multiword technical candidate
+includes,0.25,True,domain vocabulary / multiword technical candidate
+includes buses,0.25,True,domain vocabulary / multiword technical candidate
+indices,0.25,True,domain vocabulary / multiword technical candidate
+indices across,0.25,True,domain vocabulary / multiword technical candidate
+infrastructure,0.25,True,domain vocabulary / multiword technical candidate
+infrastructure capacity,0.25,True,domain vocabulary / multiword technical candidate
+infrastructure consists,0.25,True,domain vocabulary / multiword technical candidate
+infrastructure upgrade,0.25,True,domain vocabulary / multiword technical candidate
+infrastructure urban,0.25,True,domain vocabulary / multiword technical candidate
+intelligent,0.25,True,domain vocabulary / multiword technical candidate
+intelligent transportation,0.25,True,domain vocabulary / multiword technical candidate
+intelligent transportation systems,0.25,True,domain vocabulary / multiword technical candidate
+intersection,0.25,True,domain vocabulary / multiword technical candidate
+intersection delay,0.25,True,domain vocabulary / multiword technical candidate
+intersections,0.25,True,domain vocabulary / multiword technical candidate
+intersections traffic,0.25,True,domain vocabulary / multiword technical candidate
+intersections transit,0.25,True,domain vocabulary / multiword technical candidate
+lane capacity,0.25,True,domain vocabulary / multiword technical candidate
+limit,0.25,False,generic or weak lexical candidate
+limit lane,0.25,True,domain vocabulary / multiword technical candidate
+limits,0.25,False,generic or weak lexical candidate
+limits vehicle,0.25,True,domain vocabulary / multiword technical candidate
+lines,0.25,False,generic or weak lexical candidate
+lines share,0.25,True,domain vocabulary / multiword technical candidate
+local,0.25,False,generic or weak lexical candidate
+local streets,0.25,True,domain vocabulary / multiword technical candidate
+location,0.25,True,domain vocabulary / multiword technical candidate
+location speed,0.25,True,domain vocabulary / multiword technical candidate
+maintain,0.25,True,domain vocabulary / multiword technical candidate
+maintain road,0.25,True,domain vocabulary / multiword technical candidate
+maintenance,0.25,True,domain vocabulary / multiword technical candidate
+maintenance road,0.25,True,domain vocabulary / multiword technical candidate
+major,0.25,False,generic or weak lexical candidate
+major highways,0.25,True,domain vocabulary / multiword technical candidate
+making,0.25,False,generic or weak lexical candidate
+making urban,0.25,True,domain vocabulary / multiword technical candidate
+manage,0.25,False,generic or weak lexical candidate
+manage traffic,0.25,True,domain vocabulary / multiword technical candidate
+management,0.25,True,domain vocabulary / multiword technical candidate
+management center,0.25,True,domain vocabulary / multiword technical candidate
+management system,0.25,True,domain vocabulary / multiword technical candidate
+manages,0.25,True,domain vocabulary / multiword technical candidate
+manages road,0.25,True,domain vocabulary / multiword technical candidate
+manages routes,0.25,True,domain vocabulary / multiword technical candidate
+measure,0.25,True,domain vocabulary / multiword technical candidate
+measure average,0.25,True,domain vocabulary / multiword technical candidate
+measures,0.25,True,domain vocabulary / multiword technical candidate
+measures average,0.25,True,domain vocabulary / multiword technical candidate
+metric,0.25,False,generic or weak lexical candidate
+metric identifies,0.25,True,domain vocabulary / multiword technical candidate
+metric measures,0.25,True,domain vocabulary / multiword technical candidate
+metrics,0.25,True,domain vocabulary / multiword technical candidate
+metrics assess,0.25,True,domain vocabulary / multiword technical candidate
+metrics support,0.25,True,domain vocabulary / multiword technical candidate
+mobility,0.25,True,domain vocabulary / multiword technical candidate
+mobility municipal,0.25,True,domain vocabulary / multiword technical candidate
+mobility public,0.25,True,domain vocabulary / multiword technical candidate
+monitor,0.25,True,domain vocabulary / multiword technical candidate
+monitor urban,0.25,True,domain vocabulary / multiword technical candidate
+monitoring,0.25,True,domain vocabulary / multiword technical candidate
+monitoring systems,0.25,True,domain vocabulary / multiword technical candidate
+monitors,0.25,True,domain vocabulary / multiword technical candidate
+monitors passenger,0.25,True,domain vocabulary / multiword technical candidate
+municipal,0.25,True,domain vocabulary / multiword technical candidate
+municipal road,0.25,True,domain vocabulary / multiword technical candidate
+municipal transport,0.25,True,domain vocabulary / multiword technical candidate
+network,0.25,True,domain vocabulary / multiword technical candidate
+network efficiency,0.25,True,domain vocabulary / multiword technical candidate
+network includes,0.25,True,domain vocabulary / multiword technical candidate
+notifies,0.25,True,domain vocabulary / multiword technical candidate
+notifies drivers,0.25,True,domain vocabulary / multiword technical candidate
+observations,0.25,True,domain vocabulary / multiword technical candidate
+observations using,0.25,True,domain vocabulary / multiword technical candidate
+observed,0.25,True,domain vocabulary / multiword technical candidate
+observed speed,0.25,True,domain vocabulary / multiword technical candidate
+operational,0.25,True,domain vocabulary / multiword technical candidate
+operational policies,0.25,True,domain vocabulary / multiword technical candidate
+operator,0.25,True,domain vocabulary / multiword technical candidate
+operator manages,0.25,True,domain vocabulary / multiword technical candidate
+optimize,0.25,True,domain vocabulary / multiword technical candidate
+optimize urban,0.25,True,domain vocabulary / multiword technical candidate
+optimizes,0.25,True,domain vocabulary / multiword technical candidate
+optimizes route,0.25,True,domain vocabulary / multiword technical candidate
+passenger,0.25,True,domain vocabulary / multiword technical candidate
+passenger volume,0.25,True,domain vocabulary / multiword technical candidate
+patterns,0.25,True,domain vocabulary / multiword technical candidate
+patterns optimize,0.25,True,domain vocabulary / multiword technical candidate
+peak hours,0.25,True,domain vocabulary / multiword technical candidate
+peak vehicle,0.25,True,domain vocabulary / multiword technical candidate
+performance,0.25,True,domain vocabulary / multiword technical candidate
+performance metric,0.25,True,domain vocabulary / multiword technical candidate
+performance metrics,0.25,True,domain vocabulary / multiword technical candidate
+phases,0.25,False,generic or weak lexical candidate
+phases based,0.25,True,domain vocabulary / multiword technical candidate
+plan transit,0.25,True,domain vocabulary / multiword technical candidate
+planners,0.25,True,domain vocabulary / multiword technical candidate
+planners analyze,0.25,True,domain vocabulary / multiword technical candidate
+planners transport,0.25,True,domain vocabulary / multiword technical candidate
+policies,0.25,True,domain vocabulary / multiword technical candidate
+policies safety,0.25,True,domain vocabulary / multiword technical candidate
+prevent,0.25,True,domain vocabulary / multiword technical candidate
+prevent traffic,0.25,True,domain vocabulary / multiword technical candidate
+prioritize,0.25,True,domain vocabulary / multiword technical candidate
+prioritize public,0.25,True,domain vocabulary / multiword technical candidate
+private,0.25,True,domain vocabulary / multiword technical candidate
+private vehicles,0.25,True,domain vocabulary / multiword technical candidate
+public,0.25,False,generic or weak lexical candidate
+real time,0.25,True,domain vocabulary / multiword technical candidate
+reduce,0.25,False,generic or weak lexical candidate
+reduce average,0.25,True,domain vocabulary / multiword technical candidate
+reduce intersection,0.25,True,domain vocabulary / multiword technical candidate
+regulate,0.25,True,domain vocabulary / multiword technical candidate
+regulate vehicle,0.25,True,domain vocabulary / multiword technical candidate
+regulation,0.25,True,domain vocabulary / multiword technical candidate
+regulation improves,0.25,True,domain vocabulary / multiword technical candidate
+regulations,0.25,True,domain vocabulary / multiword technical candidate
+regulations enforce,0.25,True,domain vocabulary / multiword technical candidate
+regulations urban,0.25,True,domain vocabulary / multiword technical candidate
+reliable,0.25,True,domain vocabulary / multiword technical candidate
+reliable transportation,0.25,True,domain vocabulary / multiword technical candidate
+road authorities,0.25,True,domain vocabulary / multiword technical candidate
+road classification,0.25,True,domain vocabulary / multiword technical candidate
+road incident,0.25,True,domain vocabulary / multiword technical candidate
+road incidents,0.25,True,domain vocabulary / multiword technical candidate
+road infrastructure,0.25,True,domain vocabulary / multiword technical candidate
+road network,0.25,True,domain vocabulary / multiword technical candidate
+road segment,0.25,True,domain vocabulary / multiword technical candidate
+road works,0.25,True,domain vocabulary / multiword technical candidate
+route,0.25,False,generic or weak lexical candidate
+route extensions,0.25,True,domain vocabulary / multiword technical candidate
+route schedules,0.25,True,domain vocabulary / multiword technical candidate
+routes,0.25,False,generic or weak lexical candidate
+routes connect,0.25,True,domain vocabulary / multiword technical candidate
+routes monitors,0.25,True,domain vocabulary / multiword technical candidate
+routes transit,0.25,True,domain vocabulary / multiword technical candidate
+rules,0.25,False,generic or weak lexical candidate
+rules during,0.25,True,domain vocabulary / multiword technical candidate
+rules manages,0.25,True,domain vocabulary / multiword technical candidate
+safety,0.25,False,generic or weak lexical candidate
+safety regulations,0.25,True,domain vocabulary / multiword technical candidate
+safety rules,0.25,True,domain vocabulary / multiword technical candidate
+safety urban,0.25,True,domain vocabulary / multiword technical candidate
+schedules,0.25,True,domain vocabulary / multiword technical candidate
+schedules reduce,0.25,True,domain vocabulary / multiword technical candidate
+segment,0.25,True,domain vocabulary / multiword technical candidate
+segment defines,0.25,True,domain vocabulary / multiword technical candidate
+segments,0.25,True,domain vocabulary / multiword technical candidate
+segments collect,0.25,True,domain vocabulary / multiword technical candidate
+segments intersections,0.25,True,domain vocabulary / multiword technical candidate
+segments traffic,0.25,True,domain vocabulary / multiword technical candidate
+sensor,0.25,False,generic or weak lexical candidate
+sensor data,0.25,True,domain vocabulary / multiword technical candidate
+sensors,0.25,True,domain vocabulary / multiword technical candidate
+sensors measure,0.25,True,domain vocabulary / multiword technical candidate
+sensors traffic,0.25,True,domain vocabulary / multiword technical candidate
+services,0.25,True,domain vocabulary / multiword technical candidate
+services manage,0.25,True,domain vocabulary / multiword technical candidate
+severe,0.25,False,generic or weak lexical candidate
+severe road,0.25,True,domain vocabulary / multiword technical candidate
+severe traffic,0.25,True,domain vocabulary / multiword technical candidate
+share,0.25,False,generic or weak lexical candidate
+share road,0.25,True,domain vocabulary / multiword technical candidate
+signal,0.25,False,generic or weak lexical candidate
+signal regulation,0.25,True,domain vocabulary / multiword technical candidate
+signal timing,0.25,True,domain vocabulary / multiword technical candidate
+signal uses,0.25,True,domain vocabulary / multiword technical candidate
+signals,0.25,True,domain vocabulary / multiword technical candidate
+signals regulate,0.25,True,domain vocabulary / multiword technical candidate
+significant,0.25,True,domain vocabulary / multiword technical candidate
+significant travel,0.25,True,domain vocabulary / multiword technical candidate
+smart,0.25,False,generic or weak lexical candidate
+smart traffic,0.25,True,domain vocabulary / multiword technical candidate
+speed,0.25,False,generic or weak lexical candidate
+speed deviation,0.25,True,domain vocabulary / multiword technical candidate
+speed emergency,0.25,True,domain vocabulary / multiword technical candidate
+speed limit,0.25,True,domain vocabulary / multiword technical candidate
+speed limits,0.25,True,domain vocabulary / multiword technical candidate
+speed travel,0.25,True,domain vocabulary / multiword technical candidate
+speed vehicle,0.25,True,domain vocabulary / multiword technical candidate
+standards,0.25,True,domain vocabulary / multiword technical candidate
+standards coordinated,0.25,True,domain vocabulary / multiword technical candidate
+stops,0.25,False,generic or weak lexical candidate
+stops road,0.25,True,domain vocabulary / multiword technical candidate
+streets,0.25,True,domain vocabulary / multiword technical candidate
+streets traffic,0.25,True,domain vocabulary / multiword technical candidate
+support,0.25,True,domain vocabulary / multiword technical candidate
+support automated,0.25,True,domain vocabulary / multiword technical candidate
+sustainable,0.25,True,domain vocabulary / multiword technical candidate
+sustainable reliable,0.25,True,domain vocabulary / multiword technical candidate
+system,0.25,False,generic or weak lexical candidate
+system activates,0.25,True,domain vocabulary / multiword technical candidate
+system optimizes,0.25,True,domain vocabulary / multiword technical candidate
+systems,0.25,True,domain vocabulary / multiword technical candidate
+systems calculate,0.25,True,domain vocabulary / multiword technical candidate
+systems monitor,0.25,True,domain vocabulary / multiword technical candidate
+systems reduce,0.25,True,domain vocabulary / multiword technical candidate
+terminals,0.25,True,domain vocabulary / multiword technical candidate
+terminals transit,0.25,True,domain vocabulary / multiword technical candidate
+throughput,0.25,True,domain vocabulary / multiword technical candidate
+throughput across,0.25,True,domain vocabulary / multiword technical candidate
+throughput data,0.25,True,domain vocabulary / multiword technical candidate
+time road,0.25,True,domain vocabulary / multiword technical candidate
+timing,0.25,False,generic or weak lexical candidate
+timing phases,0.25,True,domain vocabulary / multiword technical candidate
+traffic,0.25,True,domain vocabulary / multiword technical candidate
+traffic accident,0.25,True,domain vocabulary / multiword technical candidate
+traffic control,0.25,True,domain vocabulary / multiword technical candidate
+traffic controllers,0.25,True,domain vocabulary / multiword technical candidate
+traffic corridors,0.25,True,domain vocabulary / multiword technical candidate
+traffic degradation,0.25,True,domain vocabulary / multiword technical candidate
+traffic flow,0.25,True,domain vocabulary / multiword technical candidate
+traffic incidents,0.25,True,domain vocabulary / multiword technical candidate
+traffic management,0.25,True,domain vocabulary / multiword technical candidate
+traffic management center,0.25,True,domain vocabulary / multiword technical candidate
+traffic monitoring,0.25,True,domain vocabulary / multiword technical candidate
+traffic observations,0.25,True,domain vocabulary / multiword technical candidate
+traffic patterns,0.25,True,domain vocabulary / multiword technical candidate
+traffic rules,0.25,True,domain vocabulary / multiword technical candidate
+traffic safety,0.25,True,domain vocabulary / multiword technical candidate
+traffic sensors,0.25,True,domain vocabulary / multiword technical candidate
+traffic signal,0.25,True,domain vocabulary / multiword technical candidate
+traffic signals,0.25,True,domain vocabulary / multiword technical candidate
+trams,0.25,False,generic or weak lexical candidate
+trams designated,0.25,True,domain vocabulary / multiword technical candidate
+transit,0.25,True,domain vocabulary / multiword technical candidate
+transit management,0.25,True,domain vocabulary / multiword technical candidate
+transit network,0.25,True,domain vocabulary / multiword technical candidate
+transit operator,0.25,True,domain vocabulary / multiword technical candidate
+transit route,0.25,True,domain vocabulary / multiword technical candidate
+transit routes,0.25,True,domain vocabulary / multiword technical candidate
+transit stops,0.25,True,domain vocabulary / multiword technical candidate
+transit vehicles,0.25,True,domain vocabulary / multiword technical candidate
+transport,0.25,True,domain vocabulary / multiword technical candidate
+transport authority,0.25,True,domain vocabulary / multiword technical candidate
+transport datasets,0.25,True,domain vocabulary / multiword technical candidate
+transport governance,0.25,True,domain vocabulary / multiword technical candidate
+transport infrastructure,0.25,True,domain vocabulary / multiword technical candidate
+transport terminals,0.25,True,domain vocabulary / multiword technical candidate
+transportation,0.25,True,domain vocabulary / multiword technical candidate
+transportation systems,0.25,True,domain vocabulary / multiword technical candidate
+travel,0.25,False,generic or weak lexical candidate
+upgrade,0.25,True,domain vocabulary / multiword technical candidate
+upgrade traffic,0.25,True,domain vocabulary / multiword technical candidate
+urban,0.25,False,generic or weak lexical candidate
+urban districts,0.25,True,domain vocabulary / multiword technical candidate
+urban intersections,0.25,True,domain vocabulary / multiword technical candidate
+urban planners,0.25,True,domain vocabulary / multiword technical candidate
+urban traffic,0.25,True,domain vocabulary / multiword technical candidate
+urban transport,0.25,True,domain vocabulary / multiword technical candidate
+uses sensor,0.25,True,domain vocabulary / multiword technical candidate
+using,0.25,False,generic or weak lexical candidate
+using embedded,0.25,True,domain vocabulary / multiword technical candidate
+vehicle,0.25,True,domain vocabulary / multiword technical candidate
+vehicle accidents,0.25,True,domain vocabulary / multiword technical candidate
+vehicle density,0.25,True,domain vocabulary / multiword technical candidate
+vehicle emission,0.25,True,domain vocabulary / multiword technical candidate
+vehicle flow,0.25,True,domain vocabulary / multiword technical candidate
+vehicle throughput,0.25,True,domain vocabulary / multiword technical candidate
+vehicles,0.25,True,domain vocabulary / multiword technical candidate
+vehicles automated,0.25,True,domain vocabulary / multiword technical candidate
+vehicles traffic,0.25,True,domain vocabulary / multiword technical candidate
+volume,0.25,False,generic or weak lexical candidate
+volume causes,0.25,True,domain vocabulary / multiword technical candidate
+volume major,0.25,True,domain vocabulary / multiword technical candidate
+volume public,0.25,True,domain vocabulary / multiword technical candidate
+works,0.25,False,generic or weak lexical candidate
+works road,0.25,True,domain vocabulary / multiword technical candidate

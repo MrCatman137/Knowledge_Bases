@@ -1,0 +1,1 @@
+Adaptive traffic signals regulate vehicle flow at urban intersections. Traffic controllers adjust signal timing phases based on vehicle density. A smart traffic signal uses sensor data to prioritize public transit vehicles. Automated control systems reduce intersection delay and prevent traffic congestion. Efficient signal regulation improves urban traffic safety.

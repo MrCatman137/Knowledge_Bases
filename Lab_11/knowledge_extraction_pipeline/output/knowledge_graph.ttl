@@ -1,0 +1,234 @@
+@prefix : <http://example.org/kmkg/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:01_traffic_flow.txt :contains "extracted knowledge" .
+
+:02_public_transit.txt :contains "extracted knowledge" .
+
+:03_traffic_incidents.txt :contains "extracted knowledge" .
+
+:04_smart_signals.txt :contains "extracted knowledge" .
+
+:05_transport_infrastructure.txt :contains "extracted knowledge" .
+
+:06_speed_metrics.txt :contains "extracted knowledge" .
+
+:07_traffic_governance.txt :contains "extracted knowledge" .
+
+:adaptive_traffic_signal a :Artifact,
+        skos:Concept ;
+    :regulates :vehicle_flow ;
+    :uses :traffic_sensor ;
+    skos:altLabel "smart traffic light"@en ;
+    skos:broader :transport_infrastructure ;
+    skos:prefLabel "adaptive traffic signal"@en .
+
+:adaptive_traffic_signals :regulates :vehicle_flow .
+
+:data_analyst a :Role,
+        skos:Concept ;
+    :measures :congestion_index ;
+    skos:altLabel "traffic analyst"@en ;
+    skos:broader :transport_governance ;
+    skos:prefLabel "data analyst"@en .
+
+:emergency_services a :Organization,
+        skos:Concept ;
+    :manages :accident_clearance,
+        :traffic_accident_clearance ;
+    skos:altLabel "rescue service"@en ;
+    skos:broader :transport_governance ;
+    skos:prefLabel "emergency services"@en .
+
+:high_vehicle_volume :causes :traffic_congestion .
+
+:intelligent_transportation_system :monitors :traffic_flow .
+
+:intelligent_transportation_systems :monitors :urban_traffic_flow .
+
+:municipal_road_authority a :Organization ;
+    :manages :road_infrastructure .
+
+:municipal_transport_authority a :Organization,
+        skos:Concept ;
+    :defines :speed_limit,
+        :traffic_rules ;
+    :manages :road_infrastructure,
+        :transport_governance ;
+    skos:altLabel "city traffic authority"@en ;
+    skos:broader :transport_governance ;
+    skos:prefLabel "municipal transport authority"@en .
+
+:public_transit_routes :connects :urban_districts .
+
+:road_incident :causes :significant_travel_delay .
+
+:road_segment a :Artifact,
+        skos:Concept ;
+    :defines :geographic_location,
+        :speed_limit ;
+    :uses :traffic_sensor ;
+    skos:altLabel "carriageway segment"@en ;
+    skos:broader :transport_infrastructure ;
+    skos:prefLabel "road segment"@en .
+
+:safety_regulation a skos:Concept ;
+    :regulates :speed_limit ;
+    skos:altLabel "traffic safety rule"@en ;
+    skos:broader :transport_governance ;
+    skos:prefLabel "safety regulation"@en .
+
+:safety_regulations :regulates :speed_limits .
+
+:signal_regulation a :Process .
+
+:smart_traffic_signal :uses :sensor_data .
+
+:traffic_controller a :Role,
+        skos:Concept ;
+    :regulates :signal_timing ;
+    skos:altLabel "traffic dispatcher"@en ;
+    skos:broader :transport_governance ;
+    skos:prefLabel "traffic controller"@en .
+
+:traffic_controllers :regulates :signal_timing_phases .
+
+:traffic_incident a skos:Concept ;
+    :causes :speed_drop,
+        :travel_delay ;
+    skos:altLabel "road incident"@en ;
+    skos:broader :traffic_monitoring ;
+    skos:prefLabel "traffic incident"@en .
+
+:traffic_management_center a :Organization,
+        skos:Concept ;
+    :monitors :traffic_flow ;
+    skos:altLabel "TMC"@en ;
+    skos:broader :transport_governance ;
+    skos:prefLabel "traffic management center"@en .
+
+:traffic_sensors :measures :average_speed .
+
+:transit_management_system :regulates :route_schedule,
+        :route_schedules .
+
+:transit_operator a :Role,
+        skos:Concept ;
+    :manages :bus_route,
+        :bus_routes ;
+    :monitors :passenger_volume ;
+    skos:altLabel "bus operator"@en ;
+    skos:broader :transport_governance ;
+    skos:prefLabel "transit operator"@en .
+
+:urban_planner a :Role .
+
+:accident_clearance a :Process,
+        skos:Concept ;
+    skos:altLabel "crash clearance"@en ;
+    skos:broader :emergency_management ;
+    skos:prefLabel "accident clearance"@en .
+
+:bus_route a :Artifact,
+        skos:Concept ;
+    skos:altLabel "bus line"@en ;
+    skos:broader :public_transit_route ;
+    skos:prefLabel "bus route"@en .
+
+:congestion_index a :Metric,
+        skos:Concept ;
+    skos:altLabel "delay factor"@en ;
+    skos:broader :performance_metric ;
+    skos:prefLabel "congestion index"@en .
+
+:passenger_volume a :Metric,
+        skos:Concept ;
+    skos:altLabel "passenger count"@en ;
+    skos:broader :performance_metric ;
+    skos:prefLabel "passenger volume"@en .
+
+:public_transit_route a :Artifact,
+        skos:Concept ;
+    :connects :urban_district ;
+    skos:altLabel "transit line"@en ;
+    skos:broader :transport_infrastructure ;
+    skos:prefLabel "public transit route"@en .
+
+:route_schedule a :Artifact,
+        skos:Concept ;
+    skos:altLabel "transit timetable"@en ;
+    skos:broader :transport_infrastructure ;
+    skos:prefLabel "route schedule"@en .
+
+:signal_timing a :Artifact,
+        skos:Concept ;
+    skos:altLabel "traffic light phases"@en ;
+    skos:broader :traffic_regulation ;
+    skos:prefLabel "signal timing"@en .
+
+:vehicle_volume a :Metric,
+        skos:Concept ;
+    :causes :traffic_congestion ;
+    skos:altLabel "traffic volume"@en ;
+    skos:broader :performance_metric ;
+    skos:prefLabel "vehicle volume"@en .
+
+:traffic_congestion a skos:Concept ;
+    skos:altLabel "traffic jam"@en ;
+    skos:broader :traffic_flow ;
+    skos:prefLabel "traffic congestion"@en .
+
+:traffic_monitoring a :Process,
+        skos:Concept ;
+    skos:altLabel "traffic surveillance"@en ;
+    skos:broader :transport_governance ;
+    skos:prefLabel "traffic monitoring"@en .
+
+:traffic_sensor a :Artifact,
+        skos:Concept ;
+    :measures :average_speed,
+        :vehicle_volume ;
+    skos:altLabel "embedded sensor"@en ;
+    skos:broader :transport_infrastructure ;
+    skos:prefLabel "traffic sensor"@en .
+
+:travel_delay a :Metric,
+        skos:Concept ;
+    skos:altLabel "delay minutes"@en ;
+    skos:broader :performance_metric ;
+    skos:prefLabel "travel delay"@en .
+
+:average_speed a :Metric,
+        skos:Concept ;
+    skos:altLabel "observed speed"@en ;
+    skos:broader :performance_metric ;
+    skos:prefLabel "average speed"@en .
+
+:speed_limit a :Artifact,
+        skos:Concept ;
+    skos:altLabel "allowed speed"@en ;
+    skos:broader :traffic_regulation ;
+    skos:prefLabel "speed limit"@en .
+
+:traffic_flow a :Process,
+        skos:Concept ;
+    skos:altLabel "traffic stream"@en ;
+    skos:broader :traffic_monitoring ;
+    skos:prefLabel "traffic flow"@en .
+
+:performance_metric a :Metric,
+        skos:Concept ;
+    :measures :average_speed,
+        :travel_delay ;
+    skos:altLabel "KPI metric"@en ;
+    skos:broader :transport_governance ;
+    skos:prefLabel "performance metric"@en .
+
+:transport_infrastructure a :Artifact,
+        skos:Concept ;
+    skos:altLabel "road network"@en ;
+    skos:broader :transport_governance ;
+    skos:prefLabel "transport infrastructure"@en .
+
+:transport_governance a :Process .
+

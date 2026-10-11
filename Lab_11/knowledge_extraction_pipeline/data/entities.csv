@@ -1,0 +1,17 @@
+﻿text,normalized,entity_type,source,confidence
+average speed,average_speed,Metric,01_traffic_flow.txt,0.96
+vehicle volume,vehicle_volume,Metric,01_traffic_flow.txt,0.96
+traffic management center,traffic_management_center,Organization,01_traffic_flow.txt,0.96
+transit operator,transit_operator,Role,02_public_transit.txt,0.96
+passenger volume,passenger_volume,Metric,02_public_transit.txt,0.96
+travel delay,travel_delay,Metric,03_traffic_incidents.txt,0.96
+accident clearance,accident_clearance,Process,03_traffic_incidents.txt,0.96
+Emergency services,emergency_services,Organization,03_traffic_incidents.txt,0.96
+signal regulation,signal_regulation,Process,04_smart_signals.txt,0.96
+road segment,road_segment,Artifact,05_transport_infrastructure.txt,0.96
+speed limit,speed_limit,Artifact,05_transport_infrastructure.txt,0.96
+Traffic monitoring,traffic_monitoring,Process,06_speed_metrics.txt,0.96
+average speed,average_speed,Metric,06_speed_metrics.txt,0.96
+travel delay,travel_delay,Metric,06_speed_metrics.txt,0.96
+Transport governance,transport_governance,Process,07_traffic_governance.txt,0.96
+municipal transport authority,municipal_transport_authority,Organization,07_traffic_governance.txt,0.96

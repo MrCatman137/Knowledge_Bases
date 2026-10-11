@@ -1,0 +1,42 @@
+﻿subject,predicate,object,source,confidence
+intelligent transportation systems,monitors,urban traffic flow,01_traffic_flow.txt,0.91
+traffic sensors,measures,average speed,01_traffic_flow.txt,0.91
+high vehicle volume,causes,traffic congestion,01_traffic_flow.txt,0.91
+transit operator,monitors,passenger volume,02_public_transit.txt,0.91
+transit operator,manages,bus routes,02_public_transit.txt,0.91
+public transit routes,connects,urban districts,02_public_transit.txt,0.91
+transit management system,regulates,route schedules,02_public_transit.txt,0.91
+road incident,causes,significant travel delay,03_traffic_incidents.txt,0.91
+emergency services,manages,traffic accident clearance,03_traffic_incidents.txt,0.91
+adaptive traffic signals,regulates,vehicle flow,04_smart_signals.txt,0.91
+traffic controllers,regulates,signal timing phases,04_smart_signals.txt,0.91
+smart traffic signal,uses,sensor data,04_smart_signals.txt,0.91
+road segment,defines,geographic location,05_transport_infrastructure.txt,0.91
+performance metric,measures,average speed,06_speed_metrics.txt,0.91
+municipal transport authority,manages,road infrastructure,07_traffic_governance.txt,0.91
+municipal transport authority,defines,traffic rules,07_traffic_governance.txt,0.91
+safety regulations,regulates,speed limits,07_traffic_governance.txt,0.91
+Intelligent Transportation System,monitors,Traffic Flow,01_traffic_flow.txt,0.94
+Road Segment,uses,Traffic Sensor,01_traffic_flow.txt,0.94
+Traffic Sensor,measures,Average Speed,01_traffic_flow.txt,0.94
+Traffic Sensor,measures,Vehicle Volume,01_traffic_flow.txt,0.94
+Vehicle Volume,causes,Traffic Congestion,01_traffic_flow.txt,0.94
+Traffic Management Center,monitors,Traffic Flow,01_traffic_flow.txt,0.94
+Transit Operator,manages,Bus Route,02_public_transit.txt,0.94
+Transit Operator,monitors,Passenger Volume,02_public_transit.txt,0.94
+Public Transit Route,connects,Urban District,02_public_transit.txt,0.94
+Transit Management System,regulates,Route Schedule,02_public_transit.txt,0.94
+Traffic Incident,causes,Travel Delay,03_traffic_incidents.txt,0.94
+Traffic Incident,causes,Speed Drop,03_traffic_incidents.txt,0.94
+Emergency Services,manages,Accident Clearance,03_traffic_incidents.txt,0.94
+Adaptive Traffic Signal,regulates,Vehicle Flow,04_smart_signals.txt,0.94
+Traffic Controller,regulates,Signal Timing,04_smart_signals.txt,0.94
+Adaptive Traffic Signal,uses,Traffic Sensor,04_smart_signals.txt,0.94
+Road Segment,defines,Speed Limit,05_transport_infrastructure.txt,0.94
+Municipal Road Authority,manages,Road Infrastructure,05_transport_infrastructure.txt,0.94
+Performance Metric,measures,Average Speed,06_speed_metrics.txt,0.94
+Performance Metric,measures,Travel Delay,06_speed_metrics.txt,0.94
+Data Analyst,measures,Congestion Index,06_speed_metrics.txt,0.94
+Municipal Transport Authority,defines,Speed Limit,07_traffic_governance.txt,0.94
+Municipal Transport Authority,manages,Transport Governance,07_traffic_governance.txt,0.94
+Safety Regulation,regulates,Speed Limit,07_traffic_governance.txt,0.94

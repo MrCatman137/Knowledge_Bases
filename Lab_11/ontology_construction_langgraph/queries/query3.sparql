@@ -1,0 +1,7 @@
+PREFIX ut: <https://example.org/urban-transport#>
+SELECT ?incident ?segment ?metric ?delay
+WHERE {
+  ?incident a ut:TrafficIncident ; ut:affects ?segment ; ut:causes ?metric .
+  ?metric a ut:PerformanceMetric ; ut:hasDelayMinutes ?delay ; ut:evaluates ?segment .
+}
+ORDER BY DESC(?delay)

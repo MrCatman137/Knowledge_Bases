@@ -1,0 +1,9 @@
+PREFIX : <http://example.org/kmkg/>
+
+SELECT DISTINCT ?process ?artifact ?relation
+WHERE {
+  VALUES ?relation { :produces :manages }
+  ?process ?relation ?artifact .
+  ?process a :Process .
+}
+ORDER BY ?process ?relation ?artifact

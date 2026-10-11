@@ -1,0 +1,108 @@
+{
+  "candidate_terms": [
+    {
+      "name": "RoadSegment",
+      "label_en": "Road Segment",
+      "label_uk": "Дорожня ділянка",
+      "comment": "A modeled portion of an urban road network."
+    },
+    {
+      "name": "TrafficSensor",
+      "label_en": "Traffic Sensor",
+      "label_uk": "Дорожній датчик",
+      "comment": "A device that observes traffic conditions."
+    },
+    {
+      "name": "TrafficSignal",
+      "label_en": "Traffic Signal",
+      "label_uk": "Світлофор",
+      "comment": "A signal device used to control traffic movement."
+    },
+    {
+      "name": "AdaptiveSignal",
+      "label_en": "Adaptive Signal",
+      "label_uk": "Адаптивний світлофор",
+      "comment": "A traffic signal whose operation can adapt to observed conditions."
+    },
+    {
+      "name": "TrafficController",
+      "label_en": "Traffic Controller",
+      "label_uk": "Контролер руху",
+      "comment": "A control resource that operates traffic signals and regulates traffic."
+    },
+    {
+      "name": "TransitRoute",
+      "label_en": "Transit Route",
+      "label_uk": "Маршрут громадського транспорту",
+      "comment": "A public-transit service route."
+    },
+    {
+      "name": "PublicTransitVehicle",
+      "label_en": "Public Transit Vehicle",
+      "label_uk": "Транспортний засіб громадського транспорту",
+      "comment": "A vehicle operating a public-transit service."
+    },
+    {
+      "name": "TrafficIncident",
+      "label_en": "Traffic Incident",
+      "label_uk": "Дорожній інцидент",
+      "comment": "A temporary event disrupting transportation operations."
+    },
+    {
+      "name": "PerformanceMetric",
+      "label_en": "Performance Metric",
+      "label_uk": "Показник ефективності",
+      "comment": "A quantitative indicator used to evaluate transport performance."
+    },
+    {
+      "name": "TransportAuthority",
+      "label_en": "Transport Authority",
+      "label_uk": "Транспортний орган",
+      "comment": "An organization responsible for transport governance and operations."
+    },
+    {
+      "name": "SignalizedIntersection",
+      "label_en": "Signalized Intersection",
+      "label_uk": "Регульоване перехрестя",
+      "comment": "An intersection represented as the location controlled by a signal."
+    }
+  ],
+  "classes": [
+    "RoadSegment",
+    "TrafficSensor",
+    "TrafficSignal",
+    "AdaptiveSignal",
+    "TrafficController",
+    "TransitRoute",
+    "PublicTransitVehicle",
+    "TrafficIncident",
+    "PerformanceMetric",
+    "TransportAuthority",
+    "SignalizedIntersection"
+  ],
+  "taxonomy": {
+    "Infrastructure": [
+      "RoadSegment",
+      "TrafficSignal",
+      "AdaptiveSignal",
+      "TrafficController",
+      "SignalizedIntersection"
+    ],
+    "Observation": [
+      "TrafficSensor",
+      "TrafficObservation",
+      "PerformanceMetric"
+    ],
+    "MobilityService": [
+      "TransitRoute",
+      "PublicTransitVehicle"
+    ],
+    "Event": [
+      "TrafficIncident"
+    ],
+    "Governance": [
+      "TransportAuthority",
+      "GovernancePolicy"
+    ]
+  }
+}

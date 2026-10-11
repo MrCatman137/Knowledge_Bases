@@ -1,0 +1,8 @@
+PREFIX ut: <https://example.org/urban-transport#>
+SELECT ?sensor ?identifier ?speed
+WHERE {
+  ?sensor a ut:TrafficSensor ; ut:hasIdentifier ?identifier ; ut:monitors ?obs .
+  ?obs ut:hasObservedSpeed ?speed .
+  FILTER(?speed > 20.0)
+}
+ORDER BY DESC(?speed)

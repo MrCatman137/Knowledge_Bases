@@ -1,0 +1,10 @@
+PREFIX ut: <https://example.org/urban-transport#>
+SELECT ?controller ?segment ?allowedSpeed
+WHERE {
+  ?controller a ut:TrafficController ; ut:regulates ?segment .
+  ?segment a ut:RoadSegment ; ut:hasAllowedSpeed ?allowedSpeed .
+  ?obs ut:hasObservedSpeed ?observedSpeed ; ut:isPeakHour true .
+  ?sensor ut:measures ?segment ; ut:monitors ?obs .
+  FILTER(?observedSpeed < (?allowedSpeed * 0.60))
+}
+ORDER BY ?controller

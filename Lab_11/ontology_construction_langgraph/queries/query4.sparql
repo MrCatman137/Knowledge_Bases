@@ -1,0 +1,7 @@
+PREFIX ut: <https://example.org/urban-transport#>
+SELECT ?vehicle ?route ?routeNumber
+WHERE {
+  ?vehicle a ut:PublicTransitVehicle ; ut:operatesOn ?route .
+  ?route a ut:TransitRoute ; ut:hasRouteNumber ?routeNumber .
+}
+ORDER BY ?routeNumber

@@ -1,0 +1,1 @@
+The public transit network includes buses, trams, and designated transit routes. A transit operator manages bus routes and monitors passenger volume. Public transit routes connect urban districts and transport terminals. The transit management system optimizes route schedules to reduce average delay. Bus lines share road infrastructure with private vehicles.

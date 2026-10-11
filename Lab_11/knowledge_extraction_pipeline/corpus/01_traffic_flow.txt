@@ -1,0 +1,1 @@
+Intelligent transportation systems monitor urban traffic flow in real time. Road segments collect traffic observations using embedded sensors. Traffic sensors measure average speed and vehicle volume on major highways. High vehicle volume causes traffic congestion on critical road segments. A traffic management center analyzes traffic patterns to optimize urban mobility.

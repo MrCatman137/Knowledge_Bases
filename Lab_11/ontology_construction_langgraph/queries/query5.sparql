@@ -1,0 +1,12 @@
+PREFIX ut: <https://example.org/urban-transport#>
+SELECT ?segment ?speed ?delay
+WHERE {
+  ?segment a ut:RoadSegment .
+  ?sensor a ut:TrafficSensor ; ut:measures ?segment ; ut:monitors ?obs .
+  ?obs ut:isPeakHour true ; ut:hasObservedSpeed ?speed .
+  OPTIONAL {
+    ?metric a ut:PerformanceMetric ; ut:evaluates ?segment ; ut:hasDelayMinutes ?delay .
+  }
+  FILTER(?speed < 30.0)
+}
+ORDER BY ?segment

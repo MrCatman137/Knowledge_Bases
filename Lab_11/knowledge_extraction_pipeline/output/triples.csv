@@ -1,0 +1,158 @@
+﻿subject,predicate,object,source,confidence
+intelligent transportation systems,monitors,urban traffic flow,01_traffic_flow.txt,0.91
+traffic sensors,measures,average speed,01_traffic_flow.txt,0.91
+high vehicle volume,causes,traffic congestion,01_traffic_flow.txt,0.91
+transit operator,monitors,passenger volume,02_public_transit.txt,0.91
+transit operator,manages,bus routes,02_public_transit.txt,0.91
+public transit routes,connects,urban districts,02_public_transit.txt,0.91
+transit management system,regulates,route schedules,02_public_transit.txt,0.91
+road incident,causes,significant travel delay,03_traffic_incidents.txt,0.91
+emergency services,manages,traffic accident clearance,03_traffic_incidents.txt,0.91
+adaptive traffic signals,regulates,vehicle flow,04_smart_signals.txt,0.91
+traffic controllers,regulates,signal timing phases,04_smart_signals.txt,0.91
+smart traffic signal,uses,sensor data,04_smart_signals.txt,0.91
+road segment,defines,geographic location,05_transport_infrastructure.txt,0.91
+performance metric,measures,average speed,06_speed_metrics.txt,0.91
+municipal transport authority,manages,road infrastructure,07_traffic_governance.txt,0.91
+municipal transport authority,defines,traffic rules,07_traffic_governance.txt,0.91
+safety regulations,regulates,speed limits,07_traffic_governance.txt,0.91
+Intelligent Transportation System,monitors,Traffic Flow,01_traffic_flow.txt,0.94
+Road Segment,uses,Traffic Sensor,01_traffic_flow.txt,0.94
+Traffic Sensor,measures,Average Speed,01_traffic_flow.txt,0.94
+Traffic Sensor,measures,Vehicle Volume,01_traffic_flow.txt,0.94
+Vehicle Volume,causes,Traffic Congestion,01_traffic_flow.txt,0.94
+Traffic Management Center,monitors,Traffic Flow,01_traffic_flow.txt,0.94
+Transit Operator,manages,Bus Route,02_public_transit.txt,0.94
+Transit Operator,monitors,Passenger Volume,02_public_transit.txt,0.94
+Public Transit Route,connects,Urban District,02_public_transit.txt,0.94
+Transit Management System,regulates,Route Schedule,02_public_transit.txt,0.94
+Traffic Incident,causes,Travel Delay,03_traffic_incidents.txt,0.94
+Traffic Incident,causes,Speed Drop,03_traffic_incidents.txt,0.94
+Emergency Services,manages,Accident Clearance,03_traffic_incidents.txt,0.94
+Adaptive Traffic Signal,regulates,Vehicle Flow,04_smart_signals.txt,0.94
+Traffic Controller,regulates,Signal Timing,04_smart_signals.txt,0.94
+Adaptive Traffic Signal,uses,Traffic Sensor,04_smart_signals.txt,0.94
+Road Segment,defines,Speed Limit,05_transport_infrastructure.txt,0.94
+Municipal Road Authority,manages,Road Infrastructure,05_transport_infrastructure.txt,0.94
+Performance Metric,measures,Average Speed,06_speed_metrics.txt,0.94
+Performance Metric,measures,Travel Delay,06_speed_metrics.txt,0.94
+Data Analyst,measures,Congestion Index,06_speed_metrics.txt,0.94
+Municipal Transport Authority,defines,Speed Limit,07_traffic_governance.txt,0.94
+Municipal Transport Authority,manages,Transport Governance,07_traffic_governance.txt,0.94
+Safety Regulation,regulates,Speed Limit,07_traffic_governance.txt,0.94
+Traffic Flow,prefLabel,traffic flow,05_alignment_skos.py,0.99
+Traffic Flow,altLabel,traffic stream,05_alignment_skos.py,0.99
+Traffic Flow,broader,Traffic Monitoring,05_alignment_skos.py,0.98
+Traffic Monitoring,prefLabel,traffic monitoring,05_alignment_skos.py,0.99
+Traffic Monitoring,altLabel,traffic surveillance,05_alignment_skos.py,0.99
+Traffic Monitoring,broader,Transport Governance,05_alignment_skos.py,0.98
+Road Segment,prefLabel,road segment,05_alignment_skos.py,0.99
+Road Segment,altLabel,carriageway segment,05_alignment_skos.py,0.99
+Road Segment,broader,Transport Infrastructure,05_alignment_skos.py,0.98
+Transport Infrastructure,prefLabel,transport infrastructure,05_alignment_skos.py,0.99
+Transport Infrastructure,altLabel,road network,05_alignment_skos.py,0.99
+Transport Infrastructure,broader,Transport Governance,05_alignment_skos.py,0.98
+Traffic Sensor,prefLabel,traffic sensor,05_alignment_skos.py,0.99
+Traffic Sensor,altLabel,embedded sensor,05_alignment_skos.py,0.99
+Traffic Sensor,broader,Transport Infrastructure,05_alignment_skos.py,0.98
+Average Speed,prefLabel,average speed,05_alignment_skos.py,0.99
+Average Speed,altLabel,observed speed,05_alignment_skos.py,0.99
+Average Speed,broader,Performance Metric,05_alignment_skos.py,0.98
+Vehicle Volume,prefLabel,vehicle volume,05_alignment_skos.py,0.99
+Vehicle Volume,altLabel,traffic volume,05_alignment_skos.py,0.99
+Vehicle Volume,broader,Performance Metric,05_alignment_skos.py,0.98
+Passenger Volume,prefLabel,passenger volume,05_alignment_skos.py,0.99
+Passenger Volume,altLabel,passenger count,05_alignment_skos.py,0.99
+Passenger Volume,broader,Performance Metric,05_alignment_skos.py,0.98
+Travel Delay,prefLabel,travel delay,05_alignment_skos.py,0.99
+Travel Delay,altLabel,delay minutes,05_alignment_skos.py,0.99
+Travel Delay,broader,Performance Metric,05_alignment_skos.py,0.98
+Congestion Index,prefLabel,congestion index,05_alignment_skos.py,0.99
+Congestion Index,altLabel,delay factor,05_alignment_skos.py,0.99
+Congestion Index,broader,Performance Metric,05_alignment_skos.py,0.98
+Performance Metric,prefLabel,performance metric,05_alignment_skos.py,0.99
+Performance Metric,altLabel,KPI metric,05_alignment_skos.py,0.99
+Performance Metric,broader,Transport Governance,05_alignment_skos.py,0.98
+Traffic Congestion,prefLabel,traffic congestion,05_alignment_skos.py,0.99
+Traffic Congestion,altLabel,traffic jam,05_alignment_skos.py,0.99
+Traffic Congestion,broader,Traffic Flow,05_alignment_skos.py,0.98
+Traffic Incident,prefLabel,traffic incident,05_alignment_skos.py,0.99
+Traffic Incident,altLabel,road incident,05_alignment_skos.py,0.99
+Traffic Incident,broader,Traffic Monitoring,05_alignment_skos.py,0.98
+Accident Clearance,prefLabel,accident clearance,05_alignment_skos.py,0.99
+Accident Clearance,altLabel,crash clearance,05_alignment_skos.py,0.99
+Accident Clearance,broader,Emergency Management,05_alignment_skos.py,0.98
+Public Transit Route,prefLabel,public transit route,05_alignment_skos.py,0.99
+Public Transit Route,altLabel,transit line,05_alignment_skos.py,0.99
+Public Transit Route,broader,Transport Infrastructure,05_alignment_skos.py,0.98
+Bus Route,prefLabel,bus route,05_alignment_skos.py,0.99
+Bus Route,altLabel,bus line,05_alignment_skos.py,0.99
+Bus Route,broader,Public Transit Route,05_alignment_skos.py,0.98
+Route Schedule,prefLabel,route schedule,05_alignment_skos.py,0.99
+Route Schedule,altLabel,transit timetable,05_alignment_skos.py,0.99
+Route Schedule,broader,Transport Infrastructure,05_alignment_skos.py,0.98
+Adaptive Traffic Signal,prefLabel,adaptive traffic signal,05_alignment_skos.py,0.99
+Adaptive Traffic Signal,altLabel,smart traffic light,05_alignment_skos.py,0.99
+Adaptive Traffic Signal,broader,Transport Infrastructure,05_alignment_skos.py,0.98
+Signal Timing,prefLabel,signal timing,05_alignment_skos.py,0.99
+Signal Timing,altLabel,traffic light phases,05_alignment_skos.py,0.99
+Signal Timing,broader,Traffic Regulation,05_alignment_skos.py,0.98
+Speed Limit,prefLabel,speed limit,05_alignment_skos.py,0.99
+Speed Limit,altLabel,allowed speed,05_alignment_skos.py,0.99
+Speed Limit,broader,Traffic Regulation,05_alignment_skos.py,0.98
+Safety Regulation,prefLabel,safety regulation,05_alignment_skos.py,0.99
+Safety Regulation,altLabel,traffic safety rule,05_alignment_skos.py,0.99
+Safety Regulation,broader,Transport Governance,05_alignment_skos.py,0.98
+Traffic Controller,prefLabel,traffic controller,05_alignment_skos.py,0.99
+Traffic Controller,altLabel,traffic dispatcher,05_alignment_skos.py,0.99
+Traffic Controller,broader,Transport Governance,05_alignment_skos.py,0.98
+Transit Operator,prefLabel,transit operator,05_alignment_skos.py,0.99
+Transit Operator,altLabel,bus operator,05_alignment_skos.py,0.99
+Transit Operator,broader,Transport Governance,05_alignment_skos.py,0.98
+Data Analyst,prefLabel,data analyst,05_alignment_skos.py,0.99
+Data Analyst,altLabel,traffic analyst,05_alignment_skos.py,0.99
+Data Analyst,broader,Transport Governance,05_alignment_skos.py,0.98
+Emergency Services,prefLabel,emergency services,05_alignment_skos.py,0.99
+Emergency Services,altLabel,rescue service,05_alignment_skos.py,0.99
+Emergency Services,broader,Transport Governance,05_alignment_skos.py,0.98
+Traffic Management Center,prefLabel,traffic management center,05_alignment_skos.py,0.99
+Traffic Management Center,altLabel,TMC,05_alignment_skos.py,0.99
+Traffic Management Center,broader,Transport Governance,05_alignment_skos.py,0.98
+Municipal Transport Authority,prefLabel,municipal transport authority,05_alignment_skos.py,0.99
+Municipal Transport Authority,altLabel,city traffic authority,05_alignment_skos.py,0.99
+Municipal Transport Authority,broader,Transport Governance,05_alignment_skos.py,0.98
+Traffic Flow,type,Process,03_ner_extraction.py,0.93
+Traffic Monitoring,type,Process,03_ner_extraction.py,0.93
+Accident Clearance,type,Process,03_ner_extraction.py,0.93
+Signal Regulation,type,Process,03_ner_extraction.py,0.93
+Transport Governance,type,Process,03_ner_extraction.py,0.93
+Traffic Controller,type,Role,03_ner_extraction.py,0.93
+Transit Operator,type,Role,03_ner_extraction.py,0.93
+Urban Planner,type,Role,03_ner_extraction.py,0.93
+Data Analyst,type,Role,03_ner_extraction.py,0.93
+Road Segment,type,Artifact,03_ner_extraction.py,0.93
+Traffic Sensor,type,Artifact,03_ner_extraction.py,0.93
+Speed Limit,type,Artifact,03_ner_extraction.py,0.93
+Adaptive Traffic Signal,type,Artifact,03_ner_extraction.py,0.93
+Public Transit Route,type,Artifact,03_ner_extraction.py,0.93
+Bus Route,type,Artifact,03_ner_extraction.py,0.93
+Route Schedule,type,Artifact,03_ner_extraction.py,0.93
+Signal Timing,type,Artifact,03_ner_extraction.py,0.93
+Transport Infrastructure,type,Artifact,03_ner_extraction.py,0.93
+Traffic Management Center,type,Organization,03_ner_extraction.py,0.93
+Emergency Services,type,Organization,03_ner_extraction.py,0.93
+Municipal Transport Authority,type,Organization,03_ner_extraction.py,0.93
+Municipal Road Authority,type,Organization,03_ner_extraction.py,0.93
+Average Speed,type,Metric,03_ner_extraction.py,0.93
+Vehicle Volume,type,Metric,03_ner_extraction.py,0.93
+Travel Delay,type,Metric,03_ner_extraction.py,0.93
+Passenger Volume,type,Metric,03_ner_extraction.py,0.93
+Congestion Index,type,Metric,03_ner_extraction.py,0.93
+Performance Metric,type,Metric,03_ner_extraction.py,0.93
+01_traffic_flow.txt,contains,extracted knowledge,01_traffic_flow.txt,0.88
+02_public_transit.txt,contains,extracted knowledge,02_public_transit.txt,0.88
+03_traffic_incidents.txt,contains,extracted knowledge,03_traffic_incidents.txt,0.88
+04_smart_signals.txt,contains,extracted knowledge,04_smart_signals.txt,0.88
+05_transport_infrastructure.txt,contains,extracted knowledge,05_transport_infrastructure.txt,0.88
+06_speed_metrics.txt,contains,extracted knowledge,06_speed_metrics.txt,0.88
+07_traffic_governance.txt,contains,extracted knowledge,07_traffic_governance.txt,0.88

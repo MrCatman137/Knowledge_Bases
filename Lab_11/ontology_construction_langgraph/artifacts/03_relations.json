@@ -1,0 +1,29 @@
+{
+  "object_properties": [
+    {
+      "name": "controls",
+      "domain": "TrafficController",
+      "range": "AdaptiveSignal",
+      "label_en": "controls",
+      "label_uk": "керує",
+      "comment": "A controller operates an adaptive signal."
+    },
+    {
+      "name": "manages",
+      "domain": "TransportAuthority",
+      "range": "TrafficController",
+      "label_en": "manages",
+      "label_uk": "керує",
+      "comment": "An authority manages a traffic controller."
+    },
+    {
+      "name": "causes",
+      "domain": "TrafficIncident",
+      "range": "PerformanceMetric",
+      "label_en": "causes",
+      "label_uk": "спричиняє",
+      "comment": "An incident can cause a measurable performance effect."
+    }
+  ],
+  "datatype_properties": []
+}

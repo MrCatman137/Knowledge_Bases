@@ -1,0 +1,97 @@
+{
+  "source_files": [
+    "D:\\4_1\\Knowledge_Bases\\Lab_11\\ontology_construction_langgraph\\input\\domain_description.txt"
+  ],
+  "paragraph_count": 9,
+  "chunks": [
+    {
+      "chunk_id": "C00",
+      "text": "Digital Models of Urban Transportation Systems",
+      "sentences": [
+        "Digital Models of Urban Transportation Systems"
+      ]
+    },
+    {
+      "chunk_id": "C01",
+      "text": "Urban mobility platforms represent a city as a digital transportation system in which physical infrastructure, sensing devices, control equipment, public-transit services, incidents, observations, and governance policies are connected through explicit semantic relationships. A road segment is a directed or bidirectional portion of a street network with a defined length, lane count, and allowed speed. Road segments are connected to adjacent segments and may carry transit routes. A digital model stores both relatively stable infrastructure attributes and observations that change over time.",
+      "sentences": [
+        "Urban mobility platforms represent a city as a digital transportation system in which physical infrastructure, sensing devices, control equipment, public-transit services, incidents, observations, and governance policies are connected through explicit semantic relationships.",
+        "A road segment is a directed or bidirectional portion of a street network with a defined length, lane count, and allowed speed.",
+        "Road segments are connected to adjacent segments and may carry transit routes.",
+        "A digital model stores both relatively stable infrastructure attributes and observations that change over time."
+      ]
+    },
+    {
+      "chunk_id": "C02",
+      "text": "Traffic sensing provides the operational data needed to maintain this model. A traffic sensor may be installed on or near a road segment and can monitor vehicle flow, occupancy, queue length, or speed. A flow observation records an observation timestamp, an observed vehicle count, an observed speed, and a peak-hour indicator. Sensors are identified by persistent identifiers so that a stream of observations can be associated with a particular physical measurement source. A traffic management platform can use recent observations to calculate speed and delay metrics, compare current conditions with historical baselines, and detect abnormal congestion.",
+      "sentences": [
+        "Traffic sensing provides the operational data needed to maintain this model.",
+        "A traffic sensor may be installed on or near a road segment and can monitor vehicle flow, occupancy, queue length, or speed.",
+        "A flow observation records an observation timestamp, an observed vehicle count, an observed speed, and a peak-hour indicator.",
+        "Sensors are identified by persistent identifiers so that a stream of observations can be associated with a particular physical measurement source.",
+        "A traffic management platform can use recent observations to calculate speed and delay metrics, compare current conditions with historical baselines, and detect abnormal congestion."
+      ]
+    },
+    {
+      "chunk_id": "C03",
+      "text": "Traffic signals and their controllers form the active control layer of an urban mobility system. An adaptive signal is operated by a traffic controller and controls exactly one signalized intersection in the digital model. Controllers may regulate one or more road segments through signal timing plans and can react to congestion observations. Signal optimization can modify cycle length, phase allocation, and offsets while respecting safety constraints and governance policies. The model distinguishes the controller as a control resource from the adaptive signal as the signal device or controlled interface.",
+      "sentences": [
+        "Traffic signals and their controllers form the active control layer of an urban mobility system.",
+        "An adaptive signal is operated by a traffic controller and controls exactly one signalized intersection in the digital model.",
+        "Controllers may regulate one or more road segments through signal timing plans and can react to congestion observations.",
+        "Signal optimization can modify cycle length, phase allocation, and offsets while respecting safety constraints and governance policies.",
+        "The model distinguishes the controller as a control resource from the adaptive signal as the signal device or controlled interface."
+      ]
+    },
+    {
+      "chunk_id": "C04",
+      "text": "Public transit dispatching is represented as a service layer over the road network. A transit route contains an ordered service pattern and a route identifier, while a public transit vehicle performs trips associated with that route. Dispatch systems monitor vehicle location, schedule adherence, and delay. A route can be affected by road congestion or an incident, and a dispatcher may apply an operational policy such as short-turning a vehicle, changing a headway, or assigning a detour. These actions are represented as governance or operational decisions rather than as physical road infrastructure.",
+      "sentences": [
+        "Public transit dispatching is represented as a service layer over the road network.",
+        "A transit route contains an ordered service pattern and a route identifier, while a public transit vehicle performs trips associated with that route.",
+        "Dispatch systems monitor vehicle location, schedule adherence, and delay.",
+        "A route can be affected by road congestion or an incident, and a dispatcher may apply an operational policy such as short-turning a vehicle, changing a headway, or assigning a detour.",
+        "These actions are represented as governance or operational decisions rather than as physical road infrastructure."
+      ]
+    },
+    {
+      "chunk_id": "C05",
+      "text": "Traffic incidents describe temporary disruptions such as collisions, road closures, lane blockages, flooding, or emergency works. An incident may affect a road segment and cause measurable changes in flow or speed. Incident management combines sensor observations, control resources, and policy rules. When a serious incident is detected, the transportation authority may activate a response policy, notify operators, adjust signal control, and recommend a transit detour. The digital model therefore connects causes, affected infrastructure, responsible authorities, and operational responses.",
+      "sentences": [
+        "Traffic incidents describe temporary disruptions such as collisions, road closures, lane blockages, flooding, or emergency works.",
+        "An incident may affect a road segment and cause measurable changes in flow or speed.",
+        "Incident management combines sensor observations, control resources, and policy rules.",
+        "When a serious incident is detected, the transportation authority may activate a response policy, notify operators, adjust signal control, and recommend a transit detour.",
+        "The digital model therefore connects causes, affected infrastructure, responsible authorities, and operational responses."
+      ]
+    },
+    {
+      "chunk_id": "C06",
+      "text": "Performance analytics aggregates observations into metrics used to assess the transportation system. A performance metric may describe average speed, travel delay, throughput, queue duration, or reliability over a defined analysis period. Metrics are linked to the road segment, route, or operational entity they evaluate. Analysts can use these values to compare peak and off-peak conditions, identify persistent bottlenecks, and assess whether signal optimization or transit interventions improve service quality.",
+      "sentences": [
+        "Performance analytics aggregates observations into metrics used to assess the transportation system.",
+        "A performance metric may describe average speed, travel delay, throughput, queue duration, or reliability over a defined analysis period.",
+        "Metrics are linked to the road segment, route, or operational entity they evaluate.",
+        "Analysts can use these values to compare peak and off-peak conditions, identify persistent bottlenecks, and assess whether signal optimization or transit interventions improve service quality."
+      ]
+    },
+    {
+      "chunk_id": "C07",
+      "text": "Governance policies define constraints and operating procedures for the transportation authority and its controlled assets. A transport authority manages controllers, publishes operational policies, and coordinates incident response. Policies can specify allowed speed ranges, maximum operational delays, emergency priorities, data retention expectations, or procedures for traffic disruptions. In a semantic model, governance policies are distinct from performance metrics and traffic incidents so that normative rules are not confused with observed system states.",
+      "sentences": [
+        "Governance policies define constraints and operating procedures for the transportation authority and its controlled assets.",
+        "A transport authority manages controllers, publishes operational policies, and coordinates incident response.",
+        "Policies can specify allowed speed ranges, maximum operational delays, emergency priorities, data retention expectations, or procedures for traffic disruptions.",
+        "In a semantic model, governance policies are distinct from performance metrics and traffic incidents so that normative rules are not confused with observed system states."
+      ]
+    },
+    {
+      "chunk_id": "C08",
+      "text": "The resulting digital transportation model supports competency questions such as: which sensors measure speeds above a threshold; which controllers regulate congested road segments; which incidents affect particular segments; which transit vehicles operate on a route; and which performance metrics describe a segment during peak hours. The ontology should preserve the distinction between classes of physical assets, observations, events, metrics, services, and governance resources while allowing their relationships to be queried using SPARQL.",
+      "sentences": [
+        "The resulting digital transportation model supports competency questions such as: which sensors measure speeds above a threshold; which controllers regulate congested road segments; which incidents affect particular segments; which transit vehicles operate on a route; and which performance metrics describe a segment during peak hours.",
+        "The ontology should preserve the distinction between classes of physical assets, observations, events, metrics, services, and governance resources while allowing their relationships to be queried using SPARQL."
+      ]
+    }
+  ]
+}
