@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:transport-ontology="http://example.org/transport-ontology#"
+>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#SystemStateInformation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Інформація про стан системи</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#DigitalTransportModel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#DataSource">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Джерело даних</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#DigitalTransportModel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#Bus35">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#Bus"/>
+    <rdfs:label xml:lang="uk">Автобус №35</rdfs:label>
+    <transport-ontology:identifier>BUS-35</transport-ontology:identifier>
+    <transport-ontology:routeNumber>35</transport-ontology:routeNumber>
+    <transport-ontology:locatedOn rdf:resource="http://example.org/transport-ontology#DS001"/>
+    <transport-ontology:hasRoute rdf:resource="http://example.org/transport-ontology#Route35"/>
+    <transport-ontology:forms rdf:resource="http://example.org/transport-ontology#TrafficFlow001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#BusStop008">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#BusStop"/>
+    <rdfs:label xml:lang="uk">Зупинка Західна</rdfs:label>
+    <transport-ontology:identifier>BS-008</transport-ontology:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#GPS003_Clone">
+    <rdf:type rdf:resource="http://example.org/transport-ontology#GPSMeasurement"/>
+    <rdfs:label xml:lang="uk">GPS-вимірювання №3 (дублікат)</rdfs:label>
+    <transport-ontology:measurementTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-09-19T10:00:00</transport-ontology:measurementTime>
+    <transport-ontology:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">24.0297</transport-ontology:longitude>
+    <transport-ontology:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">49.8397</transport-ontology:latitude>
+    <transport-ontology:collectsData rdf:resource="http://example.org/transport-ontology#SpeedData003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#Car002">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#Car"/>
+    <rdfs:label xml:lang="uk">Легковий автомобіль A2</rdfs:label>
+    <transport-ontology:identifier>CAR-002</transport-ontology:identifier>
+    <transport-ontology:locatedOn rdf:resource="http://example.org/transport-ontology#DS001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#GPS001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#GPSMeasurement"/>
+    <rdfs:label xml:lang="uk">GPS-вимірювання №1</rdfs:label>
+    <transport-ontology:measurementTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">
+            2026-09-19T10:00:00
+        </transport-ontology:measurementTime>
+    <transport-ontology:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25.1237</transport-ontology:longitude>
+    <transport-ontology:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">46.3357</transport-ontology:latitude>
+    <transport-ontology:collectsData rdf:resource="http://example.org/transport-ontology#SpeedData001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#length">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="uk">довжина</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/transport-ontology#RoadSegment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#affects">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="uk">впливає на</rdfs:label>
+    <rdfs:range rdf:resource="http://example.org/transport-ontology#TrafficFlow"/>
+    <rdfs:domain rdf:resource="http://example.org/transport-ontology#TransportEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#TransportModel001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#DigitalTransportModel"/>
+    <rdfs:label xml:lang="uk">Цифрова модель транспортної системи міста</rdfs:label>
+    <transport-ontology:contains rdf:resource="http://example.org/transport-ontology#RoadNetwork001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#hasRoadSegment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="uk">має дорожній сегмент</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/transport-ontology#RoadNetwork"/>
+    <rdfs:range rdf:resource="http://example.org/transport-ontology#RoadSegment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#TransportInfrastructure">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Транспортна інфраструктура</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#DigitalTransportModel"/>
+    <owl:disjointWith rdf:resource="http://example.org/transport-ontology#TransportProcess"/>
+    <owl:disjointWith rdf:resource="http://example.org/transport-ontology#Vehicle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#currentSpeed">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="uk">поточна швидкість</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#VehicleCountData001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#VehicleCountData"/>
+    <rdfs:label xml:lang="uk">Дані про кількість транспортних засобів №1</rdfs:label>
+    <transport-ontology:vehicleCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1250</transport-ontology:vehicleCount>
+    <transport-ontology:describesState rdf:resource="http://example.org/transport-ontology#CongestionLevel001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#Car004">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#Car"/>
+    <rdfs:label xml:lang="uk">Легковий автомобіль A4</rdfs:label>
+    <transport-ontology:identifier>CAR-004</transport-ontology:identifier>
+    <transport-ontology:locatedOn rdf:resource="http://example.org/transport-ontology#DS001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#CongestionLevel001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#CongestionLevel"/>
+    <rdfs:label xml:lang="uk">Високий рівень завантаженості</rdfs:label>
+    <transport-ontology:description>
+            Високе завантаження дорожнього сегмента DS-001.
+        </transport-ontology:description>
+    <transport-ontology:generalizes rdf:resource="http://example.org/transport-ontology#RuleHighCongestion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#BusStop004">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#BusStop"/>
+    <rdfs:label xml:lang="uk">Зупинка Вокзальна</rdfs:label>
+    <transport-ontology:identifier>BS-004</transport-ontology:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#longitude">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="uk">довгота</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#AverageSpeed005">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#AverageSpeed"/>
+    <rdfs:label xml:lang="uk">Середня швидкість 36 км/год</rdfs:label>
+    <transport-ontology:currentSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">36.0</transport-ontology:currentSpeed>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#AverageSpeed006">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#AverageSpeed"/>
+    <rdfs:label xml:lang="uk">Середня швидкість 41 км/год</rdfs:label>
+    <transport-ontology:currentSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">41.0</transport-ontology:currentSpeed>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#TrafficFlow001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#TrafficFlow"/>
+    <rdfs:label xml:lang="uk">Транспортний потік №1</rdfs:label>
+    <transport-ontology:vehicleCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1250</transport-ontology:vehicleCount>
+    <transport-ontology:currentSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18.0</transport-ontology:currentSpeed>
+    <transport-ontology:hasVehicle rdf:resource="http://example.org/transport-ontology#Bus24"/>
+    <transport-ontology:characterizes rdf:resource="http://example.org/transport-ontology#DS001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncae329eef8a04801a20627fab72457ff">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="Neef2797a3ffa4bbe90aeff03158b3088"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#hasTrafficLight">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="uk">має світлофор</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/transport-ontology#Intersection"/>
+    <rdfs:range rdf:resource="http://example.org/transport-ontology#TrafficLight"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#latitude">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="uk">широта</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#DataSource002">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#DataSource"/>
+    <rdfs:label xml:lang="uk">Міська інформаційна система</rdfs:label>
+    <transport-ontology:identifier>SRC-002</transport-ontology:identifier>
+    <transport-ontology:description>Центральне програмне джерело даних транспортної системи.</transport-ontology:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#Route5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#Route"/>
+    <rdfs:label xml:lang="uk">Маршрут №5</rdfs:label>
+    <transport-ontology:identifier>R-5</transport-ontology:identifier>
+    <transport-ontology:routeNumber>5</transport-ontology:routeNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#SpeedSensor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Датчик швидкості</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#DataSource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#Truck">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Вантажний автомобіль</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#Vehicle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#CongestionLevel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Рівень завантаженості</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#SystemStateInformation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#DS001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#RoadSegment"/>
+    <rdfs:label xml:lang="uk">Дорожній сегмент DS-001</rdfs:label>
+    <transport-ontology:currentSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18.0</transport-ontology:currentSpeed>
+    <transport-ontology:laneCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</transport-ontology:laneCount>
+    <transport-ontology:allowedSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">50.0</transport-ontology:allowedSpeed>
+    <transport-ontology:allowedSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">80.0</transport-ontology:allowedSpeed>
+    <transport-ontology:length rdf:datatype="http://www.w3.org/2001/XMLSchema#double">850.0</transport-ontology:length>
+    <transport-ontology:length rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1250.0</transport-ontology:length>
+    <transport-ontology:identifier>DS-001</transport-ontology:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#locatedOn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="uk">розташований на</rdfs:label>
+    <rdfs:range rdf:resource="http://example.org/transport-ontology#RoadSegment"/>
+    <rdfs:domain rdf:resource="http://example.org/transport-ontology#Vehicle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#BusStop009">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#BusStop"/>
+    <rdfs:label xml:lang="uk">Зупинка Лікарняна</rdfs:label>
+    <transport-ontology:identifier>BS-009</transport-ontology:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#AlternativeRouteDecision">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#RouteChange"/>
+    <rdfs:label xml:lang="uk">Рішення про зміну маршруту</rdfs:label>
+    <transport-ontology:description>
+            Перенаправлення транспортного потоку на альтернативний маршрут.
+        </transport-ontology:description>
+    <transport-ontology:changes rdf:resource="http://example.org/transport-ontology#Route24"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#RuleTrafficAccident">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#DecisionRule"/>
+    <rdfs:label xml:lang="uk">Правило дорожнього обмеження</rdfs:label>
+    <transport-ontology:description>Правило прийняття рішення у випадку обмеження руху на окремій ділянці.</transport-ontology:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#forms">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="uk">формує</rdfs:label>
+    <rdfs:range rdf:resource="http://example.org/transport-ontology#TrafficFlow"/>
+    <rdfs:domain rdf:resource="http://example.org/transport-ontology#Vehicle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#Car008">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#Car"/>
+    <rdfs:label xml:lang="uk">Легковий автомобіль A8</rdfs:label>
+    <transport-ontology:identifier>CAR-008</transport-ontology:identifier>
+    <transport-ontology:locatedOn rdf:resource="http://example.org/transport-ontology#DS001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#DigitalTransportModel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Цифрова модель транспортної системи</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#describesState">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="uk">описує стан</rdfs:label>
+    <rdfs:range rdf:resource="http://example.org/transport-ontology#SystemStateInformation"/>
+    <rdfs:domain rdf:resource="http://example.org/transport-ontology#TransportSystemData"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#TransportObject">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Транспортний об'єкт</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#DigitalTransportModel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#TransportEvent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Транспортна подія</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#DigitalTransportModel"/>
+    <owl:disjointWith rdf:resource="http://example.org/transport-ontology#TransportInfrastructure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#BusStop001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#BusStop"/>
+    <rdfs:label xml:lang="uk">Зупинка Художня школа</rdfs:label>
+    <transport-ontology:identifier>BS-001</transport-ontology:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5dfcedfd3c7c42a1b7210e7bea55d036">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://example.org/transport-ontology#hasRoute"/>
+    <owl:onClass rdf:resource="http://example.org/transport-ontology#Route"/>
+    <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#laneCount">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="uk">кількість смуг</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/transport-ontology#RoadSegment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#GPS004">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#GPSMeasurement"/>
+    <rdfs:label xml:lang="uk">GPS-вимірювання №4</rdfs:label>
+    <transport-ontology:measurementTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">
+            2026-09-19T10:00:00
+        </transport-ontology:measurementTime>
+    <transport-ontology:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">24.0297</transport-ontology:longitude>
+    <transport-ontology:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">49.8397</transport-ontology:latitude>
+    <transport-ontology:collectsData rdf:resource="http://example.org/transport-ontology#SpeedData004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#Car001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#Car"/>
+    <rdfs:label xml:lang="uk">Легковий автомобіль A1</rdfs:label>
+    <transport-ontology:identifier>CAR-001</transport-ontology:identifier>
+    <transport-ontology:locatedOn rdf:resource="http://example.org/transport-ontology#DS001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#SpeedData003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#SpeedData"/>
+    <rdfs:label xml:lang="uk">Дані про швидкість №3</rdfs:label>
+    <transport-ontology:currentSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17.0</transport-ontology:currentSpeed>
+    <transport-ontology:describesState rdf:resource="http://example.org/transport-ontology#AverageSpeed001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#DataSource004">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#DataSource"/>
+    <rdfs:label xml:lang="uk">Система дорожнього контролю</rdfs:label>
+    <transport-ontology:description>Джерело даних про стан та використання дорожньої мережі.</transport-ontology:description>
+    <transport-ontology:identifier>SRC-004</transport-ontology:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#SpeedData004">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#SpeedData"/>
+    <rdfs:label xml:lang="uk">Дані про швидкість №4</rdfs:label>
+    <transport-ontology:currentSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17.0</transport-ontology:currentSpeed>
+    <transport-ontology:describesState rdf:resource="http://example.org/transport-ontology#AverageSpeed001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#BusStop005">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#BusStop"/>
+    <rdfs:label xml:lang="uk">Зупинка Північна</rdfs:label>
+    <transport-ontology:identifier>BS-005</transport-ontology:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#TransportProcess">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Транспортний процес</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#DigitalTransportModel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#RuleLowSpeed">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#DecisionRule"/>
+    <rdfs:label xml:lang="uk">Правило низької швидкості</rdfs:label>
+    <transport-ontology:description>Правило реагування на значне зниження швидкості транспортного потоку.</transport-ontology:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#Car007">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#Car"/>
+    <rdfs:label xml:lang="uk">Легковий автомобіль A7</rdfs:label>
+    <transport-ontology:identifier>CAR-007</transport-ontology:identifier>
+    <transport-ontology:locatedOn rdf:resource="http://example.org/transport-ontology#DS001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#Route35">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#Route"/>
+    <rdfs:label xml:lang="uk">Маршрут №35</rdfs:label>
+    <transport-ontology:routeNumber>35</transport-ontology:routeNumber>
+    <transport-ontology:identifier>R-35</transport-ontology:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#routeNumber">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="uk">номер маршруту</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/transport-ontology#Route"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#description">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="uk">опис</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#Car005">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#Car"/>
+    <rdfs:label xml:lang="uk">Легковий автомобіль A5</rdfs:label>
+    <transport-ontology:identifier>CAR-005</transport-ontology:identifier>
+    <transport-ontology:locatedOn rdf:resource="http://example.org/transport-ontology#DS001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#Route">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Маршрут</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#TransportObject"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#Bus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Автобус</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#Vehicle"/>
+    <rdfs:subClassOf rdf:nodeID="N5dfcedfd3c7c42a1b7210e7bea55d036"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#GPS003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#GPSMeasurement"/>
+    <rdfs:label xml:lang="uk">GPS-вимірювання №3</rdfs:label>
+    <transport-ontology:measurementTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">
+            2026-09-19T10:00:00
+        </transport-ontology:measurementTime>
+    <transport-ontology:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">24.0297</transport-ontology:longitude>
+    <transport-ontology:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">49.8397</transport-ontology:latitude>
+    <transport-ontology:collectsData rdf:resource="http://example.org/transport-ontology#SpeedData003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#BusStop002">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#BusStop"/>
+    <rdfs:label xml:lang="uk">Зупинка Центральна</rdfs:label>
+    <transport-ontology:identifier>BS-002</transport-ontology:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#identifier">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="uk">ідентифікатор</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#hasIntersection">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="uk">має перехрестя</rdfs:label>
+    <rdfs:range rdf:resource="http://example.org/transport-ontology#Intersection"/>
+    <rdfs:domain rdf:resource="http://example.org/transport-ontology#RoadNetwork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#generalizes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="uk">узагальнює</rdfs:label>
+    <rdfs:range rdf:resource="http://example.org/transport-ontology#DecisionRule"/>
+    <rdfs:domain rdf:resource="http://example.org/transport-ontology#SystemStateInformation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#RoadNetwork001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#RoadNetwork"/>
+    <rdfs:label xml:lang="uk">Дорожня мережа №1</rdfs:label>
+    <transport-ontology:hasRoadSegment rdf:resource="http://example.org/transport-ontology#DS001"/>
+    <transport-ontology:hasIntersection rdf:resource="http://example.org/transport-ontology#Intersection001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#BusStop003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#BusStop"/>
+    <rdfs:label xml:lang="uk">Зупинка Університетська</rdfs:label>
+    <transport-ontology:identifier>BS-003</transport-ontology:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#BusStop007">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#BusStop"/>
+    <rdfs:label xml:lang="uk">Зупинка Південна</rdfs:label>
+    <transport-ontology:identifier>BS-007</transport-ontology:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#hasBusStop">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="uk">має транспортну зупинку</rdfs:label>
+    <rdfs:range rdf:resource="http://example.org/transport-ontology#BusStop"/>
+    <rdfs:domain rdf:resource="http://example.org/transport-ontology#RoadNetwork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#TransportDecision">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Транспортне рішення</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#DigitalTransportModel"/>
+    <owl:disjointWith rdf:resource="http://example.org/transport-ontology#TransportInfrastructure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#Car">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Легковий автомобіль</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#Vehicle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#VehicleCountData">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Дані про кількість транспортних засобів</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#TransportSystemData"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#TrafficAccident">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">ДТП</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#TransportEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#SpeedData001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#SpeedData"/>
+    <rdfs:label xml:lang="uk">Дані про швидкість №1</rdfs:label>
+    <transport-ontology:currentSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18.0</transport-ontology:currentSpeed>
+    <transport-ontology:describesState rdf:resource="http://example.org/transport-ontology#AverageSpeed001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#GPSMeasurement">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">GPS-вимірювання</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#DataSource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#GhostBus_NoRoute">
+    <rdf:type rdf:resource="http://example.org/transport-ontology#Bus"/>
+    <rdfs:label xml:lang="uk">Автобус-привид без маршруту</rdfs:label>
+    <transport-ontology:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BUS-GHOST</transport-ontology:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#TrafficSensor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Датчик трафіку</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#DataSource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#GPS002">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#GPSMeasurement"/>
+    <rdfs:label xml:lang="uk">GPS-вимірювання №2</rdfs:label>
+    <transport-ontology:measurementTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">
+            2026-09-19T10:00:00
+        </transport-ontology:measurementTime>
+    <transport-ontology:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">23.3497</transport-ontology:longitude>
+    <transport-ontology:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">47.2253</transport-ontology:latitude>
+    <transport-ontology:collectsData rdf:resource="http://example.org/transport-ontology#SpeedData002"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#AverageSpeed001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#AverageSpeed"/>
+    <rdfs:label xml:lang="uk">Середня швидкість — 18 км/год</rdfs:label>
+    <transport-ontology:currentSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18.0</transport-ontology:currentSpeed>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#hasRoute">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="uk">має маршрут</rdfs:label>
+    <rdfs:range rdf:resource="http://example.org/transport-ontology#Route"/>
+    <rdfs:domain rdf:resource="http://example.org/transport-ontology#Vehicle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#DecisionRule">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Правило прийняття рішення</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#DigitalTransportModel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#allowedSpeed">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="uk">дозволена швидкість</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/transport-ontology#RoadSegment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#BusStop006">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#BusStop"/>
+    <rdfs:label xml:lang="uk">Зупинка Східна</rdfs:label>
+    <transport-ontology:identifier>BS-006</transport-ontology:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#ConflictVehicle001">
+    <rdf:type rdf:resource="http://example.org/transport-ontology#Bus"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#Car"/>
+    <rdfs:label xml:lang="uk">Гібридний ТЗ (Конфліктний екземпляр)</rdfs:label>
+    <transport-ontology:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CONF-VEH-01</transport-ontology:identifier>
+    <transport-ontology:hasRoute rdf:resource="http://example.org/transport-ontology#Route5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#TrafficRegulation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Регулювання руху</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#TransportDecision"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#Bus24">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#Bus"/>
+    <rdfs:label xml:lang="uk">Автобус №24</rdfs:label>
+    <transport-ontology:routeNumber>24</transport-ontology:routeNumber>
+    <transport-ontology:identifier>BUS-24</transport-ontology:identifier>
+    <transport-ontology:locatedOn rdf:resource="http://example.org/transport-ontology#DS001"/>
+    <transport-ontology:hasRoute rdf:resource="http://example.org/transport-ontology#Route24"/>
+    <transport-ontology:forms rdf:resource="http://example.org/transport-ontology#TrafficFlow001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf7d8a1c000574a6885abf95e98a25a3c">
+    <rdf:first rdf:resource="http://example.org/transport-ontology#Car"/>
+    <rdf:rest rdf:nodeID="N37bc863b00c64e02a48e785b0a4bde72"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#DataSource003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#DataSource"/>
+    <rdfs:label xml:lang="uk">Міська інформаційна система</rdfs:label>
+    <transport-ontology:identifier>SRC-003</transport-ontology:identifier>
+    <transport-ontology:description>Інформаційне джерело з оперативними транспортними показниками.</transport-ontology:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#AverageSpeed">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Середня швидкість</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#SystemStateInformation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#Bus24_FleetExternal">
+    <rdf:type rdf:resource="http://example.org/transport-ontology#Bus"/>
+    <rdfs:label xml:lang="uk">Автобус №24 (зовнішній оператор)</rdfs:label>
+    <transport-ontology:routeNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24</transport-ontology:routeNumber>
+    <transport-ontology:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BUS-24-EXT</transport-ontology:identifier>
+    <transport-ontology:locatedOn rdf:resource="http://example.org/transport-ontology#DS001"/>
+    <transport-ontology:hasRoute rdf:resource="http://example.org/transport-ontology#Route24"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#RouteChange">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Зміна маршруту</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#TransportDecision"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#Intersection">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Перехрестя</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#TransportInfrastructure"/>
+    <rdfs:comment>Елемент транспортної інфраструктури, у якому перетинаються або з&amp;apos;єднуються дорожні напрямки.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#Accident001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#TrafficAccident"/>
+    <rdfs:label xml:lang="uk">ДТП №1</rdfs:label>
+    <transport-ontology:description>
+            ДТП на дорожньому сегменті DS-001
+        </transport-ontology:description>
+    <transport-ontology:identifier>ACC-001</transport-ontology:identifier>
+    <transport-ontology:affects rdf:resource="http://example.org/transport-ontology#TrafficFlow001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#SpeedData002">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#SpeedData"/>
+    <rdfs:label xml:lang="uk">Дані про швидкість №2</rdfs:label>
+    <transport-ontology:currentSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</transport-ontology:currentSpeed>
+    <transport-ontology:describesState rdf:resource="http://example.org/transport-ontology#AverageSpeed001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#DataSource001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#DataSource"/>
+    <rdfs:label xml:lang="uk">Джерело даних 1</rdfs:label>
+    <transport-ontology:description>Первітне джерело даних транспортної системи.</transport-ontology:description>
+    <transport-ontology:identifier>SRC-001</transport-ontology:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#TransportSystemData">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Дані транспортної системи</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#DigitalTransportModel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#TrafficFlow">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Транспортний потік</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#TransportProcess"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#Vehicle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Транспортний засіб</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#TransportObject"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#measurementTime">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="uk">час вимірювання</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#passengerCount">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="uk">кількість пасажирів</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#RoadClosure">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Перекриття дороги</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#TransportEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:label xml:lang="uk">Онтологія цифрової моделі транспортної системи</rdfs:label>
+    <rdfs:comment xml:lang="uk">
+            Онтологія для представлення структури цифрової транспортної системи,
+            її об'єктів, процесів, подій, даних, інформації, правил та рішень.
+        </rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#RuleRoadClosure">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#DecisionRule"/>
+    <rdfs:label xml:lang="uk">Правило перевантаженого перехрестя</rdfs:label>
+    <transport-ontology:description>Правило визначення необхідності регулювання руху на перевантаженому перехресті.</transport-ontology:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#Car003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#Car"/>
+    <rdfs:label xml:lang="uk">Легковий автомобіль A3</rdfs:label>
+    <transport-ontology:identifier>CAR-003</transport-ontology:identifier>
+    <transport-ontology:locatedOn rdf:resource="http://example.org/transport-ontology#DS001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#AverageSpeed002">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#AverageSpeed"/>
+    <rdfs:label xml:lang="uk">Середня швидкість 22 км/год</rdfs:label>
+    <transport-ontology:currentSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">22.0</transport-ontology:currentSpeed>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#Intersection001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#Intersection"/>
+    <rdfs:label xml:lang="uk">Перехрестя №1</rdfs:label>
+    <transport-ontology:identifier>INT-001</transport-ontology:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#PassengerFlowData">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Дані про пасажиропотік</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#TransportSystemData"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#Route24">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#Route"/>
+    <rdfs:label xml:lang="uk">Маршрут №24</rdfs:label>
+    <transport-ontology:routeNumber>24</transport-ontology:routeNumber>
+    <transport-ontology:identifier>R-24</transport-ontology:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#Car006">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#Car"/>
+    <rdfs:label xml:lang="uk">Легковий автомобіль A6</rdfs:label>
+    <transport-ontology:identifier>CAR-006</transport-ontology:identifier>
+    <transport-ontology:locatedOn rdf:resource="http://example.org/transport-ontology#DS001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#BusStop_ArtSchool_Alt">
+    <rdf:type rdf:resource="http://example.org/transport-ontology#BusStop"/>
+    <rdfs:label xml:lang="uk">Зупинка Художня школа ім. О. Новаківського</rdfs:label>
+    <transport-ontology:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BS-001</transport-ontology:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#determines">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="uk">визначає</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/transport-ontology#DecisionRule"/>
+    <rdfs:range rdf:resource="http://example.org/transport-ontology#TransportDecision"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#RoadSegment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Дорожній сегмент</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#TransportInfrastructure"/>
+    <rdfs:comment>Окрема ділянка дорожньої мережі з визначеними характеристиками довжини, кількості смуг та швидкості руху.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#RoadWorks">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Дорожні роботи</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#TransportEvent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#TrafficSensor001">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#TrafficSensor"/>
+    <rdfs:label xml:lang="uk">Датчик трафіку №1</rdfs:label>
+    <transport-ontology:identifier>TS-001</transport-ontology:identifier>
+    <transport-ontology:collectsData rdf:resource="http://example.org/transport-ontology#VehicleCountData001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#TrafficRestriction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Обмеження руху</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#TransportDecision"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#hasRoadNetwork">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="uk">має дорожню мережу</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/transport-ontology#DigitalTransportModel"/>
+    <rdfs:range rdf:resource="http://example.org/transport-ontology#RoadNetwork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#hasVehicle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="uk">має транспортний засіб</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/transport-ontology#TrafficFlow"/>
+    <rdfs:range rdf:resource="http://example.org/transport-ontology#Vehicle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#Bus5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#Bus"/>
+    <rdfs:label xml:lang="uk">Автобус №5</rdfs:label>
+    <transport-ontology:identifier>BUS-5</transport-ontology:identifier>
+    <transport-ontology:routeNumber>5</transport-ontology:routeNumber>
+    <transport-ontology:locatedOn rdf:resource="http://example.org/transport-ontology#DS001"/>
+    <transport-ontology:hasRoute rdf:resource="http://example.org/transport-ontology#Route5"/>
+    <transport-ontology:forms rdf:resource="http://example.org/transport-ontology#TrafficFlow001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#contains">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="uk">містить</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/transport-ontology#DigitalTransportModel"/>
+    <rdfs:range rdf:resource="http://example.org/transport-ontology#TransportInfrastructure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#vehicleCount">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="uk">кількість транспортних засобів</rdfs:label>
+    <rdfs:comment>Кількість транспортних засобів, зафіксованих у транспортному потоці або відповідних даних.</rdfs:comment>
+    <rdfs:domain rdf:resource="http://example.org/transport-ontology#VehicleCountData"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#AverageSpeed004">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#AverageSpeed"/>
+    <rdfs:label xml:lang="uk">Середня швидкість 31 км/год</rdfs:label>
+    <transport-ontology:currentSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">31.0</transport-ontology:currentSpeed>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#PassengerFlow">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Пасажиропотік</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#TransportProcess"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#SpeedData">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Дані про швидкість</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#TransportSystemData"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#RoadNetwork">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Дорожня мережа</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#TransportInfrastructure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#collectsData">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="uk">збирає дані</rdfs:label>
+    <rdfs:domain rdf:resource="http://example.org/transport-ontology#DataSource"/>
+    <rdfs:range rdf:resource="http://example.org/transport-ontology#TransportSystemData"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#RuleHighCongestion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#DecisionRule"/>
+    <rdfs:label xml:lang="uk">Правило високого завантаження</rdfs:label>
+    <transport-ontology:description>
+            Якщо рівень завантаженості дороги високий, необхідно змінити маршрут.
+        </transport-ontology:description>
+    <transport-ontology:determines rdf:resource="http://example.org/transport-ontology#AlternativeRouteDecision"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#characterizes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="uk">характеризує</rdfs:label>
+    <rdfs:range rdf:resource="http://example.org/transport-ontology#RoadSegment"/>
+    <rdfs:domain rdf:resource="http://example.org/transport-ontology#TrafficFlow"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#BrokenCar001">
+    <rdf:type rdf:resource="http://example.org/transport-ontology#Car"/>
+    <rdfs:label xml:lang="uk">Автомобіль з помилковими даними</rdfs:label>
+    <transport-ontology:currentSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-45.0</transport-ontology:currentSpeed>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#BusStop">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Транспортна зупинка</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#TransportInfrastructure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#changes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="uk">змінює</rdfs:label>
+    <rdfs:range rdf:resource="http://example.org/transport-ontology#Route"/>
+    <rdfs:domain rdf:resource="http://example.org/transport-ontology#TransportDecision"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#TrafficLight">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Світлофор</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://example.org/transport-ontology#TransportInfrastructure"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Neef2797a3ffa4bbe90aeff03158b3088">
+    <rdf:first rdf:resource="http://example.org/transport-ontology#Bus"/>
+    <rdf:rest rdf:nodeID="Nf7d8a1c000574a6885abf95e98a25a3c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/transport-ontology#AverageSpeed003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/transport-ontology#AverageSpeed"/>
+    <rdfs:label xml:lang="uk">Середня швидкість 27 км/год</rdfs:label>
+    <transport-ontology:currentSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#double">27.0</transport-ontology:currentSpeed>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N37bc863b00c64e02a48e785b0a4bde72">
+    <rdf:first rdf:resource="http://example.org/transport-ontology#Truck"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+</rdf:RDF>

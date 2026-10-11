@@ -1,0 +1,691 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix transport-ontology: <http://example.org/transport-ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/transport-ontology> a owl:Ontology ;
+    rdfs:label "Онтологія цифрової моделі транспортної системи"@uk ;
+    rdfs:comment """
+            Онтологія для представлення структури цифрової транспортної системи,
+            її об'єктів, процесів, подій, даних, інформації, правил та рішень.
+        """@uk .
+
+transport-ontology:Accident001 a transport-ontology:TrafficAccident,
+        owl:NamedIndividual ;
+    rdfs:label "ДТП №1"@uk ;
+    transport-ontology:affects transport-ontology:TrafficFlow001 ;
+    transport-ontology:description """
+            ДТП на дорожньому сегменті DS-001
+        """ ;
+    transport-ontology:identifier "ACC-001" .
+
+transport-ontology:AverageSpeed002 a transport-ontology:AverageSpeed,
+        owl:NamedIndividual ;
+    rdfs:label "Середня швидкість 22 км/год"@uk ;
+    transport-ontology:currentSpeed 2.2e+01 .
+
+transport-ontology:AverageSpeed003 a transport-ontology:AverageSpeed,
+        owl:NamedIndividual ;
+    rdfs:label "Середня швидкість 27 км/год"@uk ;
+    transport-ontology:currentSpeed 2.7e+01 .
+
+transport-ontology:AverageSpeed004 a transport-ontology:AverageSpeed,
+        owl:NamedIndividual ;
+    rdfs:label "Середня швидкість 31 км/год"@uk ;
+    transport-ontology:currentSpeed 3.1e+01 .
+
+transport-ontology:AverageSpeed005 a transport-ontology:AverageSpeed,
+        owl:NamedIndividual ;
+    rdfs:label "Середня швидкість 36 км/год"@uk ;
+    transport-ontology:currentSpeed 3.6e+01 .
+
+transport-ontology:AverageSpeed006 a transport-ontology:AverageSpeed,
+        owl:NamedIndividual ;
+    rdfs:label "Середня швидкість 41 км/год"@uk ;
+    transport-ontology:currentSpeed 4.1e+01 .
+
+transport-ontology:BrokenCar001 a transport-ontology:Car ;
+    rdfs:label "Автомобіль з помилковими даними"@uk ;
+    transport-ontology:currentSpeed -4.5e+01 .
+
+transport-ontology:Bus24_FleetExternal a transport-ontology:Bus ;
+    rdfs:label "Автобус №24 (зовнішній оператор)"@uk ;
+    transport-ontology:hasRoute transport-ontology:Route24 ;
+    transport-ontology:identifier "BUS-24-EXT"^^xsd:string ;
+    transport-ontology:locatedOn transport-ontology:DS001 ;
+    transport-ontology:routeNumber "24"^^xsd:string .
+
+transport-ontology:Bus35 a transport-ontology:Bus,
+        owl:NamedIndividual ;
+    rdfs:label "Автобус №35"@uk ;
+    transport-ontology:forms transport-ontology:TrafficFlow001 ;
+    transport-ontology:hasRoute transport-ontology:Route35 ;
+    transport-ontology:identifier "BUS-35" ;
+    transport-ontology:locatedOn transport-ontology:DS001 ;
+    transport-ontology:routeNumber "35" .
+
+transport-ontology:Bus5 a transport-ontology:Bus,
+        owl:NamedIndividual ;
+    rdfs:label "Автобус №5"@uk ;
+    transport-ontology:forms transport-ontology:TrafficFlow001 ;
+    transport-ontology:hasRoute transport-ontology:Route5 ;
+    transport-ontology:identifier "BUS-5" ;
+    transport-ontology:locatedOn transport-ontology:DS001 ;
+    transport-ontology:routeNumber "5" .
+
+transport-ontology:BusStop001 a transport-ontology:BusStop,
+        owl:NamedIndividual ;
+    rdfs:label "Зупинка Художня школа"@uk ;
+    transport-ontology:identifier "BS-001" .
+
+transport-ontology:BusStop002 a transport-ontology:BusStop,
+        owl:NamedIndividual ;
+    rdfs:label "Зупинка Центральна"@uk ;
+    transport-ontology:identifier "BS-002" .
+
+transport-ontology:BusStop003 a transport-ontology:BusStop,
+        owl:NamedIndividual ;
+    rdfs:label "Зупинка Університетська"@uk ;
+    transport-ontology:identifier "BS-003" .
+
+transport-ontology:BusStop004 a transport-ontology:BusStop,
+        owl:NamedIndividual ;
+    rdfs:label "Зупинка Вокзальна"@uk ;
+    transport-ontology:identifier "BS-004" .
+
+transport-ontology:BusStop005 a transport-ontology:BusStop,
+        owl:NamedIndividual ;
+    rdfs:label "Зупинка Північна"@uk ;
+    transport-ontology:identifier "BS-005" .
+
+transport-ontology:BusStop006 a transport-ontology:BusStop,
+        owl:NamedIndividual ;
+    rdfs:label "Зупинка Східна"@uk ;
+    transport-ontology:identifier "BS-006" .
+
+transport-ontology:BusStop007 a transport-ontology:BusStop,
+        owl:NamedIndividual ;
+    rdfs:label "Зупинка Південна"@uk ;
+    transport-ontology:identifier "BS-007" .
+
+transport-ontology:BusStop008 a transport-ontology:BusStop,
+        owl:NamedIndividual ;
+    rdfs:label "Зупинка Західна"@uk ;
+    transport-ontology:identifier "BS-008" .
+
+transport-ontology:BusStop009 a transport-ontology:BusStop,
+        owl:NamedIndividual ;
+    rdfs:label "Зупинка Лікарняна"@uk ;
+    transport-ontology:identifier "BS-009" .
+
+transport-ontology:BusStop_ArtSchool_Alt a transport-ontology:BusStop ;
+    rdfs:label "Зупинка Художня школа ім. О. Новаківського"@uk ;
+    transport-ontology:identifier "BS-001"^^xsd:string .
+
+transport-ontology:Car001 a transport-ontology:Car,
+        owl:NamedIndividual ;
+    rdfs:label "Легковий автомобіль A1"@uk ;
+    transport-ontology:identifier "CAR-001" ;
+    transport-ontology:locatedOn transport-ontology:DS001 .
+
+transport-ontology:Car002 a transport-ontology:Car,
+        owl:NamedIndividual ;
+    rdfs:label "Легковий автомобіль A2"@uk ;
+    transport-ontology:identifier "CAR-002" ;
+    transport-ontology:locatedOn transport-ontology:DS001 .
+
+transport-ontology:Car003 a transport-ontology:Car,
+        owl:NamedIndividual ;
+    rdfs:label "Легковий автомобіль A3"@uk ;
+    transport-ontology:identifier "CAR-003" ;
+    transport-ontology:locatedOn transport-ontology:DS001 .
+
+transport-ontology:Car004 a transport-ontology:Car,
+        owl:NamedIndividual ;
+    rdfs:label "Легковий автомобіль A4"@uk ;
+    transport-ontology:identifier "CAR-004" ;
+    transport-ontology:locatedOn transport-ontology:DS001 .
+
+transport-ontology:Car005 a transport-ontology:Car,
+        owl:NamedIndividual ;
+    rdfs:label "Легковий автомобіль A5"@uk ;
+    transport-ontology:identifier "CAR-005" ;
+    transport-ontology:locatedOn transport-ontology:DS001 .
+
+transport-ontology:Car006 a transport-ontology:Car,
+        owl:NamedIndividual ;
+    rdfs:label "Легковий автомобіль A6"@uk ;
+    transport-ontology:identifier "CAR-006" ;
+    transport-ontology:locatedOn transport-ontology:DS001 .
+
+transport-ontology:Car007 a transport-ontology:Car,
+        owl:NamedIndividual ;
+    rdfs:label "Легковий автомобіль A7"@uk ;
+    transport-ontology:identifier "CAR-007" ;
+    transport-ontology:locatedOn transport-ontology:DS001 .
+
+transport-ontology:Car008 a transport-ontology:Car,
+        owl:NamedIndividual ;
+    rdfs:label "Легковий автомобіль A8"@uk ;
+    transport-ontology:identifier "CAR-008" ;
+    transport-ontology:locatedOn transport-ontology:DS001 .
+
+transport-ontology:ConflictVehicle001 a transport-ontology:Bus,
+        transport-ontology:Car ;
+    rdfs:label "Гібридний ТЗ (Конфліктний екземпляр)"@uk ;
+    transport-ontology:hasRoute transport-ontology:Route5 ;
+    transport-ontology:identifier "CONF-VEH-01"^^xsd:string .
+
+transport-ontology:DataSource001 a transport-ontology:DataSource,
+        owl:NamedIndividual ;
+    rdfs:label "Джерело даних 1"@uk ;
+    transport-ontology:description "Первітне джерело даних транспортної системи." ;
+    transport-ontology:identifier "SRC-001" .
+
+transport-ontology:DataSource002 a transport-ontology:DataSource,
+        owl:NamedIndividual ;
+    rdfs:label "Міська інформаційна система"@uk ;
+    transport-ontology:description "Центральне програмне джерело даних транспортної системи." ;
+    transport-ontology:identifier "SRC-002" .
+
+transport-ontology:DataSource003 a transport-ontology:DataSource,
+        owl:NamedIndividual ;
+    rdfs:label "Міська інформаційна система"@uk ;
+    transport-ontology:description "Інформаційне джерело з оперативними транспортними показниками." ;
+    transport-ontology:identifier "SRC-003" .
+
+transport-ontology:DataSource004 a transport-ontology:DataSource,
+        owl:NamedIndividual ;
+    rdfs:label "Система дорожнього контролю"@uk ;
+    transport-ontology:description "Джерело даних про стан та використання дорожньої мережі." ;
+    transport-ontology:identifier "SRC-004" .
+
+transport-ontology:GPS001 a transport-ontology:GPSMeasurement,
+        owl:NamedIndividual ;
+    rdfs:label "GPS-вимірювання №1"@uk ;
+    transport-ontology:collectsData transport-ontology:SpeedData001 ;
+    transport-ontology:latitude 4.63357e+01 ;
+    transport-ontology:longitude 2.51237e+01 ;
+    transport-ontology:measurementTime """
+            2026-09-19T10:00:00
+        """^^xsd:dateTime .
+
+transport-ontology:GPS002 a transport-ontology:GPSMeasurement,
+        owl:NamedIndividual ;
+    rdfs:label "GPS-вимірювання №2"@uk ;
+    transport-ontology:collectsData transport-ontology:SpeedData002 ;
+    transport-ontology:latitude 4.72253e+01 ;
+    transport-ontology:longitude 2.33497e+01 ;
+    transport-ontology:measurementTime """
+            2026-09-19T10:00:00
+        """^^xsd:dateTime .
+
+transport-ontology:GPS003 a transport-ontology:GPSMeasurement,
+        owl:NamedIndividual ;
+    rdfs:label "GPS-вимірювання №3"@uk ;
+    transport-ontology:collectsData transport-ontology:SpeedData003 ;
+    transport-ontology:latitude 4.98397e+01 ;
+    transport-ontology:longitude 2.40297e+01 ;
+    transport-ontology:measurementTime """
+            2026-09-19T10:00:00
+        """^^xsd:dateTime .
+
+transport-ontology:GPS003_Clone a transport-ontology:GPSMeasurement ;
+    rdfs:label "GPS-вимірювання №3 (дублікат)"@uk ;
+    transport-ontology:collectsData transport-ontology:SpeedData003 ;
+    transport-ontology:latitude 4.98397e+01 ;
+    transport-ontology:longitude 2.40297e+01 ;
+    transport-ontology:measurementTime "2026-09-19T10:00:00"^^xsd:dateTime .
+
+transport-ontology:GPS004 a transport-ontology:GPSMeasurement,
+        owl:NamedIndividual ;
+    rdfs:label "GPS-вимірювання №4"@uk ;
+    transport-ontology:collectsData transport-ontology:SpeedData004 ;
+    transport-ontology:latitude 4.98397e+01 ;
+    transport-ontology:longitude 2.40297e+01 ;
+    transport-ontology:measurementTime """
+            2026-09-19T10:00:00
+        """^^xsd:dateTime .
+
+transport-ontology:GhostBus_NoRoute a transport-ontology:Bus ;
+    rdfs:label "Автобус-привид без маршруту"@uk ;
+    transport-ontology:identifier "BUS-GHOST"^^xsd:string .
+
+transport-ontology:PassengerFlow a owl:Class ;
+    rdfs:label "Пасажиропотік"@uk ;
+    rdfs:subClassOf transport-ontology:TransportProcess .
+
+transport-ontology:PassengerFlowData a owl:Class ;
+    rdfs:label "Дані про пасажиропотік"@uk ;
+    rdfs:subClassOf transport-ontology:TransportSystemData .
+
+transport-ontology:RoadClosure a owl:Class ;
+    rdfs:label "Перекриття дороги"@uk ;
+    rdfs:subClassOf transport-ontology:TransportEvent .
+
+transport-ontology:RoadWorks a owl:Class ;
+    rdfs:label "Дорожні роботи"@uk ;
+    rdfs:subClassOf transport-ontology:TransportEvent .
+
+transport-ontology:RuleLowSpeed a transport-ontology:DecisionRule,
+        owl:NamedIndividual ;
+    rdfs:label "Правило низької швидкості"@uk ;
+    transport-ontology:description "Правило реагування на значне зниження швидкості транспортного потоку." .
+
+transport-ontology:RuleRoadClosure a transport-ontology:DecisionRule,
+        owl:NamedIndividual ;
+    rdfs:label "Правило перевантаженого перехрестя"@uk ;
+    transport-ontology:description "Правило визначення необхідності регулювання руху на перевантаженому перехресті." .
+
+transport-ontology:RuleTrafficAccident a transport-ontology:DecisionRule,
+        owl:NamedIndividual ;
+    rdfs:label "Правило дорожнього обмеження"@uk ;
+    transport-ontology:description "Правило прийняття рішення у випадку обмеження руху на окремій ділянці." .
+
+transport-ontology:SpeedSensor a owl:Class ;
+    rdfs:label "Датчик швидкості"@uk ;
+    rdfs:subClassOf transport-ontology:DataSource .
+
+transport-ontology:TrafficRegulation a owl:Class ;
+    rdfs:label "Регулювання руху"@uk ;
+    rdfs:subClassOf transport-ontology:TransportDecision .
+
+transport-ontology:TrafficRestriction a owl:Class ;
+    rdfs:label "Обмеження руху"@uk ;
+    rdfs:subClassOf transport-ontology:TransportDecision .
+
+transport-ontology:TrafficSensor001 a transport-ontology:TrafficSensor,
+        owl:NamedIndividual ;
+    rdfs:label "Датчик трафіку №1"@uk ;
+    transport-ontology:collectsData transport-ontology:VehicleCountData001 ;
+    transport-ontology:identifier "TS-001" .
+
+transport-ontology:TransportModel001 a transport-ontology:DigitalTransportModel,
+        owl:NamedIndividual ;
+    rdfs:label "Цифрова модель транспортної системи міста"@uk ;
+    transport-ontology:contains transport-ontology:RoadNetwork001 .
+
+transport-ontology:affects a owl:ObjectProperty ;
+    rdfs:label "впливає на"@uk ;
+    rdfs:domain transport-ontology:TransportEvent ;
+    rdfs:range transport-ontology:TrafficFlow .
+
+transport-ontology:allowedSpeed a owl:DatatypeProperty ;
+    rdfs:label "дозволена швидкість"@uk ;
+    rdfs:domain transport-ontology:RoadSegment ;
+    rdfs:range xsd:double .
+
+transport-ontology:changes a owl:ObjectProperty ;
+    rdfs:label "змінює"@uk ;
+    rdfs:domain transport-ontology:TransportDecision ;
+    rdfs:range transport-ontology:Route .
+
+transport-ontology:characterizes a owl:ObjectProperty ;
+    rdfs:label "характеризує"@uk ;
+    rdfs:domain transport-ontology:TrafficFlow ;
+    rdfs:range transport-ontology:RoadSegment .
+
+transport-ontology:collectsData a owl:ObjectProperty ;
+    rdfs:label "збирає дані"@uk ;
+    rdfs:domain transport-ontology:DataSource ;
+    rdfs:range transport-ontology:TransportSystemData .
+
+transport-ontology:contains a owl:ObjectProperty ;
+    rdfs:label "містить"@uk ;
+    rdfs:domain transport-ontology:DigitalTransportModel ;
+    rdfs:range transport-ontology:TransportInfrastructure .
+
+transport-ontology:currentSpeed a owl:DatatypeProperty ;
+    rdfs:label "поточна швидкість"@uk ;
+    rdfs:range xsd:double .
+
+transport-ontology:describesState a owl:ObjectProperty ;
+    rdfs:label "описує стан"@uk ;
+    rdfs:domain transport-ontology:TransportSystemData ;
+    rdfs:range transport-ontology:SystemStateInformation .
+
+transport-ontology:description a owl:DatatypeProperty ;
+    rdfs:label "опис"@uk ;
+    rdfs:range xsd:string .
+
+transport-ontology:determines a owl:ObjectProperty ;
+    rdfs:label "визначає"@uk ;
+    rdfs:domain transport-ontology:DecisionRule ;
+    rdfs:range transport-ontology:TransportDecision .
+
+transport-ontology:forms a owl:ObjectProperty ;
+    rdfs:label "формує"@uk ;
+    rdfs:domain transport-ontology:Vehicle ;
+    rdfs:range transport-ontology:TrafficFlow .
+
+transport-ontology:generalizes a owl:ObjectProperty ;
+    rdfs:label "узагальнює"@uk ;
+    rdfs:domain transport-ontology:SystemStateInformation ;
+    rdfs:range transport-ontology:DecisionRule .
+
+transport-ontology:hasBusStop a owl:ObjectProperty ;
+    rdfs:label "має транспортну зупинку"@uk ;
+    rdfs:domain transport-ontology:RoadNetwork ;
+    rdfs:range transport-ontology:BusStop .
+
+transport-ontology:hasIntersection a owl:ObjectProperty ;
+    rdfs:label "має перехрестя"@uk ;
+    rdfs:domain transport-ontology:RoadNetwork ;
+    rdfs:range transport-ontology:Intersection .
+
+transport-ontology:hasRoadNetwork a owl:ObjectProperty ;
+    rdfs:label "має дорожню мережу"@uk ;
+    rdfs:domain transport-ontology:DigitalTransportModel ;
+    rdfs:range transport-ontology:RoadNetwork .
+
+transport-ontology:hasRoadSegment a owl:ObjectProperty ;
+    rdfs:label "має дорожній сегмент"@uk ;
+    rdfs:domain transport-ontology:RoadNetwork ;
+    rdfs:range transport-ontology:RoadSegment .
+
+transport-ontology:hasTrafficLight a owl:ObjectProperty ;
+    rdfs:label "має світлофор"@uk ;
+    rdfs:domain transport-ontology:Intersection ;
+    rdfs:range transport-ontology:TrafficLight .
+
+transport-ontology:hasVehicle a owl:ObjectProperty ;
+    rdfs:label "має транспортний засіб"@uk ;
+    rdfs:domain transport-ontology:TrafficFlow ;
+    rdfs:range transport-ontology:Vehicle .
+
+transport-ontology:identifier a owl:DatatypeProperty ;
+    rdfs:label "ідентифікатор"@uk ;
+    rdfs:range xsd:string .
+
+transport-ontology:laneCount a owl:DatatypeProperty ;
+    rdfs:label "кількість смуг"@uk ;
+    rdfs:domain transport-ontology:RoadSegment ;
+    rdfs:range xsd:integer .
+
+transport-ontology:latitude a owl:DatatypeProperty ;
+    rdfs:label "широта"@uk ;
+    rdfs:range xsd:double .
+
+transport-ontology:length a owl:DatatypeProperty ;
+    rdfs:label "довжина"@uk ;
+    rdfs:domain transport-ontology:RoadSegment ;
+    rdfs:range xsd:double .
+
+transport-ontology:locatedOn a owl:ObjectProperty ;
+    rdfs:label "розташований на"@uk ;
+    rdfs:domain transport-ontology:Vehicle ;
+    rdfs:range transport-ontology:RoadSegment .
+
+transport-ontology:longitude a owl:DatatypeProperty ;
+    rdfs:label "довгота"@uk ;
+    rdfs:range xsd:double .
+
+transport-ontology:measurementTime a owl:DatatypeProperty ;
+    rdfs:label "час вимірювання"@uk ;
+    rdfs:range xsd:dateTime .
+
+transport-ontology:passengerCount a owl:DatatypeProperty ;
+    rdfs:label "кількість пасажирів"@uk ;
+    rdfs:range xsd:integer .
+
+transport-ontology:routeNumber a owl:DatatypeProperty ;
+    rdfs:label "номер маршруту"@uk ;
+    rdfs:domain transport-ontology:Route ;
+    rdfs:range xsd:string .
+
+transport-ontology:vehicleCount a owl:DatatypeProperty ;
+    rdfs:label "кількість транспортних засобів"@uk ;
+    rdfs:comment "Кількість транспортних засобів, зафіксованих у транспортному потоці або відповідних даних." ;
+    rdfs:domain transport-ontology:VehicleCountData ;
+    rdfs:range xsd:integer .
+
+transport-ontology:AlternativeRouteDecision a transport-ontology:RouteChange,
+        owl:NamedIndividual ;
+    rdfs:label "Рішення про зміну маршруту"@uk ;
+    transport-ontology:changes transport-ontology:Route24 ;
+    transport-ontology:description """
+            Перенаправлення транспортного потоку на альтернативний маршрут.
+        """ .
+
+transport-ontology:Bus24 a transport-ontology:Bus,
+        owl:NamedIndividual ;
+    rdfs:label "Автобус №24"@uk ;
+    transport-ontology:forms transport-ontology:TrafficFlow001 ;
+    transport-ontology:hasRoute transport-ontology:Route24 ;
+    transport-ontology:identifier "BUS-24" ;
+    transport-ontology:locatedOn transport-ontology:DS001 ;
+    transport-ontology:routeNumber "24" .
+
+transport-ontology:CongestionLevel a owl:Class ;
+    rdfs:label "Рівень завантаженості"@uk ;
+    rdfs:subClassOf transport-ontology:SystemStateInformation .
+
+transport-ontology:CongestionLevel001 a transport-ontology:CongestionLevel,
+        owl:NamedIndividual ;
+    rdfs:label "Високий рівень завантаженості"@uk ;
+    transport-ontology:description """
+            Високе завантаження дорожнього сегмента DS-001.
+        """ ;
+    transport-ontology:generalizes transport-ontology:RuleHighCongestion .
+
+transport-ontology:Intersection001 a transport-ontology:Intersection,
+        owl:NamedIndividual ;
+    rdfs:label "Перехрестя №1"@uk ;
+    transport-ontology:identifier "INT-001" .
+
+transport-ontology:RoadNetwork001 a transport-ontology:RoadNetwork,
+        owl:NamedIndividual ;
+    rdfs:label "Дорожня мережа №1"@uk ;
+    transport-ontology:hasIntersection transport-ontology:Intersection001 ;
+    transport-ontology:hasRoadSegment transport-ontology:DS001 .
+
+transport-ontology:Route35 a transport-ontology:Route,
+        owl:NamedIndividual ;
+    rdfs:label "Маршрут №35"@uk ;
+    transport-ontology:identifier "R-35" ;
+    transport-ontology:routeNumber "35" .
+
+transport-ontology:RouteChange a owl:Class ;
+    rdfs:label "Зміна маршруту"@uk ;
+    rdfs:subClassOf transport-ontology:TransportDecision .
+
+transport-ontology:RuleHighCongestion a transport-ontology:DecisionRule,
+        owl:NamedIndividual ;
+    rdfs:label "Правило високого завантаження"@uk ;
+    transport-ontology:description """
+            Якщо рівень завантаженості дороги високий, необхідно змінити маршрут.
+        """ ;
+    transport-ontology:determines transport-ontology:AlternativeRouteDecision .
+
+transport-ontology:SpeedData001 a transport-ontology:SpeedData,
+        owl:NamedIndividual ;
+    rdfs:label "Дані про швидкість №1"@uk ;
+    transport-ontology:currentSpeed 1.8e+01 ;
+    transport-ontology:describesState transport-ontology:AverageSpeed001 .
+
+transport-ontology:SpeedData002 a transport-ontology:SpeedData,
+        owl:NamedIndividual ;
+    rdfs:label "Дані про швидкість №2"@uk ;
+    transport-ontology:currentSpeed 2e+01 ;
+    transport-ontology:describesState transport-ontology:AverageSpeed001 .
+
+transport-ontology:SpeedData004 a transport-ontology:SpeedData,
+        owl:NamedIndividual ;
+    rdfs:label "Дані про швидкість №4"@uk ;
+    transport-ontology:currentSpeed 1.7e+01 ;
+    transport-ontology:describesState transport-ontology:AverageSpeed001 .
+
+transport-ontology:TrafficAccident a owl:Class ;
+    rdfs:label "ДТП"@uk ;
+    rdfs:subClassOf transport-ontology:TransportEvent .
+
+transport-ontology:TrafficLight a owl:Class ;
+    rdfs:label "Світлофор"@uk ;
+    rdfs:subClassOf transport-ontology:TransportInfrastructure .
+
+transport-ontology:TrafficSensor a owl:Class ;
+    rdfs:label "Датчик трафіку"@uk ;
+    rdfs:subClassOf transport-ontology:DataSource .
+
+transport-ontology:Truck a owl:Class ;
+    rdfs:label "Вантажний автомобіль"@uk ;
+    rdfs:subClassOf transport-ontology:Vehicle .
+
+transport-ontology:VehicleCountData001 a transport-ontology:VehicleCountData,
+        owl:NamedIndividual ;
+    rdfs:label "Дані про кількість транспортних засобів №1"@uk ;
+    transport-ontology:describesState transport-ontology:CongestionLevel001 ;
+    transport-ontology:vehicleCount 1250 .
+
+transport-ontology:hasRoute a owl:ObjectProperty ;
+    rdfs:label "має маршрут"@uk ;
+    rdfs:domain transport-ontology:Vehicle ;
+    rdfs:range transport-ontology:Route .
+
+transport-ontology:Route5 a transport-ontology:Route,
+        owl:NamedIndividual ;
+    rdfs:label "Маршрут №5"@uk ;
+    transport-ontology:identifier "R-5" ;
+    transport-ontology:routeNumber "5" .
+
+transport-ontology:SpeedData003 a transport-ontology:SpeedData,
+        owl:NamedIndividual ;
+    rdfs:label "Дані про швидкість №3"@uk ;
+    transport-ontology:currentSpeed 1.7e+01 ;
+    transport-ontology:describesState transport-ontology:AverageSpeed001 .
+
+transport-ontology:TransportObject a owl:Class ;
+    rdfs:label "Транспортний об'єкт"@uk ;
+    rdfs:subClassOf transport-ontology:DigitalTransportModel .
+
+transport-ontology:VehicleCountData a owl:Class ;
+    rdfs:label "Дані про кількість транспортних засобів"@uk ;
+    rdfs:subClassOf transport-ontology:TransportSystemData .
+
+transport-ontology:Intersection a owl:Class ;
+    rdfs:label "Перехрестя"@uk ;
+    rdfs:comment "Елемент транспортної інфраструктури, у якому перетинаються або з&apos;єднуються дорожні напрямки." ;
+    rdfs:subClassOf transport-ontology:TransportInfrastructure .
+
+transport-ontology:Route24 a transport-ontology:Route,
+        owl:NamedIndividual ;
+    rdfs:label "Маршрут №24"@uk ;
+    transport-ontology:identifier "R-24" ;
+    transport-ontology:routeNumber "24" .
+
+transport-ontology:TransportProcess a owl:Class ;
+    rdfs:label "Транспортний процес"@uk ;
+    rdfs:subClassOf transport-ontology:DigitalTransportModel .
+
+transport-ontology:AverageSpeed001 a transport-ontology:AverageSpeed,
+        owl:NamedIndividual ;
+    rdfs:label "Середня швидкість — 18 км/год"@uk ;
+    transport-ontology:currentSpeed 1.8e+01 .
+
+transport-ontology:SpeedData a owl:Class ;
+    rdfs:label "Дані про швидкість"@uk ;
+    rdfs:subClassOf transport-ontology:TransportSystemData .
+
+transport-ontology:SystemStateInformation a owl:Class ;
+    rdfs:label "Інформація про стан системи"@uk ;
+    rdfs:subClassOf transport-ontology:DigitalTransportModel .
+
+transport-ontology:TrafficFlow001 a transport-ontology:TrafficFlow,
+        owl:NamedIndividual ;
+    rdfs:label "Транспортний потік №1"@uk ;
+    transport-ontology:characterizes transport-ontology:DS001 ;
+    transport-ontology:currentSpeed 1.8e+01 ;
+    transport-ontology:hasVehicle transport-ontology:Bus24 ;
+    transport-ontology:vehicleCount 1250 .
+
+transport-ontology:TransportEvent a owl:Class ;
+    rdfs:label "Транспортна подія"@uk ;
+    rdfs:subClassOf transport-ontology:DigitalTransportModel ;
+    owl:disjointWith transport-ontology:TransportInfrastructure .
+
+transport-ontology:GPSMeasurement a owl:Class ;
+    rdfs:label "GPS-вимірювання"@uk ;
+    rdfs:subClassOf transport-ontology:DataSource .
+
+transport-ontology:RoadNetwork a owl:Class ;
+    rdfs:label "Дорожня мережа"@uk ;
+    rdfs:subClassOf transport-ontology:TransportInfrastructure .
+
+transport-ontology:TrafficFlow a owl:Class ;
+    rdfs:label "Транспортний потік"@uk ;
+    rdfs:subClassOf transport-ontology:TransportProcess .
+
+transport-ontology:TransportDecision a owl:Class ;
+    rdfs:label "Транспортне рішення"@uk ;
+    rdfs:subClassOf transport-ontology:DigitalTransportModel ;
+    owl:disjointWith transport-ontology:TransportInfrastructure .
+
+transport-ontology:TransportSystemData a owl:Class ;
+    rdfs:label "Дані транспортної системи"@uk ;
+    rdfs:subClassOf transport-ontology:DigitalTransportModel .
+
+transport-ontology:AverageSpeed a owl:Class ;
+    rdfs:label "Середня швидкість"@uk ;
+    rdfs:subClassOf transport-ontology:SystemStateInformation .
+
+transport-ontology:DecisionRule a owl:Class ;
+    rdfs:label "Правило прийняття рішення"@uk ;
+    rdfs:subClassOf transport-ontology:DigitalTransportModel .
+
+transport-ontology:Bus a owl:Class ;
+    rdfs:label "Автобус"@uk ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onClass transport-ontology:Route ;
+            owl:onProperty transport-ontology:hasRoute ],
+        transport-ontology:Vehicle .
+
+transport-ontology:RoadSegment a owl:Class ;
+    rdfs:label "Дорожній сегмент"@uk ;
+    rdfs:comment "Окрема ділянка дорожньої мережі з визначеними характеристиками довжини, кількості смуг та швидкості руху." ;
+    rdfs:subClassOf transport-ontology:TransportInfrastructure .
+
+transport-ontology:Route a owl:Class ;
+    rdfs:label "Маршрут"@uk ;
+    rdfs:subClassOf transport-ontology:TransportObject .
+
+transport-ontology:DataSource a owl:Class ;
+    rdfs:label "Джерело даних"@uk ;
+    rdfs:subClassOf transport-ontology:DigitalTransportModel .
+
+transport-ontology:TransportInfrastructure a owl:Class ;
+    rdfs:label "Транспортна інфраструктура"@uk ;
+    rdfs:subClassOf transport-ontology:DigitalTransportModel ;
+    owl:disjointWith transport-ontology:TransportProcess,
+        transport-ontology:Vehicle .
+
+transport-ontology:Vehicle a owl:Class ;
+    rdfs:label "Транспортний засіб"@uk ;
+    rdfs:subClassOf transport-ontology:TransportObject .
+
+transport-ontology:BusStop a owl:Class ;
+    rdfs:label "Транспортна зупинка"@uk ;
+    rdfs:subClassOf transport-ontology:TransportInfrastructure .
+
+transport-ontology:Car a owl:Class ;
+    rdfs:label "Легковий автомобіль"@uk ;
+    rdfs:subClassOf transport-ontology:Vehicle .
+
+transport-ontology:DigitalTransportModel a owl:Class ;
+    rdfs:label "Цифрова модель транспортної системи"@uk .
+
+transport-ontology:DS001 a transport-ontology:RoadSegment,
+        owl:NamedIndividual ;
+    rdfs:label "Дорожній сегмент DS-001"@uk ;
+    transport-ontology:allowedSpeed 5e+01,
+        8e+01 ;
+    transport-ontology:currentSpeed 1.8e+01 ;
+    transport-ontology:identifier "DS-001" ;
+    transport-ontology:laneCount 2 ;
+    transport-ontology:length 8.5e+02,
+        1.25e+03 .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( transport-ontology:Bus transport-ontology:Car transport-ontology:Truck ) .
+

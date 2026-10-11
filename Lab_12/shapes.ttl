@@ -1,0 +1,51 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix : <http://example.org/transport-ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Шаблон 1: Конфлікт диз'юнкції (автобус не може бути легковим авто)
+:DisjointBusCarShape a sh:NodeShape ;
+    sh:targetClass :Bus ;
+    sh:not [
+        sh:class :Car ;
+    ] ;
+    sh:message "Конфлікт несумісних класів: сутність не може бути одночасно Bus та Car!"@uk .
+
+# Шаблон 2: Функціональність довжини дорожнього сегмента
+:RoadSegmentLengthShape a sh:NodeShape ;
+    sh:targetClass :RoadSegment ;
+    sh:property [
+        sh:path :length ;
+        sh:datatype xsd:double ;
+        sh:maxCount 1 ;
+        sh:message "Порушення функціональності: сегмент дороги не може мати більше однієї довжини!"@uk ;
+    ] .
+
+# Шаблон 3: Кваліфікована кардинальність маршруту автобуса
+:BusRouteCardinalityShape a sh:NodeShape ;
+    sh:targetClass :Bus ;
+    sh:property [
+        sh:path :hasRoute ;
+        sh:minCount 1 ;
+        sh:message "Порушення кардинальності: міський автобус повинен мати закріплений маршрут!"@uk ;
+    ] .
+
+# Шаблон 4: Фізичні межі поточної швидкості
+:VehicleSpeedRangeShape a sh:NodeShape ;
+    sh:targetClass :Vehicle ;
+    sh:property [
+        sh:path :currentSpeed ;
+        sh:datatype xsd:double ;
+        sh:minInclusive 0.0 ;
+        sh:maxInclusive 200.0 ;
+        sh:message "Аномалія значення: швидкість ТЗ не може бути від'ємною!"@uk ;
+    ] .
+
+# Шаблон 5: Функціональність ідентифікатора зупинки
+:BusStopIdShape a sh:NodeShape ;
+    sh:targetClass :BusStop ;
+    sh:property [
+        sh:path :identifier ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1 ;
+        sh:message "Зупинка повинна містити рівно один унікальний код!"@uk ;
+    ] .

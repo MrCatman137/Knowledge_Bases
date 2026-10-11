@@ -1,0 +1,43 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix : <http://example.org/transport-ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Форма 1: Кардинальність зв'язку автобуса з маршрутом (minCount 1)
+:BusRouteIntegrityShape a sh:NodeShape ;
+    sh:targetClass :Bus ;
+    sh:property [
+        sh:path :hasRoute ;
+        sh:minCount 1 ;
+        sh:class :Route ;
+        sh:message "Якість: кожен автобус повинен мати зв'язок щонайменше з одним валідним маршрутом!"@uk ;
+    ] .
+
+# Форма 2: Функціональність та діапазон параметрів дорожньої ділянки
+:RoadSegmentParamsShape a sh:NodeShape ;
+    sh:targetClass :RoadSegment ;
+    sh:property [
+        sh:path :allowedSpeed ;
+        sh:datatype xsd:double ;
+        sh:minInclusive 20.0 ;
+        sh:maxInclusive 130.0 ;
+        sh:maxCount 1 ;
+        sh:message "Якість: швидкість повинна бути єдиною та належати діапазону [20.0; 130.0]!"@uk ;
+    ] ;
+    sh:property [
+        sh:path :laneCount ;
+        sh:datatype xsd:integer ;
+        sh:minInclusive 1 ;
+        sh:maxCount 1 ;
+        sh:message "Якість: кількість смуг повинна бути єдиним додатним числом!"@uk ;
+    ] .
+
+# Форма 3: Цілісність вимірювань інтенсивності потоку
+:TrafficFlowIntegrityShape a sh:NodeShape ;
+    sh:targetClass :TrafficFlow ;
+    sh:property [
+        sh:path :vehicleCount ;
+        sh:datatype xsd:integer ;
+        sh:minInclusive 0 ;
+        sh:maxCount 1 ;
+        sh:message "Якість: обсяг транспортного потоку не може бути від'ємним!"@uk ;
+    ] .
