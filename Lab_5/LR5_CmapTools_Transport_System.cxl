@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmap xmlns="http://cmap.ihmc.us/xml/cmap/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <res-meta>
+    <dc:title>Семантична мережа цифрової моделі транспортної системи</dc:title>
+    <dc:description>Лабораторна робота №5. Цифрові моделі транспортних систем.</dc:description>
+  </res-meta>
+  <map>
+    <concept-list>
+      <concept id="c1" label="Цифрова модель транспортної системи"/>
+      <concept id="c2" label="Транспортна інфраструктура"/>
+      <concept id="c3" label="Дорожня мережа"/>
+      <concept id="c4" label="Дорожній сегмент"/>
+      <concept id="c5" label="Перехрестя"/>
+      <concept id="c6" label="Транспортний засіб"/>
+      <concept id="c7" label="Транспортний потік"/>
+      <concept id="c8" label="Пасажиропотік"/>
+      <concept id="c9" label="ДТП"/>
+      <concept id="c10" label="GPS-вимірювання"/>
+      <concept id="c11" label="Дані транспортної системи"/>
+      <concept id="c12" label="Інформація про стан системи"/>
+      <concept id="c13" label="Знання про транспортну систему"/>
+      <concept id="c14" label="Правила прийняття рішень"/>
+      <concept id="c15" label="Транспортне рішення"/>
+      <concept id="e1" label="Приклад: DS-001 — 850 м, 2 смуги"/>
+      <concept id="e2" label="Приклад: 1250 авто/год, 18 км/год"/>
+      <concept id="e3" label="Приклад: висока завантаженість → альтернативний маршрут"/>
+    </concept-list>
+    <linking-phrase-list>
+      <linking-phrase id="p1" label="описує"/>
+      <linking-phrase id="p2" label="містить"/>
+      <linking-phrase id="p3" label="складається з"/>
+      <linking-phrase id="p4" label="включає"/>
+      <linking-phrase id="p5" label="створює"/>
+      <linking-phrase id="p6" label="формує"/>
+      <linking-phrase id="p7" label="характеризує"/>
+      <linking-phrase id="p8" label="впливає на"/>
+      <linking-phrase id="p9" label="спричиняє"/>
+      <linking-phrase id="p10" label="надходять з"/>
+      <linking-phrase id="p11" label="перетворюються на"/>
+      <linking-phrase id="p12" label="узагальнюються у"/>
+      <linking-phrase id="p13" label="використовуються для"/>
+      <linking-phrase id="p14" label="визначають"/>
+      <linking-phrase id="p15" label="застосовуються до"/>
+      <linking-phrase id="p16" label="призводять до"/>
+      <linking-phrase id="p17" label="підтримує"/>
+      <linking-phrase id="p18" label="є прикладом"/>
+      <linking-phrase id="p19" label="має параметри"/>
+    </linking-phrase-list>
+    <connection-list>
+      <connection from-id="c1" to-id="p1"/>
+      <connection from-id="p1" to-id="c2"/>
+      <connection from-id="c1" to-id="p4"/>
+      <connection from-id="p4" to-id="c6"/>
+      <connection from-id="c1" to-id="p4"/>
+      <connection from-id="p4" to-id="c7"/>
+      <connection from-id="c1" to-id="p4"/>
+      <connection from-id="p4" to-id="c8"/>
+      <connection from-id="c1" to-id="p4"/>
+      <connection from-id="p4" to-id="c9"/>
+      <connection from-id="c2" to-id="p2"/>
+      <connection from-id="p2" to-id="c3"/>
+      <connection from-id="c3" to-id="p3"/>
+      <connection from-id="p3" to-id="c4"/>
+      <connection from-id="c3" to-id="p3"/>
+      <connection from-id="p3" to-id="c5"/>
+      <connection from-id="c6" to-id="p6"/>
+      <connection from-id="p6" to-id="c7"/>
+      <connection from-id="c7" to-id="p7"/>
+      <connection from-id="p7" to-id="c11"/>
+      <connection from-id="c8" to-id="p7"/>
+      <connection from-id="p7" to-id="c11"/>
+      <connection from-id="c9" to-id="p9"/>
+      <connection from-id="p9" to-id="c7"/>
+      <connection from-id="c10" to-id="p10"/>
+      <connection from-id="p10" to-id="c11"/>
+      <connection from-id="c11" to-id="p11"/>
+      <connection from-id="p11" to-id="c12"/>
+      <connection from-id="c12" to-id="p12"/>
+      <connection from-id="p12" to-id="c13"/>
+      <connection from-id="c13" to-id="p13"/>
+      <connection from-id="p13" to-id="c14"/>
+      <connection from-id="c14" to-id="p14"/>
+      <connection from-id="p14" to-id="c15"/>
+      <connection from-id="c12" to-id="p8"/>
+      <connection from-id="p8" to-id="c15"/>
+      <connection from-id="c9" to-id="p8"/>
+      <connection from-id="p8" to-id="c12"/>
+      <connection from-id="c15" to-id="p17"/>
+      <connection from-id="p17" to-id="c1"/>
+      <connection from-id="c4" to-id="p18"/>
+      <connection from-id="p18" to-id="e1"/>
+      <connection from-id="c7" to-id="p18"/>
+      <connection from-id="p18" to-id="e2"/>
+      <connection from-id="c15" to-id="p18"/>
+      <connection from-id="p18" to-id="e3"/>
+      <connection from-id="e1" to-id="p19"/>
+      <connection from-id="p19" to-id="c4"/>
+      <connection from-id="e2" to-id="p19"/>
+      <connection from-id="p19" to-id="c7"/>
+    </connection-list>
+    <concept-appearance-list>
+      <concept-appearance id="c1" x="700" y="80"/>
+      <concept-appearance id="c2" x="250" y="210"/>
+      <concept-appearance id="c3" x="100" y="360"/>
+      <concept-appearance id="c4" x="70" y="520"/>
+      <concept-appearance id="c5" x="220" y="520"/>
+      <concept-appearance id="c6" x="480" y="250"/>
+      <concept-appearance id="c7" x="470" y="420"/>
+      <concept-appearance id="c8" x="680" y="430"/>
+      <concept-appearance id="c9" x="900" y="330"/>
+      <concept-appearance id="c10" x="300" y="700"/>
+      <concept-appearance id="c11" x="520" y="620"/>
+      <concept-appearance id="c12" x="760" y="620"/>
+      <concept-appearance id="c13" x="970" y="610"/>
+      <concept-appearance id="c14" x="1120" y="440"/>
+      <concept-appearance id="c15" x="1120" y="250"/>
+      <concept-appearance id="e1" x="40" y="850"/>
+      <concept-appearance id="e2" x="450" y="850"/>
+      <concept-appearance id="e3" x="900" y="820"/>
+    </concept-appearance-list>
+    <linking-phrase-appearance-list>
+      <linking-phrase-appearance id="p1" x="470" y="145"/>
+      <linking-phrase-appearance id="p2" x="175" y="285"/>
+      <linking-phrase-appearance id="p3" x="110" y="440"/>
+      <linking-phrase-appearance id="p4" x="610" y="270"/>
+      <linking-phrase-appearance id="p6" x="500" y="330"/>
+      <linking-phrase-appearance id="p7" x="590" y="515"/>
+      <linking-phrase-appearance id="p8" x="890" y="530"/>
+      <linking-phrase-appearance id="p9" x="770" y="390"/>
+      <linking-phrase-appearance id="p10" x="420" y="660"/>
+      <linking-phrase-appearance id="p11" x="650" y="665"/>
+      <linking-phrase-appearance id="p12" x="860" y="665"/>
+      <linking-phrase-appearance id="p13" x="1040" y="525"/>
+      <linking-phrase-appearance id="p14" x="1130" y="345"/>
+      <linking-phrase-appearance id="p15" x="1130" y="520"/>
+      <linking-phrase-appearance id="p17" x="910" y="190"/>
+      <linking-phrase-appearance id="p18" x="760" y="775"/>
+      <linking-phrase-appearance id="p19" x="250" y="785"/>
+      <linking-phrase-appearance id="p5" x="500" y="335"/>
+      <linking-phrase-appearance id="p16" x="980" y="700"/>
+    </linking-phrase-appearance-list>
+  </map>
+</cmap>

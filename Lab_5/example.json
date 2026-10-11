@@ -1,0 +1,1327 @@
+{
+  "resource-info": {
+    "rightsHolder": {"full-name": "Viwi"},
+    "creator": {"full-name": "Viwi"},
+    "contributor": {
+      "full-name": "Viwi",
+      "email": "v12905189@gmail.com"
+    },
+    "time-modified": 1789805512186,
+    "description": "??????????? ?????? ?5. ??????? ?????? ???????????? ??????.",
+    "publisher": "FIHMC CmapTools 7.00.02",
+    "language": "en",
+    "folder-id": "231NSGS7G-296DNPF-Z",
+    "title": "?????????? ?????? ???????? ?????? ???????????? ???????",
+    "time-created": 1789804985983,
+    "resource-id": "231NTDF37-23B2QLW-N3",
+    "server-id": "231NSGQS0-15Z1ZN5-1"
+  },
+  "map": {
+    "linking-phrases": {
+      "p1": {
+        "appearance": {
+          "x": 528,
+          "width": 53,
+          "y": 207,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 19
+        },
+        "id": "p1",
+        "label": "??????",
+        "isConcept": false
+      },
+      "p2": {
+        "appearance": {
+          "x": 250,
+          "width": 54,
+          "y": 278,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 19
+        },
+        "id": "p2",
+        "label": "???????",
+        "isConcept": false
+      },
+      "p3": {
+        "appearance": {
+          "x": 247,
+          "width": 96,
+          "y": 438,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 18
+        },
+        "id": "p3",
+        "label": "??????????? ?",
+        "isConcept": false
+      },
+      "p4": {
+        "appearance": {
+          "x": 710,
+          "width": 63,
+          "y": 246,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 17
+        },
+        "id": "p4",
+        "label": "???????",
+        "isConcept": false
+      },
+      "p6": {
+        "appearance": {
+          "x": 482,
+          "width": 57,
+          "y": 328,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 22
+        },
+        "id": "p6",
+        "label": "??????",
+        "isConcept": false
+      },
+      "p7": {
+        "appearance": {
+          "x": 552,
+          "width": 94,
+          "y": 497,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 19
+        },
+        "id": "p7",
+        "label": "????????????",
+        "isConcept": false
+      },
+      "p8": {
+        "appearance": {
+          "x": 920,
+          "width": 80,
+          "y": 524,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 17
+        },
+        "id": "p8",
+        "label": "??????? ??",
+        "isConcept": false
+      },
+      "p9": {
+        "appearance": {
+          "x": 801,
+          "width": 76,
+          "y": 353,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 19
+        },
+        "id": "p9",
+        "label": "?????????",
+        "isConcept": false
+      },
+      "p10": {
+        "appearance": {
+          "x": 723,
+          "width": 85,
+          "y": 503,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 18
+        },
+        "id": "p10",
+        "label": "????????? ?",
+        "isConcept": false
+      },
+      "p12": {
+        "appearance": {
+          "x": 1121,
+          "width": 123,
+          "y": 742,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 19
+        },
+        "id": "p12",
+        "label": "?????????????? ?",
+        "isConcept": false
+      },
+      "p11": {
+        "appearance": {
+          "x": 658,
+          "width": 133,
+          "y": 723,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 19
+        },
+        "id": "p11",
+        "label": "?????????????? ??",
+        "isConcept": false
+      },
+      "p14": {
+        "appearance": {
+          "x": 1118,
+          "width": 83,
+          "y": 346,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 17
+        },
+        "id": "p14",
+        "label": "??????????",
+        "isConcept": false
+      },
+      "p13": {
+        "appearance": {
+          "x": 1120,
+          "width": 151,
+          "y": 526,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 19
+        },
+        "id": "p13",
+        "label": "???????????????? ???",
+        "isConcept": false
+      },
+      "p18": {
+        "appearance": {
+          "x": 490,
+          "width": 88,
+          "y": 767,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 19
+        },
+        "id": "p18",
+        "label": "? ?????????",
+        "isConcept": false
+      },
+      "p17": {
+        "appearance": {
+          "x": 910,
+          "width": 72,
+          "y": 190,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 21
+        },
+        "id": "p17",
+        "label": "?????????",
+        "isConcept": false
+      },
+      "p19": {
+        "appearance": {
+          "x": 316,
+          "width": 102,
+          "y": 701,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 19
+        },
+        "id": "p19",
+        "label": "??? ?????????",
+        "isConcept": false
+      }
+    },
+    "concepts": {
+      "c11": {
+        "appearance": {
+          "x": 611,
+          "width": 182,
+          "y": 563,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 27
+        },
+        "id": "c11",
+        "label": "???? ???????????? ???????",
+        "isConcept": true
+      },
+      "c10": {
+        "appearance": {
+          "x": 797,
+          "width": 127,
+          "y": 423,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 27
+        },
+        "id": "c10",
+        "label": "GPS-???????????",
+        "isConcept": true
+      },
+      "c13": {
+        "appearance": {
+          "x": 1121,
+          "width": 223,
+          "y": 606,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 27
+        },
+        "id": "c13",
+        "label": "?????? ??? ??????????? ???????",
+        "isConcept": true
+      },
+      "c12": {
+        "appearance": {
+          "x": 870,
+          "width": 199,
+          "y": 747,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 28
+        },
+        "id": "c12",
+        "label": "?????????? ??? ???? ???????",
+        "isConcept": true
+      },
+      "c15": {
+        "appearance": {
+          "x": 1120,
+          "width": 150,
+          "y": 250,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 27
+        },
+        "id": "c15",
+        "label": "??????????? ???????",
+        "isConcept": true
+      },
+      "c14": {
+        "appearance": {
+          "x": 1120,
+          "width": 185,
+          "y": 440,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 28
+        },
+        "id": "c14",
+        "label": "??????? ????????? ??????",
+        "isConcept": true
+      },
+      "e1": {
+        "appearance": {
+          "x": 95,
+          "width": 189,
+          "y": 771,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5,
+            "min-height": 13,
+            "min-width": 134
+          },
+          "height": 42
+        },
+        "id": "e1",
+        "label": "???????: DS-001 \u2014 850 ?, \u000b2 ?????",
+        "isConcept": true
+      },
+      "e2": {
+        "appearance": {
+          "x": 321,
+          "width": 172,
+          "y": 843,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 41
+        },
+        "id": "e2",
+        "label": "???????: 1250 ????/???,\u000b 18 ??/???",
+        "isConcept": true
+      },
+      "e3": {
+        "appearance": {
+          "x": 641,
+          "width": 241,
+          "y": 844,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 42
+        },
+        "id": "e3",
+        "label": "???????: ?????? ?????????????? ->\n ?????????????? ???????",
+        "isConcept": true
+      },
+      "c1": {
+        "appearance": {
+          "x": 710,
+          "width": 260,
+          "y": 54,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 28
+        },
+        "id": "c1",
+        "label": "??????? ?????? ???????????? ???????",
+        "isConcept": true
+      },
+      "c2": {
+        "appearance": {
+          "x": 250,
+          "width": 197,
+          "y": 210,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 28
+        },
+        "id": "c2",
+        "label": "??????????? ??????????????",
+        "isConcept": true
+      },
+      "c3": {
+        "appearance": {
+          "x": 250,
+          "width": 123,
+          "y": 351,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 27
+        },
+        "id": "c3",
+        "label": "??????? ??????",
+        "isConcept": true
+      },
+      "c4": {
+        "appearance": {
+          "x": 173,
+          "width": 128,
+          "y": 523,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 28
+        },
+        "id": "c4",
+        "label": "???????? ???????",
+        "isConcept": true
+      },
+      "c5": {
+        "appearance": {
+          "x": 343,
+          "width": 88,
+          "y": 520,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 27
+        },
+        "id": "c5",
+        "label": "??????????",
+        "isConcept": true
+      },
+      "c6": {
+        "appearance": {
+          "x": 480,
+          "width": 138,
+          "y": 250,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 28
+        },
+        "id": "c6",
+        "label": "???????????? ?????",
+        "isConcept": true
+      },
+      "c7": {
+        "appearance": {
+          "x": 483,
+          "width": 139,
+          "y": 422,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 28
+        },
+        "id": "c7",
+        "label": "???????????? ?????",
+        "isConcept": true
+      },
+      "c8": {
+        "appearance": {
+          "x": 636,
+          "width": 109,
+          "y": 422,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 27
+        },
+        "id": "c8",
+        "label": "?????????????",
+        "isConcept": true
+      },
+      "c9": {
+        "appearance": {
+          "x": 873,
+          "width": 41,
+          "y": 249,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 27
+        },
+        "id": "c9",
+        "label": "???",
+        "isConcept": true
+      }
+    },
+    "extra-graphical-properties": {"231NTDF37-23B2QLW-N3": {"StyleSheetGroup_0": "//*@!#$%%^&*()() No Grouped StyleSheets @"}},
+    "style-sheets": {
+      "_Default_": {"id": "_Default_"},
+      "_LatestChanges_": {
+        "concept-style": {
+          "background-color": "rgba(200,255,200,255)",
+          "border-thickness": 1,
+          "border-shape": "rounded-rectangle",
+          "shadow-color": "none",
+          "border-shape-rrarc": 5
+        },
+        "connection-style": {
+          "thickness": 1,
+          "style": "dashed",
+          "arrowhead": "if-to-concept"
+        },
+        "id": "_LatestChanges_",
+        "linking-phrase-style": {
+          "background-color": "rgba(200,255,200,255)",
+          "border-thickness": 1,
+          "border-shape": "rounded-rectangle",
+          "shadow-color": "none",
+          "border-shape-rrarc": 5
+        }
+      }
+    },
+    "connections": {
+      "231NTDF2X-XHTYSS-C7": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p9",
+        "id": "231NTDF2X-XHTYSS-C7",
+        "from-id": "c9"
+      },
+      "231NTDF2X-KJG3WJ-C8": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c7",
+        "id": "231NTDF2X-KJG3WJ-C8",
+        "from-id": "p9"
+      },
+      "231NTDF2V-144RJYW-BV": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p2",
+        "id": "231NTDF2V-144RJYW-BV",
+        "from-id": "c2"
+      },
+      "231NTDF2Y-PQNBF1-CY": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "style": "dashed",
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p18",
+        "id": "231NTDF2Y-PQNBF1-CY",
+        "from-id": "c15"
+      },
+      "231NTDF2Y-2BB3QCY-D0": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "style": "dashed",
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p19",
+        "id": "231NTDF2Y-2BB3QCY-D0",
+        "from-id": "e1"
+      },
+      "231NTDF2X-F1NNSQ-C4": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c11",
+        "id": "231NTDF2X-F1NNSQ-C4",
+        "from-id": "p7"
+      },
+      "231NTDF2Y-2838GWD-D1": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "style": "dashed",
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c4",
+        "id": "231NTDF2Y-2838GWD-D1",
+        "from-id": "p19"
+      },
+      "231NTDF2Y-2CG21FQ-CW": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "style": "dashed",
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p18",
+        "id": "231NTDF2Y-2CG21FQ-CW",
+        "from-id": "c7"
+      },
+      "231NTDF2Y-1NCXNT3-CL": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c15",
+        "id": "231NTDF2Y-1NCXNT3-CL",
+        "from-id": "p14"
+      },
+      "231NTDF2X-16J4Z5T-C9": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p10",
+        "id": "231NTDF2X-16J4Z5T-C9",
+        "from-id": "c10"
+      },
+      "231NTDF2Y-1V1H8HS-CK": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p14",
+        "id": "231NTDF2Y-1V1H8HS-CK",
+        "from-id": "c14"
+      },
+      "231NTDF2Y-1R6B7KZ-CR": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p17",
+        "id": "231NTDF2Y-1R6B7KZ-CR",
+        "from-id": "c15"
+      },
+      "231NTDF2X-1Z06V0H-C6": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c11",
+        "id": "231NTDF2X-1Z06V0H-C6",
+        "from-id": "p7"
+      },
+      "231NTDF2Y-1RN3ZHM-CX": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "style": "dashed",
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "e2",
+        "id": "231NTDF2Y-1RN3ZHM-CX",
+        "from-id": "p18"
+      },
+      "231NTDF2Y-1QFK3L8-CZ": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "style": "dashed",
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "e3",
+        "id": "231NTDF2Y-1QFK3L8-CZ",
+        "from-id": "p18"
+      },
+      "231NTDF2V-WVMJ5V-BS": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p4",
+        "id": "231NTDF2V-WVMJ5V-BS",
+        "from-id": "c1"
+      },
+      "231NTDF2V-24MLWPM-BM": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c6",
+        "id": "231NTDF2V-24MLWPM-BM",
+        "from-id": "p4"
+      },
+      "231NTDF2Y-205807M-CS": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c1",
+        "id": "231NTDF2Y-205807M-CS",
+        "from-id": "p17"
+      },
+      "231NTDF2Y-H3LXRF-CT": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "style": "dashed",
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p18",
+        "id": "231NTDF2Y-H3LXRF-CT",
+        "from-id": "c4"
+      },
+      "231NTDF2X-2B7GB5D-CG": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c13",
+        "id": "231NTDF2X-2B7GB5D-CG",
+        "from-id": "p12"
+      },
+      "231NTDF2Y-1T6L9JK-CN": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c15",
+        "id": "231NTDF2Y-1T6L9JK-CN",
+        "from-id": "p8"
+      },
+      "231NTDF2X-4XNJ1X-CD": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c12",
+        "id": "231NTDF2X-4XNJ1X-CD",
+        "from-id": "p11"
+      },
+      "231NTDF2X-7DPC4L-BX": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p3",
+        "id": "231NTDF2X-7DPC4L-BX",
+        "from-id": "c3"
+      },
+      "231NTDF2V-10W4NCV-BW": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c3",
+        "id": "231NTDF2V-10W4NCV-BW",
+        "from-id": "p2"
+      },
+      "231NTDF2Y-14ZHY6S-CQ": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c12",
+        "id": "231NTDF2Y-14ZHY6S-CQ",
+        "from-id": "p8"
+      },
+      "231NTDF2V-1JH4LB7-BL": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p4",
+        "id": "231NTDF2V-1JH4LB7-BL",
+        "from-id": "c1"
+      },
+      "231NTDF2V-12N8HBY-BK": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c2",
+        "id": "231NTDF2V-12N8HBY-BK",
+        "from-id": "p1"
+      },
+      "231NTDF2Y-1B5Y56Y-CH": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p13",
+        "id": "231NTDF2Y-1B5Y56Y-CH",
+        "from-id": "c13"
+      },
+      "231NTDF2X-23HWWFW-BY": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c4",
+        "id": "231NTDF2X-23HWWFW-BY",
+        "from-id": "p3"
+      },
+      "231NTDF2Y-RLJ0ND-CP": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p8",
+        "id": "231NTDF2Y-RLJ0ND-CP",
+        "from-id": "c9"
+      },
+      "231NTDF2V-4DJTN5-BR": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c8",
+        "id": "231NTDF2V-4DJTN5-BR",
+        "from-id": "p4"
+      },
+      "231NTDF2X-6B244G-C2": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c7",
+        "id": "231NTDF2X-6B244G-C2",
+        "from-id": "p6"
+      },
+      "231NTDF2Y-1Q2272T-CV": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "style": "dashed",
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "e1",
+        "id": "231NTDF2Y-1Q2272T-CV",
+        "from-id": "p18"
+      },
+      "231NTDF2V-92BDZG-BP": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c7",
+        "id": "231NTDF2V-92BDZG-BP",
+        "from-id": "p4"
+      },
+      "231NTDF2V-6BBHPM-BN": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p4",
+        "id": "231NTDF2V-6BBHPM-BN",
+        "from-id": "c1"
+      },
+      "231NTDF2X-1G4YRJY-C0": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c5",
+        "id": "231NTDF2X-1G4YRJY-C0",
+        "from-id": "p3"
+      },
+      "231NTDF2Y-22F4JD2-D3": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "style": "dashed",
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c7",
+        "id": "231NTDF2Y-22F4JD2-D3",
+        "from-id": "p19"
+      },
+      "231NTDF2X-FQRN8W-CB": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c11",
+        "id": "231NTDF2X-FQRN8W-CB",
+        "from-id": "p10"
+      },
+      "231NTDF2X-1V43RN-C3": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p7",
+        "id": "231NTDF2X-1V43RN-C3",
+        "from-id": "c7"
+      },
+      "231NTDF2V-L1TP8C-BJ": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p1",
+        "id": "231NTDF2V-L1TP8C-BJ",
+        "from-id": "c1"
+      },
+      "231NTDF2Y-MJP5MV-CJ": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c14",
+        "id": "231NTDF2Y-MJP5MV-CJ",
+        "from-id": "p13"
+      },
+      "231NTDF2Y-241SF0K-D2": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "style": "dashed",
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p19",
+        "id": "231NTDF2Y-241SF0K-D2",
+        "from-id": "e2"
+      },
+      "231NTDF2Y-94F65G-CM": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p8",
+        "id": "231NTDF2Y-94F65G-CM",
+        "from-id": "c12"
+      },
+      "231NTDF2X-128DGWZ-CC": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p11",
+        "id": "231NTDF2X-128DGWZ-CC",
+        "from-id": "c11"
+      },
+      "231NTDF2X-1Q4KZB2-C5": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p7",
+        "id": "231NTDF2X-1Q4KZB2-C5",
+        "from-id": "c8"
+      },
+      "231NTDF2V-16PLD34-BT": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c9",
+        "id": "231NTDF2V-16PLD34-BT",
+        "from-id": "p4"
+      },
+      "231NTDF2X-B4XLM7-C1": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p6",
+        "id": "231NTDF2X-B4XLM7-C1",
+        "from-id": "c6"
+      },
+      "231NTDF2X-107QF3M-CF": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p12",
+        "id": "231NTDF2X-107QF3M-CF",
+        "from-id": "c12"
+      },
+      "231NTDF2V-1NK22YP-BQ": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p4",
+        "id": "231NTDF2V-1NK22YP-BQ",
+        "from-id": "c1"
+      },
+      "231NTDF2X-1L8PFYL-BZ": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p3",
+        "id": "231NTDF2X-1L8PFYL-BZ",
+        "from-id": "c3"
+      }
+    }
+  }
+}

@@ -1,0 +1,1370 @@
+{
+  "resource-info": {
+    "rightsHolder": {
+      "full-name": "Трофимов Володимир"
+    },
+    "creator": {
+      "full-name": "Трофимов Володимир"
+    },
+    "contributor": {
+      "full-name": "Трофимов Володимир"
+    },
+    "time-modified": 1789805512186,
+    "description": "Самостійна робота №5. Концептуальна карта предметної області «Цифрові моделі транспортних систем».",
+    "publisher": "FIHMC CmapTools 7.00.02",
+    "language": "uk",
+    "folder-id": "SR5-TRANSPORT",
+    "title": "Концептуальна карта цифрової транспортної системи",
+    "time-created": 1789804985983,
+    "resource-id": "SR5-TRANSPORT-001",
+    "server-id": "LOCAL"
+  },
+  "map": {
+    "linking-phrases": {
+      "p1": {
+        "appearance": {
+          "x": 540,
+          "width": 65,
+          "y": 135,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 19
+        },
+        "id": "p1",
+        "label": "включає",
+        "isConcept": false
+      },
+      "p2": {
+        "appearance": {
+          "x": 300,
+          "width": 65,
+          "y": 270,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 19
+        },
+        "id": "p2",
+        "label": "містить",
+        "isConcept": false
+      },
+      "p3": {
+        "appearance": {
+          "x": 170,
+          "width": 105,
+          "y": 410,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 19
+        },
+        "id": "p3",
+        "label": "складається з",
+        "isConcept": false
+      },
+      "p4": {
+        "appearance": {
+          "x": 300,
+          "width": 75,
+          "y": 410,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 19
+        },
+        "id": "p4",
+        "label": "включає",
+        "isConcept": false
+      },
+      "p5": {
+        "appearance": {
+          "x": 520,
+          "width": 80,
+          "y": 275,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 19
+        },
+        "id": "p5",
+        "label": "формує",
+        "isConcept": false
+      },
+      "p6": {
+        "appearance": {
+          "x": 735,
+          "width": 95,
+          "y": 275,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 19
+        },
+        "id": "p6",
+        "label": "характеризує",
+        "isConcept": false
+      },
+      "p7": {
+        "appearance": {
+          "x": 965,
+          "width": 90,
+          "y": 275,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 19
+        },
+        "id": "p7",
+        "label": "надходять з",
+        "isConcept": false
+      },
+      "p8": {
+        "appearance": {
+          "x": 950,
+          "width": 120,
+          "y": 430,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 19
+        },
+        "id": "p8",
+        "label": "перетворюються на",
+        "isConcept": false
+      },
+      "p9": {
+        "appearance": {
+          "x": 810,
+          "width": 120,
+          "y": 555,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 19
+        },
+        "id": "p9",
+        "label": "узагальнюються у",
+        "isConcept": false
+      },
+      "p10": {
+        "appearance": {
+          "x": 600,
+          "width": 125,
+          "y": 680,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 19
+        },
+        "id": "p10",
+        "label": "використовуються для",
+        "isConcept": false
+      },
+      "p11": {
+        "appearance": {
+          "x": 390,
+          "width": 85,
+          "y": 680,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 19
+        },
+        "id": "p11",
+        "label": "визначають",
+        "isConcept": false
+      },
+      "p12": {
+        "appearance": {
+          "x": 875,
+          "width": 85,
+          "y": 370,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 19
+        },
+        "id": "p12",
+        "label": "впливає на",
+        "isConcept": false
+      },
+      "p13": {
+        "appearance": {
+          "x": 110,
+          "width": 95,
+          "y": 570,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 19
+        },
+        "id": "p13",
+        "label": "має параметри",
+        "isConcept": false
+      },
+      "p14": {
+        "appearance": {
+          "x": 420,
+          "width": 105,
+          "y": 570,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 19
+        },
+        "id": "p14",
+        "label": "характеризується",
+        "isConcept": false
+      },
+      "p15": {
+        "appearance": {
+          "x": 720,
+          "width": 90,
+          "y": 820,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 19
+        },
+        "id": "p15",
+        "label": "є прикладом",
+        "isConcept": false
+      },
+      "p16": {
+        "appearance": {
+          "x": 825,
+          "width": 110,
+          "y": 450,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 19
+        },
+        "id": "p16",
+        "label": "спричиняє",
+        "isConcept": false
+      },
+      "p17": {
+        "appearance": {
+          "x": 350,
+          "width": 80,
+          "y": 820,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 19
+        },
+        "id": "p17",
+        "label": "підтримує",
+        "isConcept": false
+      }
+    },
+    "concepts": {
+      "c1": {
+        "appearance": {
+          "x": 570,
+          "width": 300,
+          "y": 50,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 28
+        },
+        "id": "c1",
+        "label": "Цифрова модель транспортної системи",
+        "isConcept": true
+      },
+      "c2": {
+        "appearance": {
+          "x": 250,
+          "width": 190,
+          "y": 190,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 28
+        },
+        "id": "c2",
+        "label": "Транспортна інфраструктура",
+        "isConcept": true
+      },
+      "c3": {
+        "appearance": {
+          "x": 100,
+          "width": 150,
+          "y": 340,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 28
+        },
+        "id": "c3",
+        "label": "Дорожня мережа",
+        "isConcept": true
+      },
+      "c4": {
+        "appearance": {
+          "x": 50,
+          "width": 160,
+          "y": 470,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 28
+        },
+        "id": "c4",
+        "label": "Дорожній сегмент",
+        "isConcept": true
+      },
+      "c5": {
+        "appearance": {
+          "x": 280,
+          "width": 125,
+          "y": 470,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 28
+        },
+        "id": "c5",
+        "label": "Перехрестя",
+        "isConcept": true
+      },
+      "c6": {
+        "appearance": {
+          "x": 470,
+          "width": 175,
+          "y": 300,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 28
+        },
+        "id": "c6",
+        "label": "Транспортні засоби",
+        "isConcept": true
+      },
+      "c7": {
+        "appearance": {
+          "x": 450,
+          "width": 165,
+          "y": 450,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 28
+        },
+        "id": "c7",
+        "label": "Транспортний потік",
+        "isConcept": true
+      },
+      "c8": {
+        "appearance": {
+          "x": 680,
+          "width": 145,
+          "y": 300,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 28
+        },
+        "id": "c8",
+        "label": "Пасажиропотік",
+        "isConcept": true
+      },
+      "c9": {
+        "appearance": {
+          "x": 900,
+          "width": 80,
+          "y": 300,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 28
+        },
+        "id": "c9",
+        "label": "ДТП",
+        "isConcept": true
+      },
+      "c10": {
+        "appearance": {
+          "x": 1050,
+          "width": 150,
+          "y": 190,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 28
+        },
+        "id": "c10",
+        "label": "GPS-вимірювання",
+        "isConcept": true
+      },
+      "c11": {
+        "appearance": {
+          "x": 1000,
+          "width": 205,
+          "y": 450,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 28
+        },
+        "id": "c11",
+        "label": "Дані транспортної системи",
+        "isConcept": true
+      },
+      "c12": {
+        "appearance": {
+          "x": 980,
+          "width": 225,
+          "y": 560,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 28
+        },
+        "id": "c12",
+        "label": "Інформація про стан системи",
+        "isConcept": true
+      },
+      "c13": {
+        "appearance": {
+          "x": 700,
+          "width": 225,
+          "y": 670,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 28
+        },
+        "id": "c13",
+        "label": "Знання про транспортну систему",
+        "isConcept": true
+      },
+      "c14": {
+        "appearance": {
+          "x": 430,
+          "width": 210,
+          "y": 670,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 28
+        },
+        "id": "c14",
+        "label": "Правила прийняття рішень",
+        "isConcept": true
+      },
+      "c15": {
+        "appearance": {
+          "x": 170,
+          "width": 180,
+          "y": 670,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 28
+        },
+        "id": "c15",
+        "label": "Транспортне рішення",
+        "isConcept": true
+      },
+      "c16": {
+        "appearance": {
+          "x": 70,
+          "width": 180,
+          "y": 810,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 28
+        },
+        "id": "c16",
+        "label": "Альтернативний маршрут",
+        "isConcept": true
+      },
+      "c17": {
+        "appearance": {
+          "x": 390,
+          "width": 200,
+          "y": 810,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 28
+        },
+        "id": "c17",
+        "label": "Показники завантаженості",
+        "isConcept": true
+      },
+      "c18": {
+        "appearance": {
+          "x": 680,
+          "width": 185,
+          "y": 810,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 28
+        },
+        "id": "c18",
+        "label": "Приклади та параметри",
+        "isConcept": true
+      },
+      "e1": {
+        "appearance": {
+          "x": 30,
+          "width": 250,
+          "y": 940,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 42
+        },
+        "id": "e1",
+        "label": "Приклад: DS-001 — 850 м; 2 смуги; 50 км/год",
+        "isConcept": true
+      },
+      "e2": {
+        "appearance": {
+          "x": 330,
+          "width": 270,
+          "y": 940,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 42
+        },
+        "id": "e2",
+        "label": "Приклад: 1250 авто/год; 18 км/год",
+        "isConcept": true
+      },
+      "e3": {
+        "appearance": {
+          "x": 640,
+          "width": 290,
+          "y": 940,
+          "style": {
+            "background-color": "rgba(200,255,200,255)",
+            "border-thickness": 1,
+            "border-shape": "rounded-rectangle",
+            "shadow-color": "none",
+            "border-shape-rrarc": 5
+          },
+          "height": 42
+        },
+        "id": "e3",
+        "label": "Приклад: висока завантаженість → альтернативний маршрут",
+        "isConcept": true
+      }
+    },
+    "extra-graphical-properties": {
+      "SR5-TRANSPORT-001": {
+        "StyleSheetGroup_0": "//*@!#$%%^&*()() No Grouped StyleSheets @"
+      }
+    },
+    "style-sheets": {
+      "_Default_": {
+        "id": "_Default_"
+      },
+      "_LatestChanges_": {
+        "concept-style": {
+          "background-color": "rgba(200,255,200,255)",
+          "border-thickness": 1,
+          "border-shape": "rounded-rectangle",
+          "shadow-color": "none",
+          "border-shape-rrarc": 5
+        },
+        "connection-style": {
+          "thickness": 1,
+          "style": "solid",
+          "arrowhead": "if-to-concept"
+        },
+        "id": "_LatestChanges_",
+        "linking-phrase-style": {
+          "background-color": "rgba(200,255,200,255)",
+          "border-thickness": 1,
+          "border-shape": "rounded-rectangle",
+          "shadow-color": "none",
+          "border-shape-rrarc": 5
+        }
+      }
+    },
+    "connections": {
+      "conn1a": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p1",
+        "id": "conn1a",
+        "from-id": "c1"
+      },
+      "conn1b": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c2",
+        "id": "conn1b",
+        "from-id": "p1"
+      },
+      "conn2a": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p1",
+        "id": "conn2a",
+        "from-id": "c1"
+      },
+      "conn2b": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c6",
+        "id": "conn2b",
+        "from-id": "p1"
+      },
+      "conn3a": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p1",
+        "id": "conn3a",
+        "from-id": "c1"
+      },
+      "conn3b": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c8",
+        "id": "conn3b",
+        "from-id": "p1"
+      },
+      "conn4a": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p1",
+        "id": "conn4a",
+        "from-id": "c1"
+      },
+      "conn4b": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c9",
+        "id": "conn4b",
+        "from-id": "p1"
+      },
+      "conn5a": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p2",
+        "id": "conn5a",
+        "from-id": "c2"
+      },
+      "conn5b": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c3",
+        "id": "conn5b",
+        "from-id": "p2"
+      },
+      "conn6a": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p3",
+        "id": "conn6a",
+        "from-id": "c3"
+      },
+      "conn6b": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c4",
+        "id": "conn6b",
+        "from-id": "p3"
+      },
+      "conn7a": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p4",
+        "id": "conn7a",
+        "from-id": "c3"
+      },
+      "conn7b": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c5",
+        "id": "conn7b",
+        "from-id": "p4"
+      },
+      "conn8a": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p5",
+        "id": "conn8a",
+        "from-id": "c6"
+      },
+      "conn8b": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c7",
+        "id": "conn8b",
+        "from-id": "p5"
+      },
+      "conn9a": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p6",
+        "id": "conn9a",
+        "from-id": "c8"
+      },
+      "conn9b": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c11",
+        "id": "conn9b",
+        "from-id": "p6"
+      },
+      "conn10a": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p7",
+        "id": "conn10a",
+        "from-id": "c10"
+      },
+      "conn10b": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c11",
+        "id": "conn10b",
+        "from-id": "p7"
+      },
+      "conn11a": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p8",
+        "id": "conn11a",
+        "from-id": "c11"
+      },
+      "conn11b": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c12",
+        "id": "conn11b",
+        "from-id": "p8"
+      },
+      "conn12a": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p9",
+        "id": "conn12a",
+        "from-id": "c12"
+      },
+      "conn12b": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c13",
+        "id": "conn12b",
+        "from-id": "p9"
+      },
+      "conn13a": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p10",
+        "id": "conn13a",
+        "from-id": "c13"
+      },
+      "conn13b": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c14",
+        "id": "conn13b",
+        "from-id": "p10"
+      },
+      "conn14a": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p11",
+        "id": "conn14a",
+        "from-id": "c14"
+      },
+      "conn14b": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c15",
+        "id": "conn14b",
+        "from-id": "p11"
+      },
+      "conn15a": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p12",
+        "id": "conn15a",
+        "from-id": "c9"
+      },
+      "conn15b": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c7",
+        "id": "conn15b",
+        "from-id": "p12"
+      },
+      "conn16a": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p13",
+        "id": "conn16a",
+        "from-id": "c4"
+      },
+      "conn16b": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "e1",
+        "id": "conn16b",
+        "from-id": "p13"
+      },
+      "conn17a": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p14",
+        "id": "conn17a",
+        "from-id": "c7"
+      },
+      "conn17b": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "e2",
+        "id": "conn17b",
+        "from-id": "p14"
+      },
+      "conn18a": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p15",
+        "id": "conn18a",
+        "from-id": "c16"
+      },
+      "conn18b": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "e3",
+        "id": "conn18b",
+        "from-id": "p15"
+      },
+      "conn19a": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p17",
+        "id": "conn19a",
+        "from-id": "c15"
+      },
+      "conn19b": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c16",
+        "id": "conn19b",
+        "from-id": "p17"
+      },
+      "conn20a": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p16",
+        "id": "conn20a",
+        "from-id": "c9"
+      },
+      "conn20b": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c12",
+        "id": "conn20b",
+        "from-id": "p16"
+      },
+      "conn21a": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p5",
+        "id": "conn21a",
+        "from-id": "c7"
+      },
+      "conn21b": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "c17",
+        "id": "conn21b",
+        "from-id": "p5"
+      },
+      "conn22a": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p15",
+        "id": "conn22a",
+        "from-id": "c18"
+      },
+      "conn22b": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "e1",
+        "id": "conn22b",
+        "from-id": "p15"
+      },
+      "conn23a": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p15",
+        "id": "conn23a",
+        "from-id": "c18"
+      },
+      "conn23b": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "e2",
+        "id": "conn23b",
+        "from-id": "p15"
+      },
+      "conn24a": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "p15",
+        "id": "conn24a",
+        "from-id": "c18"
+      },
+      "conn24b": {
+        "appearance": {
+          "to-pos": "center",
+          "style": {
+            "thickness": 1,
+            "arrowhead": "if-to-concept"
+          },
+          "from-pos": "center"
+        },
+        "to-id": "e3",
+        "id": "conn24b",
+        "from-id": "p15"
+      }
+    }
+  }
+}
